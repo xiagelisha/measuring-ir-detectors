@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['Bicycle', 'Car', 'DontCare', 'OtherVehicle', 'Person']
+
+roboflow:
+  workspace: hituav-dataset-for-yolov5
+  project: hit-uav-for-yolov5-rjdrs
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/hituav-dataset-for-yolov5/hit-uav-for-yolov5-rjdrs/dataset/2

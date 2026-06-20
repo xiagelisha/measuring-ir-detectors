@@ -1,0 +1,6 @@
+﻿path: C:\twb\oil_leak\Paper3\paper4\data\HIT_UAV
+train: train/images
+val: valid/images
+test: test/images
+nc: 5
+names: ['Bicycle', 'Car', 'DontCare', 'OtherVehicle', 'Person']

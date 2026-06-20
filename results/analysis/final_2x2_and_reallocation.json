@@ -1,0 +1,29 @@
+{
+  "fragility_verdict": "FAILED - C3/C2 hurt vanilla too (vanilla+C3 0.567 dn0.043, vanilla+C2 0.582 dn0.028); only C4 shows interaction",
+  "vanilla_n5": {
+    "vanilla+C3": 0.5669,
+    "vanilla+C2": 0.5821,
+    "baseline": 0.6101
+  },
+  "class_reallocation_n10": {
+    "Oil": {
+      "base": 0.519,
+      "ssl": 0.554,
+      "delta": 0.035,
+      "seeds_better": "7/10",
+      "d": 0.4,
+      "p": 0.26
+    },
+    "Water": {
+      "base": 0.702,
+      "ssl": 0.684,
+      "delta": -0.018,
+      "seeds_better": "3/10"
+    },
+    "mAP50": {
+      "delta": 0.008,
+      "sig": false
+    }
+  },
+  "surviving_novelty": "A (class reallocation toward safety-critical Oil, hidden by aggregate mAP) + B (n=5 evaporation + class-stratified eval lesson)"
+}

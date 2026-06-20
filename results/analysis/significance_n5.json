@@ -1,0 +1,41 @@
+{
+  "n5_protocol": "seeds 42-46, paired by seed",
+  "mAP50": {
+    "baseline_mean": 0.6101,
+    "ssl_mean": 0.633,
+    "diff": 0.0229,
+    "paired_t_p": 0.279,
+    "wilcoxon_p": 0.4375,
+    "cohens_d": 0.626,
+    "all_positive": false,
+    "per_seed_diff": [
+      0.0136,
+      0.0621,
+      -0.007,
+      -0.0228,
+      0.0685
+    ]
+  },
+  "Oil_AP50": {
+    "baseline_mean": 0.5178,
+    "ssl_mean": 0.5621,
+    "diff": 0.0443,
+    "paired_t_p": 0.1065,
+    "wilcoxon_p": 0.1875,
+    "cohens_d": 1.038,
+    "all_positive": false,
+    "per_seed_diff": [
+      0.0533,
+      0.0618,
+      0.001,
+      -0.0052,
+      0.1104
+    ]
+  },
+  "variance": {
+    "levene_p": 0.7365,
+    "baseline_std": 0.0359,
+    "ssl_std": 0.0265
+  },
+  "conclusion": "At n=5 no SSL benefit reaches p<0.05; Oil-class effect is large (d=1.04) but underpowered. Extending to n=10 (seeds 47-51) in progress (brks6qz93) to test significance, esp. Oil class (power analysis: n~10 for d=1.04)."
+}

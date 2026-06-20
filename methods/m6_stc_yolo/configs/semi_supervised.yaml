@@ -1,0 +1,31 @@
+# STC-YOLO C2 + C3 — Temporal Mean-Teacher + Session-FiLM semi-supervised
+# fine-tune (MS3). Inherits default.yaml then overrides the stc.* switches.
+inherit: default.yaml
+model: stc_yolo_semi
+phase: semi_supervised
+
+stc:
+  enable_colormap_inversion: true   # assume MS1 C4 passed gate
+  ssl_pretrained_backbone: results_v2/methods/stc_yolo/_ms2/pretrained_backbone_stc.pt
+  enable_session_film: true
+  # day_night excluded — see default.yaml note.
+  film_metadata_keys: [temperature, location, condition]
+  film_inject_levels: [P3, P4, P5]
+  enable_mean_teacher: true
+  mt_ema_momentum: 0.999
+  mt_pseudo_conf_threshold: 0.5
+  mt_consistency_weight_max: 1.0
+  mt_consistency_rampup_epochs: 10
+  mt_neighbor_gap_max: 3
+
+# Mean-Teacher specific batch composition
+mean_teacher:
+  labeled_batch_size: 8
+  unlabeled_batch_size: 8        # per labeled frame, 1 unlabeled neighbor
+  unlabeled_only_in_train_session: true
+  teacher_warmup_epochs: 5       # teacher silent for first 5 epochs
+
+# Optional: per-class loss reweighting after MT brings Oil pseudo-labels online.
+# Default off — paper3 N1 showed loss reshaping hurts.
+loss_reweight:
+  enabled: false

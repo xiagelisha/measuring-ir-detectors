@@ -1,0 +1,45 @@
+{
+  "protocol": "n=10 paired (seeds 42-51)",
+  "positive_SSL_vs_baseline": {
+    "n5_delta": 0.0229,
+    "n10_delta": 0.0085,
+    "n10_t_p": 0.6915,
+    "n10_d": 0.14,
+    "sig": false
+  },
+  "negatives_vs_SSL_only_n10": {
+    "SSL+C4": {
+      "n5_delta": -0.059,
+      "n10_delta": -0.0345,
+      "n10_t_p": 0.1045,
+      "n10_wilcoxon_p": 0.1055,
+      "n10_d": -0.6,
+      "sig": false,
+      "note": "attenuated, no longer sig"
+    },
+    "SSL+C3": {
+      "n5_delta": -0.089,
+      "n10_delta": -0.0723,
+      "n10_t_p": 0.0454,
+      "n10_wilcoxon_p": 0.0371,
+      "n10_d": -0.77,
+      "sig": true
+    },
+    "SSL+C2": {
+      "n5_delta": -0.081,
+      "n10_delta": -0.0632,
+      "n10_t_p": 0.039,
+      "n10_wilcoxon_p": 0.0371,
+      "n10_d": -0.8,
+      "sig": true
+    }
+  },
+  "means_n10": {
+    "baseline": 0.6107,
+    "SSL": 0.6192,
+    "SSL+C4": 0.5847,
+    "SSL+C3": 0.5469,
+    "SSL+C2": 0.556
+  },
+  "key_finding": "Small-sample (n=5) overstates effects in BOTH directions: SSL positive (+0.023->+0.008 ns) and C4 negative (-0.059->-0.034 ns) both attenuate; only the two largest negatives (C3,C2) survive n=10 (p<0.05)."
+}

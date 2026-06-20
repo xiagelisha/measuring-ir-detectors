@@ -1,0 +1,44 @@
+[
+  {
+    "config": "Vanilla YOLOv12s (paper3 baseline)",
+    "mAP50_mean": 0.6101,
+    "mAP50_std": 0.0359,
+    "Oil_AP50_mean": 0.5178,
+    "delta_vs_baseline": 0.0
+  },
+  {
+    "config": "+ C4 (colormap-inv input)",
+    "mAP50_mean": 0.6189,
+    "mAP50_std": 0.0471,
+    "Oil_AP50_mean": 0.5343,
+    "delta_vs_baseline": 0.0087
+  },
+  {
+    "config": "+ C1 (SSL pretrain) [MAIN]",
+    "mAP50_mean": 0.633,
+    "mAP50_std": 0.0265,
+    "Oil_AP50_mean": 0.5621,
+    "delta_vs_baseline": 0.0229
+  },
+  {
+    "config": "SSL + C4",
+    "mAP50_mean": 0.574,
+    "mAP50_std": 0.0338,
+    "Oil_AP50_mean": 0.5091,
+    "delta_vs_baseline": -0.0361
+  },
+  {
+    "config": "SSL + C3 (Session-FiLM)",
+    "mAP50_mean": 0.5441,
+    "mAP50_std": 0.0576,
+    "Oil_AP50_mean": 0.4072,
+    "delta_vs_baseline": -0.066
+  },
+  {
+    "config": "SSL + C2 (Mean Teacher)",
+    "mAP50_mean": 0.5518,
+    "mAP50_std": 0.0421,
+    "Oil_AP50_mean": 0.4684,
+    "delta_vs_baseline": -0.0583
+  }
+]

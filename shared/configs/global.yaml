@@ -1,0 +1,21 @@
+project_name: paper3-10
+paths:
+  project_root: C:/twb/oil_leak/Paper3/paper3-10
+  data_dir: ${paths.project_root}/data
+  image_dir: ${paths.data_dir}/OilData
+  label_dir: ${paths.data_dir}/OilLabels
+  classes_file: ${paths.data_dir}/Classes.txt
+  splits_dir: ${paths.data_dir}/splits        # 注意: 暂时不存在, 在 step 0.2 生成
+  results_dir: ${paths.project_root}/results_v2
+classes:
+  num_classes: 2
+  names: [Water, Oil]
+image:
+  size: 640
+  channels: 3
+device:
+  type: cuda
+  gpu_id: 0
+seed: 42
+amp: true
+channels_last: true

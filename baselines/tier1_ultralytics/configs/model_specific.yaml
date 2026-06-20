@@ -1,0 +1,20 @@
+# Per-model overrides for tier-1 ultralytics baselines.
+yolov8s:
+  model: yolov8s.pt
+  batch: 16
+yolov11s:
+  model: yolo11s.pt
+  batch: 16
+yolov12s:
+  model: yolo12s.pt
+  batch: 16
+yolov10s:
+  model: yolov10s.pt
+  batch: 16
+rtdetr_l:
+  model: rtdetr-l.pt
+  batch: 4
+  lr0: 0.0001
+  mosaic: 0.0
+  close_mosaic: 0
+  mixup: 0.0

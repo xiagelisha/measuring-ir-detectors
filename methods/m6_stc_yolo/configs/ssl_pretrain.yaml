@@ -1,0 +1,50 @@
+# STC-YOLO C1 — Cross-Frame Token Consistency SSL pretrain (MS2).
+# Placeholder. Filled when MS2 implementation begins.
+#
+# Goal: produce `pretrained_backbone_stc.pt` to be loaded by main training via
+# stc.ssl_pretrained_backbone in default.yaml.
+model: stc_yolo_ssl
+phase: pretrain
+
+# Data — pairs (t, t+k) within same session continuous segment.
+data:
+  pair_gap_min: 1
+  pair_gap_max: 2                  # gap=1/2 (subtle temporal invariance) is
+                                   # BEST: a gap6 retrain (2026-05-30) gave
+                                   # 0.590 vs gap2 0.633 + 3x worse variance —
+                                   # large gaps decorrelate the pair, harm SSL.
+  include_splits: [train, val]    # test split forbidden (no leakage)
+  include_session_filter: null     # null = all 22 sessions of train+val
+
+# Algorithm
+ssl:
+  algorithm: dense_contrastive    # DenseCL-style
+  feature_levels: [P3, P4]        # stride 8 and 16 token grids
+  projection_dim: 128
+  temperature: 0.2
+  # Sampled grid positions per image for the dense InfoNCE matrix (DenseCL-style).
+  # Full P3 grid at imgsz=640 is 80x80=6400 -> (B,6400,6400) sim OOMs 16 GB.
+  # 1024 sampled tokens bounds sim to (B,1024,1024) ~134 MB at batch=32.
+  num_tokens: 1024
+  negatives_from_batch: true       # all other pair tokens are negatives
+  spatial_aug:
+    flip_prob: 0.5
+    random_crop_scale: [0.9, 1.0]
+
+# Training
+epochs: 80
+imgsz: 640                         # smaller than supervised to save SSL VRAM
+batch: 16                          # pair-level (32 frames). 32 OOMs 16GB VRAM:
+                                   # full-model fwd+bwd peaks 24.9GB -> spills to
+                                   # shared RAM (65s/step). B=16 = 12.6GB, 0.13s/
+                                   # step. Batch is method-neutral here (negatives
+                                   # are within-image tokens, not cross-batch).
+workers: 4
+optimizer: AdamW
+lr0: 0.0001
+weight_decay: 0.0001
+warmup_epochs: 5
+cos_lr: true
+amp: true
+seed: 42
+device: 0

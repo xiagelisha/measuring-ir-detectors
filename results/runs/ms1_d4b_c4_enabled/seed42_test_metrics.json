@@ -1,0 +1,44 @@
+{
+  "mAP50": 0.6382800834680911,
+  "mAP50_95": 0.21041520694156018,
+  "Water_AP50": 0.710235989645335,
+  "Oil_AP50": 0.5663241772908472,
+  "precision": 0.6659654097309966,
+  "recall": 0.6826223465628474,
+  "seed": 42,
+  "run_name": "ms1_d4b_c4_enabled_seed42",
+  "config_path": "methods/m6_stc_yolo/configs/default.yaml",
+  "data_yaml": "results_v2\\orchestrator\\runs\\_data_yaml\\data.yaml",
+  "infer_imgsz": 1056,
+  "infer_augment": true,
+  "overrides_applied": [
+    "stc.enable_colormap_inversion=true"
+  ],
+  "stc_config": {
+    "enable_colormap_inversion": true,
+    "colormap_inverter_ckpt": null,
+    "ssl_pretrained_backbone": null,
+    "enable_session_film": false,
+    "film_metadata_keys": [
+      "temperature",
+      "location",
+      "condition"
+    ],
+    "film_inject_levels": [
+      "P3",
+      "P4",
+      "P5"
+    ],
+    "enable_mean_teacher": false,
+    "mt_ema_momentum": 0.999,
+    "mt_pseudo_conf_threshold": 0.5,
+    "mt_consistency_weight_max": 1.0,
+    "mt_consistency_rampup_epochs": 10,
+    "mt_neighbor_gap_max": 3,
+    "enable_temporal_voting": false,
+    "voting_buffer_size": 2,
+    "voting_conf_low": 0.25,
+    "voting_conf_high": 0.6,
+    "voting_iou_threshold": 0.5
+  }
+}
