@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use these research materials, please cite the archived code and source data."
+type: software
+title: 'Code and source data for "Seed variability and class averaging can obscure detector improvements on small infrared datasets"'
+authors:
+  - family-names: Tan
+    given-names: Wenbi
+  - family-names: Thio
+    given-names: Tzer Hwai Gilbert
+  - family-names: Siaw
+    given-names: Fei Lu
+  - family-names: Cui
+    given-names: Shuai
+  - family-names: Su
+    given-names: Zilong
+  - family-names: Xia
+    given-names: Yule
+    orcid: "https://orcid.org/0009-0000-6714-9588"
+doi: 10.5281/zenodo.23073467
+date-released: 2026-10-01
+url: "https://doi.org/10.5281/zenodo.23073467"
+repository-code: "https://github.com/xiagelisha/measuring-ir-detectors"

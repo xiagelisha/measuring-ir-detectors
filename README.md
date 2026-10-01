@@ -1,85 +1,49 @@
-# Measuring Detector Improvements Reliably on Small Infrared Datasets
+# Seed variability and class averaging can obscure detector improvements on small infrared datasets
 
-Code, results, and reproduction scripts for the paper *"Measuring Detector
-Improvements Reliably on Small Infrared Datasets: A Cautionary Study of
-Self-Supervised and Architectural Enhancements"* (under review).
+Research code and historical results accompanying the revised manuscript of the same title.
 
-The study evaluates five reasonable enhancements to a tuned YOLOv12s detector on
-small infrared (IR) data and uses the campaign to expose two measurement
-pitfalls — **seed under-sampling** and **aggregate masking** — then distills a
-power-aware, class-stratified reporting protocol. This repository releases the
-full pipeline so the comparisons can be reproduced and extended.
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23073467.svg)](https://doi.org/10.5281/zenodo.23073467)
 
-This repository contains everything needed to verify every claim in the paper:
-the **full oil dataset**, the frozen per-seed results behind every table and
-figure, and the complete training/evaluation/analysis pipeline.
+## Revised manuscript materials
+
+The **complete version 1.0.0 archive** is publicly available on [Zenodo](https://doi.org/10.5281/zenodo.23073467). Download `measuring-ir-detectors-v1.0.0.zip` from that record for the revised figures, source data, 95 saved detector-training run records, datasets and supporting code.
+
+This GitHub repository retains the earlier code and results layout. Its historical figures and summaries should not be confused with the revised manuscript materials in the DOI archive. The archive README and `doc/REPRODUCIBILITY.md` describe its contents and limitations.
+
+In the extracted Zenodo archive, start with:
+- `paper/source_data/per_seed_results.csv` and `data.json`: saved run-level measurements.
+- `paper/source_data/stats.json` and `diagnostics.json`: existing statistical summaries.
+- `paper/figures/`: revised main and supplementary figures.
+- `doc/REPRODUCIBILITY.md`: file map, recorded environment and optional execution instructions.
+- `ARCHIVE_MANIFEST.csv`: file checksums and sizes.
+
+Inspecting the saved evidence does not require retraining. No training, inference, statistical reanalysis or figure generation was performed during archive assembly or this documentation update.
+
+## Study scope
+
+The main comparison uses ten matched downstream seeds on one fixed transformer-data split and one SSL checkpoint. Five-seed subsets describe sensitivity within the observed runs. HIT-UAV contains baseline repetitions only. Aggregate and class-level effects should be interpreted with their confidence intervals and multiplicity qualifications.
+
+C3 uses the archived metadata encoding, including its limitations. C4 uses an empirical colour-map lookup table calibrated using all 22 filename-defined groups, including detector-test groups; it is an exploratory comparison under that protocol. These qualifications do not change the recorded experimental results.
 
 ## Repository layout
-```
-methods/m6_stc_yolo/        STC-YOLO implementation
-  model.py                  YOLOv12s + optional C1–C4 modules
-  train_one.py              single-run train/eval entry point
-  modules/                  ssl_pretrain (C1), colormap_inverter (C4),
-                            session_film (C3), mean_teacher (C2), conv1ch_from_rgb
-  data/                     frame-pair dataset, session metadata, neighbour sampler
-  scripts/run_ssl_pretrain.py   cross-frame SSL pretraining
-  configs/                  default / ssl_pretrain / semi_supervised yaml
-  tests/                    pytest suite
-baselines/tier1_ultralytics/  tuned YOLOv12s baseline + data-yaml builder
-shared/                     seeding, metrics, logging, dataset utilities
-tools/                      paper4_orchestrator.py (decision tree), paper4_run_5seed.py,
-                            split / metadata / verification scripts
-data/                       full oil dataset + HIT-UAV (see data/README.md)
-results/                    all experimental data behind the paper's tables & figures
-doc/                        reproducibility notes + paper figures
-```
 
-## Installation
-```bash
-conda create -n oilleak python=3.11 -y
-conda activate oilleak
-pip install -r requirements.txt
-# Install a torch build matching your CUDA (the paper used torch 2.x + CUDA 12.8).
-```
+- `methods/m6_stc_yolo/`: method implementation and configurations.
+- `baselines/`, `shared/`, `tools/`: training utilities and historical experiment drivers.
+- `data/`: dataset exports, metadata and split lists.
+- `results/`, `doc/`: historical results and documentation.
 
-## Reproducing the results
-The numbers in every table and figure are already in `results/` (see
-`results/README.md` for the artifact→file map). To re-run experiments:
-```bash
-# from the repository root (so package imports resolve)
-# 1) cross-frame SSL pretraining (C1)
-python -m methods.m6_stc_yolo.scripts.run_ssl_pretrain --config methods/m6_stc_yolo/configs/ssl_pretrain.yaml
-# 2) a single seeded train+eval (set the config to choose C1–C4)
-python -m methods.m6_stc_yolo.train_one --config methods/m6_stc_yolo/configs/default.yaml --seed 42
-# 3) the multi-seed campaign / decision tree
-python tools/paper4_run_5seed.py --help
-python tools/paper4_orchestrator.py status
-```
-Run `pytest methods/m6_stc_yolo/tests` for the unit suite.
+For the revised archive's layout and execution instructions, use the documentation inside the Zenodo ZIP. Historical scripts may refer to paths from the original research computer; exact retraining across environments is not asserted.
 
-## Data
-- **Oil dataset (public, full).** 2,593 substation IR frames (1280x720) with
-  YOLO-format labels, per-image metadata, and the fixed `main_holdout` split,
-  under `data/oil/` and `data/splits/`. Released under **CC BY 4.0**
-  (`data/oil/LICENSE`).
-- **HIT-UAV (public).** Included under `data/HIT_UAV/` under its original
-  CC BY 4.0 license (see `data/HIT_UAV/ATTRIBUTION.md`).
+## Data and licences
 
-See `data/README.md` for the column guide (including a label-leakage warning
-about the `day_night` metadata column) and dataset statistics.
+The transformer dataset contains 2,593 stored pseudo-colour infrared images at **640 × 480 pixels**, collected mainly during controlled oil-leakage simulations with a FOTRIC 626C camera. Equipment-location identifiers describe the component imaged, not separate substations. Filename groups do not establish independent physical recording sessions.
 
-## License
-- **Code:** MIT License (see `LICENSE`).
-- **Oil dataset:** CC BY 4.0 (`data/oil/LICENSE`).
-- **HIT-UAV:** original dataset license, CC BY 4.0 (`data/HIT_UAV/`).
+Project code retains its **MIT licence**. Transformer images and annotations and the redistributed HIT-UAV export retain **CC BY 4.0**, with attribution. Third-party software and upstream model-derived materials remain subject to their own terms. See [data documentation](data/README.md) and the licence files.
 
 ## Citation
-```bibtex
-@misc{tan_measuring_ir,
-  author = {Tan, Wenbi and others},
-  title  = {Measuring Detector Improvements Reliably on Small Infrared Datasets:
-            A Cautionary Study of Self-Supervised and Architectural Enhancements},
-  year   = {2026},
-  note   = {Under review}
-}
-```
+
+Please cite the archived code and source data using this version-specific DOI. It identifies the research archive, not a published journal article.
+
+> Tan, W., Thio, T. H. G., Siaw, F. L., Cui, S., Su, Z. & Xia, Y. (2026). Code and source data for “Seed variability and class averaging can obscure detector improvements on small infrared datasets”. Zenodo. https://doi.org/10.5281/zenodo.23073467
+
+Machine-readable citation metadata is provided in `CITATION.cff`.
