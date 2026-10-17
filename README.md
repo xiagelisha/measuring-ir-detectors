@@ -75,11 +75,18 @@ This research was funded by the Scientific Research Fund of the Education Depart
 
 ## Citation and archive versions
 
-For these October revision files, cite this repository at the specific commit used;
-machine-readable author and title metadata are in [CITATION.cff](CITATION.cff).
+The October 2026 revision is archived as **version 2.0.0** at
+[10.5281/zenodo.23430799](https://doi.org/10.5281/zenodo.23430799).
+Use this version DOI when citing the code and source data for the revised study;
+machine-readable metadata are in [CITATION.cff](CITATION.cff).
 
-The **preceding version 1.0.0** is archived at
+The archive contains the original complete research package, the current revision
+analyses and figures, and `README_v2.txt`, which explains how to use both packages.
+The revision code and scientific data correspond to commit
+`80f24e6556677a121559a388add2b3cbfc1e8dd8`; archive-status wording and checksum
+metadata were adapted for the Zenodo deposit.
+
+The **preceding version 1.0.0** remains available at
 [10.5281/zenodo.23073467](https://doi.org/10.5281/zenodo.23073467), under the earlier
 title “Seed variability and class averaging can obscure detector improvements on
-small infrared datasets”. That DOI identifies the preceding release and does not
-yet include `revision_r2/`. A new DOI-backed version remains to be published.
+small infrared datasets”. Cite that version only for the preceding release.

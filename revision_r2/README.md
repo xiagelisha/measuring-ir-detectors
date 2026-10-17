@@ -80,7 +80,9 @@ the new statistical calculations from the supplied measurements.
 
 ## Archive and licence
 
-This folder is the GitHub revision update. The preceding Zenodo version 1.0.0,
-DOI 10.5281/zenodo.23073467, does not yet contain it. A new archive version is pending.
+This revision is archived in Zenodo version 2.0.0, DOI
+[10.5281/zenodo.23430799](https://doi.org/10.5281/zenodo.23430799), alongside the
+unchanged preceding research package. See README_v2.txt in the archive for package
+selection. The preceding version DOI 10.5281/zenodo.23073467 remains available.
 Project code is MIT-licensed; study data retain CC BY 4.0. Third-party materials
 retain the terms documented in the root repository and preceding archive.
