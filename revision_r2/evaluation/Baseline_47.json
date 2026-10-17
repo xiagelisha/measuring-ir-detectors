@@ -1,0 +1,30 @@
+{
+  "configuration": "Baseline",
+  "seed": 47,
+  "run_name": "baseline_ext_n10_seed47",
+  "checkpoint": "results_v2\\methods\\stc_yolo\\baseline_ext_n10_seed47\\train\\weights\\best.pt",
+  "checkpoint_sha256": "c1b16042a048d4e005f613b928427251b9ea8b6311d4ddd7b957c0b6bf9500af",
+  "ultralytics": "8.4.53",
+  "torch": "2.11.0+cu128",
+  "actual": {
+    "mAP50": 0.625060728151474,
+    "Water_AP50": 0.6948374169909892,
+    "Oil_AP50": 0.5552840393119587
+  },
+  "submitted": {
+    "mAP50": 0.625060728151474,
+    "Water_AP50": 0.6948374169909892,
+    "Oil_AP50": 0.5552840393119587
+  },
+  "difference": {
+    "mAP50": 0.0,
+    "Water_AP50": 0.0,
+    "Oil_AP50": 0.0
+  },
+  "inference": {
+    "imgsz": 1056,
+    "augment": true,
+    "conf": 0.001,
+    "iou": 0.6
+  }
+}

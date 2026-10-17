@@ -1,7 +1,7 @@
 cff-version: 1.2.0
-message: "If you use these research materials, please cite the archived code and source data."
+message: "Cite this repository at the commit used for the October 2026 revision. The preceding Zenodo release does not yet contain these additions."
 type: software
-title: 'Code and source data for "Seed variability and class averaging can obscure detector improvements on small infrared datasets"'
+title: 'Code and source data for "A case study of training and test uncertainty in infrared transformer leak detection"'
 authors:
   - family-names: Tan
     given-names: Wenbi
@@ -16,7 +16,6 @@ authors:
   - family-names: Xia
     given-names: Yule
     orcid: "https://orcid.org/0009-0000-6714-9588"
-doi: 10.5281/zenodo.23073467
-date-released: 2026-10-01
-url: "https://doi.org/10.5281/zenodo.23073467"
+date-released: 2026-10-17
+url: "https://github.com/xiagelisha/measuring-ir-detectors"
 repository-code: "https://github.com/xiagelisha/measuring-ir-detectors"

@@ -1,0 +1,30 @@
+{
+  "configuration": "SSL",
+  "seed": 47,
+  "run_name": "ssl_only_ext_n10_seed47",
+  "checkpoint": "results_v2\\methods\\stc_yolo\\ssl_only_ext_n10_seed47\\train\\weights\\best.pt",
+  "checkpoint_sha256": "8c862805b4c8d8cb57ce1f6634345c8304cc01dc4f2aadc3b57a93dc3c13b51f",
+  "ultralytics": "8.4.53",
+  "torch": "2.11.0+cu128",
+  "actual": {
+    "mAP50": 0.4931830928091752,
+    "Water_AP50": 0.5973389057678362,
+    "Oil_AP50": 0.3890272798505142
+  },
+  "submitted": {
+    "mAP50": 0.4931830928091752,
+    "Water_AP50": 0.5973389057678362,
+    "Oil_AP50": 0.3890272798505142
+  },
+  "difference": {
+    "mAP50": 0.0,
+    "Water_AP50": 0.0,
+    "Oil_AP50": 0.0
+  },
+  "inference": {
+    "imgsz": 1056,
+    "augment": true,
+    "conf": 0.001,
+    "iou": 0.6
+  }
+}

@@ -1,10 +1,10 @@
 # Data
 
-The complete revised research package is archived at [Zenodo](https://doi.org/10.5281/zenodo.23073467). The GitHub checkout retains the earlier directory layout; paths below distinguish it from the archive.
+The preceding version 1.0.0 research package is archived at [Zenodo](https://doi.org/10.5281/zenodo.23073467). The October 2026 revision adds [analysis code and source data](../revision_r2/README.md) to GitHub; a new DOI-backed version is pending. The raw images, annotations and split lists are unchanged.
 
 ## Transformer infrared images
 
-There are 2,593 stored images at 640 × 480 pixels and matching YOLO annotations: Water = 0 and Oil = 1. Existing records report 17,654 Water boxes and 7,803 Oil boxes. The fixed split contains 1,886 training, 348 validation and 359 test images across 14, four and four filename-defined groups.
+There are 2,593 stored images at 640 × 480 pixels and matching YOLO annotations: Water = 0 and Oil = 1. Rechecking every annotation confirms 17,654 Water boxes and 7,803 Oil boxes. Water denotes applied water used as a non-oil liquid target. The full group/class audit is in `revision_r2/analysis/group_allocation.csv` at the repository root. The fixed split contains 1,886 training, 348 validation and 359 test images across 14, four and four filename-defined groups.
 
 Images were collected mainly in controlled transformer oil-leakage simulations using a FOTRIC 626C camera at a laboratory at Kunming University, China, in October 2025. Stored image dimensions are not a camera-sensor specification. Location codes identify the equipment component viewed: insulator, tank cover, tank side, radiator or drain valve. They do not identify separate substations. Physical-session independence cannot be established from filename groups alone.
 

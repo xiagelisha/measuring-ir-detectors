@@ -1,0 +1,8 @@
+{
+  "checkpoints": 20,
+  "maximum_submitted_score_error": 0.0,
+  "bootstrap_ap_oracle_max_error": 0.0,
+  "oracle_note": "Independent library re-sort of tied duplicate confidence values; numerical tie sensitivity.",
+  "portable_bundle_reanalysis": "identical to primary summary with 2000 replicates",
+  "render_qa": "All 37 pages visually checked using native WPS PDF export and Poppler rasterisation"
+}

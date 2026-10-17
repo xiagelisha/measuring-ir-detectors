@@ -1,0 +1,4422 @@
+{
+  "Baseline": [
+    {
+      "mAP50": 0.601598548591038,
+      "mAP50_95": 0.20053221114190892,
+      "Water_AP50": 0.6854072584314411,
+      "Oil_AP50": 0.5177898387506349,
+      "precision": 0.6275056570812196,
+      "recall": 0.6394611920256763,
+      "seed": 42,
+      "run_name": "ms1_d4a_baseline_seed42",
+      "config_path": "methods/m6_stc_yolo/configs/default.yaml",
+      "data_yaml": "C:\\twb\\oil_leak\\Paper3\\paper4\\results_v2\\orchestrator\\runs\\_data_yaml\\data.yaml",
+      "infer_imgsz": 1056,
+      "infer_augment": true,
+      "overrides_applied": [],
+      "stc_config": {
+        "enable_colormap_inversion": false,
+        "colormap_inverter_ckpt": null,
+        "ssl_pretrained_backbone": null,
+        "enable_session_film": false,
+        "film_metadata_keys": [
+          "temperature",
+          "location",
+          "condition"
+        ],
+        "film_inject_levels": [
+          "P3",
+          "P4",
+          "P5"
+        ],
+        "enable_mean_teacher": false,
+        "mt_ema_momentum": 0.999,
+        "mt_pseudo_conf_threshold": 0.5,
+        "mt_consistency_weight_max": 1.0,
+        "mt_consistency_rampup_epochs": 10,
+        "mt_neighbor_gap_max": 3,
+        "enable_temporal_voting": false,
+        "voting_buffer_size": 2,
+        "voting_conf_low": 0.25,
+        "voting_conf_high": 0.6,
+        "voting_iou_threshold": 0.5
+      }
+    },
+    {
+      "mAP50": 0.6187688502067891,
+      "mAP50_95": 0.21294488055355276,
+      "Water_AP50": 0.6981671729214525,
+      "Oil_AP50": 0.5393705274921257,
+      "precision": 0.6237211407780976,
+      "recall": 0.6858765590806757,
+      "seed": 43,
+      "run_name": "ms1_d4a_baseline_seed43",
+      "config_path": "methods/m6_stc_yolo/configs/default.yaml",
+      "data_yaml": "C:\\twb\\oil_leak\\Paper3\\paper4\\results_v2\\orchestrator\\runs\\_data_yaml\\data.yaml",
+      "infer_imgsz": 1056,
+      "infer_augment": true,
+      "overrides_applied": [],
+      "stc_config": {
+        "enable_colormap_inversion": false,
+        "colormap_inverter_ckpt": null,
+        "ssl_pretrained_backbone": null,
+        "enable_session_film": false,
+        "film_metadata_keys": [
+          "temperature",
+          "location",
+          "condition"
+        ],
+        "film_inject_levels": [
+          "P3",
+          "P4",
+          "P5"
+        ],
+        "enable_mean_teacher": false,
+        "mt_ema_momentum": 0.999,
+        "mt_pseudo_conf_threshold": 0.5,
+        "mt_consistency_weight_max": 1.0,
+        "mt_consistency_rampup_epochs": 10,
+        "mt_neighbor_gap_max": 3,
+        "enable_temporal_voting": false,
+        "voting_buffer_size": 2,
+        "voting_conf_low": 0.25,
+        "voting_conf_high": 0.6,
+        "voting_iou_threshold": 0.5
+      }
+    },
+    {
+      "mAP50": 0.6136995336502787,
+      "mAP50_95": 0.20813720996173074,
+      "Water_AP50": 0.7154108653037159,
+      "Oil_AP50": 0.5119882019968416,
+      "precision": 0.6646755563245874,
+      "recall": 0.6623794837520698,
+      "seed": 44,
+      "run_name": "ms1_d4a_baseline_seed44",
+      "config_path": "methods/m6_stc_yolo/configs/default.yaml",
+      "data_yaml": "C:\\twb\\oil_leak\\Paper3\\paper4\\results_v2\\orchestrator\\runs\\_data_yaml\\data.yaml",
+      "infer_imgsz": 1056,
+      "infer_augment": true,
+      "overrides_applied": [],
+      "stc_config": {
+        "enable_colormap_inversion": false,
+        "colormap_inverter_ckpt": null,
+        "ssl_pretrained_backbone": null,
+        "enable_session_film": false,
+        "film_metadata_keys": [
+          "temperature",
+          "location",
+          "condition"
+        ],
+        "film_inject_levels": [
+          "P3",
+          "P4",
+          "P5"
+        ],
+        "enable_mean_teacher": false,
+        "mt_ema_momentum": 0.999,
+        "mt_pseudo_conf_threshold": 0.5,
+        "mt_consistency_weight_max": 1.0,
+        "mt_consistency_rampup_epochs": 10,
+        "mt_neighbor_gap_max": 3,
+        "enable_temporal_voting": false,
+        "voting_buffer_size": 2,
+        "voting_conf_low": 0.25,
+        "voting_conf_high": 0.6,
+        "voting_iou_threshold": 0.5
+      }
+    },
+    {
+      "mAP50": 0.6642636002791495,
+      "mAP50_95": 0.22090194287313789,
+      "Water_AP50": 0.7425458645543677,
+      "Oil_AP50": 0.5859813360039315,
+      "precision": 0.7035758444872198,
+      "recall": 0.6568937699426567,
+      "seed": 45,
+      "run_name": "ms1_d4a_baseline_seed45",
+      "config_path": "methods/m6_stc_yolo/configs/default.yaml",
+      "data_yaml": "C:\\twb\\oil_leak\\Paper3\\paper4\\results_v2\\orchestrator\\runs\\_data_yaml\\data.yaml",
+      "infer_imgsz": 1056,
+      "infer_augment": true,
+      "overrides_applied": [],
+      "stc_config": {
+        "enable_colormap_inversion": false,
+        "colormap_inverter_ckpt": null,
+        "ssl_pretrained_backbone": null,
+        "enable_session_film": false,
+        "film_metadata_keys": [
+          "temperature",
+          "location",
+          "condition"
+        ],
+        "film_inject_levels": [
+          "P3",
+          "P4",
+          "P5"
+        ],
+        "enable_mean_teacher": false,
+        "mt_ema_momentum": 0.999,
+        "mt_pseudo_conf_threshold": 0.5,
+        "mt_consistency_weight_max": 1.0,
+        "mt_consistency_rampup_epochs": 10,
+        "mt_neighbor_gap_max": 3,
+        "enable_temporal_voting": false,
+        "voting_buffer_size": 2,
+        "voting_conf_low": 0.25,
+        "voting_conf_high": 0.6,
+        "voting_iou_threshold": 0.5
+      }
+    },
+    {
+      "mAP50": 0.5523482568595878,
+      "mAP50_95": 0.18715942394038892,
+      "Water_AP50": 0.6708063640134926,
+      "Oil_AP50": 0.43389014970568296,
+      "precision": 0.5819178133279734,
+      "recall": 0.5839285015551439,
+      "seed": 46,
+      "run_name": "ms1_d4a_baseline_seed46",
+      "config_path": "methods/m6_stc_yolo/configs/default.yaml",
+      "data_yaml": "C:\\twb\\oil_leak\\Paper3\\paper4\\results_v2\\orchestrator\\runs\\_data_yaml\\data.yaml",
+      "infer_imgsz": 1056,
+      "infer_augment": true,
+      "overrides_applied": [],
+      "stc_config": {
+        "enable_colormap_inversion": false,
+        "colormap_inverter_ckpt": null,
+        "ssl_pretrained_backbone": null,
+        "enable_session_film": false,
+        "film_metadata_keys": [
+          "temperature",
+          "location",
+          "condition"
+        ],
+        "film_inject_levels": [
+          "P3",
+          "P4",
+          "P5"
+        ],
+        "enable_mean_teacher": false,
+        "mt_ema_momentum": 0.999,
+        "mt_pseudo_conf_threshold": 0.5,
+        "mt_consistency_weight_max": 1.0,
+        "mt_consistency_rampup_epochs": 10,
+        "mt_neighbor_gap_max": 3,
+        "enable_temporal_voting": false,
+        "voting_buffer_size": 2,
+        "voting_conf_low": 0.25,
+        "voting_conf_high": 0.6,
+        "voting_iou_threshold": 0.5
+      }
+    },
+    {
+      "mAP50": 0.625060728151474,
+      "mAP50_95": 0.20815326531875508,
+      "Water_AP50": 0.6948374169909892,
+      "Oil_AP50": 0.5552840393119587,
+      "precision": 0.6671743590390469,
+      "recall": 0.6458527168949302,
+      "seed": 47,
+      "run_name": "baseline_ext_n10_seed47",
+      "config_path": "methods/m6_stc_yolo/configs/default.yaml",
+      "data_yaml": "C:\\twb\\oil_leak\\Paper3\\paper4\\results_v2\\orchestrator\\runs\\_data_yaml\\data.yaml",
+      "infer_imgsz": 1056,
+      "infer_augment": true,
+      "overrides_applied": [],
+      "stc_config": {
+        "enable_colormap_inversion": false,
+        "colormap_inverter_ckpt": null,
+        "ssl_pretrained_backbone": null,
+        "enable_session_film": false,
+        "film_metadata_keys": [
+          "temperature",
+          "location",
+          "condition"
+        ],
+        "film_inject_levels": [
+          "P3",
+          "P4",
+          "P5"
+        ],
+        "enable_mean_teacher": false,
+        "mt_ema_momentum": 0.999,
+        "mt_pseudo_conf_threshold": 0.5,
+        "mt_consistency_weight_max": 1.0,
+        "mt_consistency_rampup_epochs": 10,
+        "mt_neighbor_gap_max": 3,
+        "enable_temporal_voting": false,
+        "voting_buffer_size": 2,
+        "voting_conf_low": 0.25,
+        "voting_conf_high": 0.6,
+        "voting_iou_threshold": 0.5
+      }
+    },
+    {
+      "mAP50": 0.6754471093939769,
+      "mAP50_95": 0.23030419254334172,
+      "Water_AP50": 0.7432533006255643,
+      "Oil_AP50": 0.6076409181623894,
+      "precision": 0.6881524877706986,
+      "recall": 0.6980522765035364,
+      "seed": 48,
+      "run_name": "baseline_ext_n10_seed48",
+      "config_path": "methods/m6_stc_yolo/configs/default.yaml",
+      "data_yaml": "C:\\twb\\oil_leak\\Paper3\\paper4\\results_v2\\orchestrator\\runs\\_data_yaml\\data.yaml",
+      "infer_imgsz": 1056,
+      "infer_augment": true,
+      "overrides_applied": [],
+      "stc_config": {
+        "enable_colormap_inversion": false,
+        "colormap_inverter_ckpt": null,
+        "ssl_pretrained_backbone": null,
+        "enable_session_film": false,
+        "film_metadata_keys": [
+          "temperature",
+          "location",
+          "condition"
+        ],
+        "film_inject_levels": [
+          "P3",
+          "P4",
+          "P5"
+        ],
+        "enable_mean_teacher": false,
+        "mt_ema_momentum": 0.999,
+        "mt_pseudo_conf_threshold": 0.5,
+        "mt_consistency_weight_max": 1.0,
+        "mt_consistency_rampup_epochs": 10,
+        "mt_neighbor_gap_max": 3,
+        "enable_temporal_voting": false,
+        "voting_buffer_size": 2,
+        "voting_conf_low": 0.25,
+        "voting_conf_high": 0.6,
+        "voting_iou_threshold": 0.5
+      }
+    },
+    {
+      "mAP50": 0.6045818775327674,
+      "mAP50_95": 0.20045948729019497,
+      "Water_AP50": 0.6817803351297644,
+      "Oil_AP50": 0.5273834199357704,
+      "precision": 0.6057463194364358,
+      "recall": 0.676608803288373,
+      "seed": 49,
+      "run_name": "baseline_ext_n10_seed49",
+      "config_path": "methods/m6_stc_yolo/configs/default.yaml",
+      "data_yaml": "C:\\twb\\oil_leak\\Paper3\\paper4\\results_v2\\orchestrator\\runs\\_data_yaml\\data.yaml",
+      "infer_imgsz": 1056,
+      "infer_augment": true,
+      "overrides_applied": [],
+      "stc_config": {
+        "enable_colormap_inversion": false,
+        "colormap_inverter_ckpt": null,
+        "ssl_pretrained_backbone": null,
+        "enable_session_film": false,
+        "film_metadata_keys": [
+          "temperature",
+          "location",
+          "condition"
+        ],
+        "film_inject_levels": [
+          "P3",
+          "P4",
+          "P5"
+        ],
+        "enable_mean_teacher": false,
+        "mt_ema_momentum": 0.999,
+        "mt_pseudo_conf_threshold": 0.5,
+        "mt_consistency_weight_max": 1.0,
+        "mt_consistency_rampup_epochs": 10,
+        "mt_neighbor_gap_max": 3,
+        "enable_temporal_voting": false,
+        "voting_buffer_size": 2,
+        "voting_conf_low": 0.25,
+        "voting_conf_high": 0.6,
+        "voting_iou_threshold": 0.5
+      }
+    },
+    {
+      "mAP50": 0.6163212729506312,
+      "mAP50_95": 0.20353885969380464,
+      "Water_AP50": 0.7094830304564308,
+      "Oil_AP50": 0.5231595154448316,
+      "precision": 0.6750983784805281,
+      "recall": 0.602985256988835,
+      "seed": 50,
+      "run_name": "baseline_ext_n10_seed50",
+      "config_path": "methods/m6_stc_yolo/configs/default.yaml",
+      "data_yaml": "C:\\twb\\oil_leak\\Paper3\\paper4\\results_v2\\orchestrator\\runs\\_data_yaml\\data.yaml",
+      "infer_imgsz": 1056,
+      "infer_augment": true,
+      "overrides_applied": [],
+      "stc_config": {
+        "enable_colormap_inversion": false,
+        "colormap_inverter_ckpt": null,
+        "ssl_pretrained_backbone": null,
+        "enable_session_film": false,
+        "film_metadata_keys": [
+          "temperature",
+          "location",
+          "condition"
+        ],
+        "film_inject_levels": [
+          "P3",
+          "P4",
+          "P5"
+        ],
+        "enable_mean_teacher": false,
+        "mt_ema_momentum": 0.999,
+        "mt_pseudo_conf_threshold": 0.5,
+        "mt_consistency_weight_max": 1.0,
+        "mt_consistency_rampup_epochs": 10,
+        "mt_neighbor_gap_max": 3,
+        "enable_temporal_voting": false,
+        "voting_buffer_size": 2,
+        "voting_conf_low": 0.25,
+        "voting_conf_high": 0.6,
+        "voting_iou_threshold": 0.5
+      }
+    },
+    {
+      "mAP50": 0.5351603235450021,
+      "mAP50_95": 0.17983949736452182,
+      "Water_AP50": 0.6792509133212368,
+      "Oil_AP50": 0.39106973376876747,
+      "precision": 0.5749605173972534,
+      "recall": 0.5807050571942075,
+      "seed": 51,
+      "run_name": "baseline_ext_n10_seed51",
+      "config_path": "methods/m6_stc_yolo/configs/default.yaml",
+      "data_yaml": "C:\\twb\\oil_leak\\Paper3\\paper4\\results_v2\\orchestrator\\runs\\_data_yaml\\data.yaml",
+      "infer_imgsz": 1056,
+      "infer_augment": true,
+      "overrides_applied": [],
+      "stc_config": {
+        "enable_colormap_inversion": false,
+        "colormap_inverter_ckpt": null,
+        "ssl_pretrained_backbone": null,
+        "enable_session_film": false,
+        "film_metadata_keys": [
+          "temperature",
+          "location",
+          "condition"
+        ],
+        "film_inject_levels": [
+          "P3",
+          "P4",
+          "P5"
+        ],
+        "enable_mean_teacher": false,
+        "mt_ema_momentum": 0.999,
+        "mt_pseudo_conf_threshold": 0.5,
+        "mt_consistency_weight_max": 1.0,
+        "mt_consistency_rampup_epochs": 10,
+        "mt_neighbor_gap_max": 3,
+        "enable_temporal_voting": false,
+        "voting_buffer_size": 2,
+        "voting_conf_low": 0.25,
+        "voting_conf_high": 0.6,
+        "voting_iou_threshold": 0.5
+      }
+    }
+  ],
+  "SSL": [
+    {
+      "mAP50": 0.6151528260260333,
+      "mAP50_95": 0.20319806726920947,
+      "Water_AP50": 0.659182522481094,
+      "Oil_AP50": 0.5711231295709724,
+      "precision": 0.658807507320309,
+      "recall": 0.6647369529787917,
+      "seed": 42,
+      "run_name": "ms2_d8b_ssl_only_diag_seed42",
+      "config_path": "methods/m6_stc_yolo/configs/default.yaml",
+      "data_yaml": "C:\\twb\\oil_leak\\Paper3\\paper4\\results_v2\\orchestrator\\runs\\_data_yaml\\data.yaml",
+      "infer_imgsz": 1056,
+      "infer_augment": true,
+      "overrides_applied": [
+        "stc.ssl_pretrained_backbone=results_v2/methods/stc_yolo/_ms2/pretrained_backbone_stc.pt",
+        "stc.enable_colormap_inversion=false"
+      ],
+      "stc_config": {
+        "enable_colormap_inversion": false,
+        "colormap_inverter_ckpt": null,
+        "ssl_pretrained_backbone": "results_v2/methods/stc_yolo/_ms2/pretrained_backbone_stc.pt",
+        "enable_session_film": false,
+        "film_metadata_keys": [
+          "temperature",
+          "location",
+          "condition"
+        ],
+        "film_inject_levels": [
+          "P3",
+          "P4",
+          "P5"
+        ],
+        "enable_mean_teacher": false,
+        "mt_ema_momentum": 0.999,
+        "mt_pseudo_conf_threshold": 0.5,
+        "mt_consistency_weight_max": 1.0,
+        "mt_consistency_rampup_epochs": 10,
+        "mt_neighbor_gap_max": 3,
+        "enable_temporal_voting": false,
+        "voting_buffer_size": 2,
+        "voting_conf_low": 0.25,
+        "voting_conf_high": 0.6,
+        "voting_iou_threshold": 0.5
+      }
+    },
+    {
+      "mAP50": 0.6808347150253187,
+      "mAP50_95": 0.24315224662278703,
+      "Water_AP50": 0.7604743507695073,
+      "Oil_AP50": 0.60119507928113,
+      "precision": 0.706120991914966,
+      "recall": 0.6938455382782996,
+      "seed": 43,
+      "run_name": "ms2_d8b_ssl_only_diag_seed43",
+      "config_path": "methods/m6_stc_yolo/configs/default.yaml",
+      "data_yaml": "C:\\twb\\oil_leak\\Paper3\\paper4\\results_v2\\orchestrator\\runs\\_data_yaml\\data.yaml",
+      "infer_imgsz": 1056,
+      "infer_augment": true,
+      "overrides_applied": [
+        "stc.ssl_pretrained_backbone=results_v2/methods/stc_yolo/_ms2/pretrained_backbone_stc.pt",
+        "stc.enable_colormap_inversion=false"
+      ],
+      "stc_config": {
+        "enable_colormap_inversion": false,
+        "colormap_inverter_ckpt": null,
+        "ssl_pretrained_backbone": "results_v2/methods/stc_yolo/_ms2/pretrained_backbone_stc.pt",
+        "enable_session_film": false,
+        "film_metadata_keys": [
+          "temperature",
+          "location",
+          "condition"
+        ],
+        "film_inject_levels": [
+          "P3",
+          "P4",
+          "P5"
+        ],
+        "enable_mean_teacher": false,
+        "mt_ema_momentum": 0.999,
+        "mt_pseudo_conf_threshold": 0.5,
+        "mt_consistency_weight_max": 1.0,
+        "mt_consistency_rampup_epochs": 10,
+        "mt_neighbor_gap_max": 3,
+        "enable_temporal_voting": false,
+        "voting_buffer_size": 2,
+        "voting_conf_low": 0.25,
+        "voting_conf_high": 0.6,
+        "voting_iou_threshold": 0.5
+      }
+    },
+    {
+      "mAP50": 0.6066940190956801,
+      "mAP50_95": 0.2025692469894418,
+      "Water_AP50": 0.7004275939370161,
+      "Oil_AP50": 0.5129604442543441,
+      "precision": 0.630197070445505,
+      "recall": 0.654054473538429,
+      "seed": 44,
+      "run_name": "ms2_d8b_ssl_only_diag_seed44",
+      "config_path": "methods/m6_stc_yolo/configs/default.yaml",
+      "data_yaml": "C:\\twb\\oil_leak\\Paper3\\paper4\\results_v2\\orchestrator\\runs\\_data_yaml\\data.yaml",
+      "infer_imgsz": 1056,
+      "infer_augment": true,
+      "overrides_applied": [
+        "stc.ssl_pretrained_backbone=results_v2/methods/stc_yolo/_ms2/pretrained_backbone_stc.pt",
+        "stc.enable_colormap_inversion=false"
+      ],
+      "stc_config": {
+        "enable_colormap_inversion": false,
+        "colormap_inverter_ckpt": null,
+        "ssl_pretrained_backbone": "results_v2/methods/stc_yolo/_ms2/pretrained_backbone_stc.pt",
+        "enable_session_film": false,
+        "film_metadata_keys": [
+          "temperature",
+          "location",
+          "condition"
+        ],
+        "film_inject_levels": [
+          "P3",
+          "P4",
+          "P5"
+        ],
+        "enable_mean_teacher": false,
+        "mt_ema_momentum": 0.999,
+        "mt_pseudo_conf_threshold": 0.5,
+        "mt_consistency_weight_max": 1.0,
+        "mt_consistency_rampup_epochs": 10,
+        "mt_neighbor_gap_max": 3,
+        "enable_temporal_voting": false,
+        "voting_buffer_size": 2,
+        "voting_conf_low": 0.25,
+        "voting_conf_high": 0.6,
+        "voting_iou_threshold": 0.5
+      }
+    },
+    {
+      "mAP50": 0.6414902227645809,
+      "mAP50_95": 0.21809269026825867,
+      "Water_AP50": 0.7022386636591097,
+      "Oil_AP50": 0.5807417818700521,
+      "precision": 0.6850469343373946,
+      "recall": 0.6977003530210066,
+      "seed": 45,
+      "run_name": "ms2_d8b_ssl_only_diag_seed45",
+      "config_path": "methods/m6_stc_yolo/configs/default.yaml",
+      "data_yaml": "C:\\twb\\oil_leak\\Paper3\\paper4\\results_v2\\orchestrator\\runs\\_data_yaml\\data.yaml",
+      "infer_imgsz": 1056,
+      "infer_augment": true,
+      "overrides_applied": [
+        "stc.ssl_pretrained_backbone=results_v2/methods/stc_yolo/_ms2/pretrained_backbone_stc.pt",
+        "stc.enable_colormap_inversion=false"
+      ],
+      "stc_config": {
+        "enable_colormap_inversion": false,
+        "colormap_inverter_ckpt": null,
+        "ssl_pretrained_backbone": "results_v2/methods/stc_yolo/_ms2/pretrained_backbone_stc.pt",
+        "enable_session_film": false,
+        "film_metadata_keys": [
+          "temperature",
+          "location",
+          "condition"
+        ],
+        "film_inject_levels": [
+          "P3",
+          "P4",
+          "P5"
+        ],
+        "enable_mean_teacher": false,
+        "mt_ema_momentum": 0.999,
+        "mt_pseudo_conf_threshold": 0.5,
+        "mt_consistency_weight_max": 1.0,
+        "mt_consistency_rampup_epochs": 10,
+        "mt_neighbor_gap_max": 3,
+        "enable_temporal_voting": false,
+        "voting_buffer_size": 2,
+        "voting_conf_low": 0.25,
+        "voting_conf_high": 0.6,
+        "voting_iou_threshold": 0.5
+      }
+    },
+    {
+      "mAP50": 0.6208934449445018,
+      "mAP50_95": 0.20918472625592152,
+      "Water_AP50": 0.6975357199589161,
+      "Oil_AP50": 0.5442511699300876,
+      "precision": 0.6745844315645992,
+      "recall": 0.670363300510568,
+      "seed": 46,
+      "run_name": "ms2_d8b_ssl_only_diag_seed46",
+      "config_path": "methods/m6_stc_yolo/configs/default.yaml",
+      "data_yaml": "C:\\twb\\oil_leak\\Paper3\\paper4\\results_v2\\orchestrator\\runs\\_data_yaml\\data.yaml",
+      "infer_imgsz": 1056,
+      "infer_augment": true,
+      "overrides_applied": [
+        "stc.ssl_pretrained_backbone=results_v2/methods/stc_yolo/_ms2/pretrained_backbone_stc.pt",
+        "stc.enable_colormap_inversion=false"
+      ],
+      "stc_config": {
+        "enable_colormap_inversion": false,
+        "colormap_inverter_ckpt": null,
+        "ssl_pretrained_backbone": "results_v2/methods/stc_yolo/_ms2/pretrained_backbone_stc.pt",
+        "enable_session_film": false,
+        "film_metadata_keys": [
+          "temperature",
+          "location",
+          "condition"
+        ],
+        "film_inject_levels": [
+          "P3",
+          "P4",
+          "P5"
+        ],
+        "enable_mean_teacher": false,
+        "mt_ema_momentum": 0.999,
+        "mt_pseudo_conf_threshold": 0.5,
+        "mt_consistency_weight_max": 1.0,
+        "mt_consistency_rampup_epochs": 10,
+        "mt_neighbor_gap_max": 3,
+        "enable_temporal_voting": false,
+        "voting_buffer_size": 2,
+        "voting_conf_low": 0.25,
+        "voting_conf_high": 0.6,
+        "voting_iou_threshold": 0.5
+      }
+    },
+    {
+      "mAP50": 0.4931830928091752,
+      "mAP50_95": 0.1672941425884294,
+      "Water_AP50": 0.5973389057678362,
+      "Oil_AP50": 0.3890272798505142,
+      "precision": 0.5740375368861192,
+      "recall": 0.5555225606731731,
+      "seed": 47,
+      "run_name": "ssl_only_ext_n10_seed47",
+      "config_path": "methods/m6_stc_yolo/configs/default.yaml",
+      "data_yaml": "C:\\twb\\oil_leak\\Paper3\\paper4\\results_v2\\orchestrator\\runs\\_data_yaml\\data.yaml",
+      "infer_imgsz": 1056,
+      "infer_augment": true,
+      "overrides_applied": [
+        "stc.ssl_pretrained_backbone=results_v2/methods/stc_yolo/_ms2/pretrained_backbone_stc.pt",
+        "stc.enable_colormap_inversion=false"
+      ],
+      "stc_config": {
+        "enable_colormap_inversion": false,
+        "colormap_inverter_ckpt": null,
+        "ssl_pretrained_backbone": "results_v2/methods/stc_yolo/_ms2/pretrained_backbone_stc.pt",
+        "enable_session_film": false,
+        "film_metadata_keys": [
+          "temperature",
+          "location",
+          "condition"
+        ],
+        "film_inject_levels": [
+          "P3",
+          "P4",
+          "P5"
+        ],
+        "enable_mean_teacher": false,
+        "mt_ema_momentum": 0.999,
+        "mt_pseudo_conf_threshold": 0.5,
+        "mt_consistency_weight_max": 1.0,
+        "mt_consistency_rampup_epochs": 10,
+        "mt_neighbor_gap_max": 3,
+        "enable_temporal_voting": false,
+        "voting_buffer_size": 2,
+        "voting_conf_low": 0.25,
+        "voting_conf_high": 0.6,
+        "voting_iou_threshold": 0.5
+      }
+    },
+    {
+      "mAP50": 0.6220097538904901,
+      "mAP50_95": 0.20476697763107246,
+      "Water_AP50": 0.6610624717214798,
+      "Oil_AP50": 0.5829570360595004,
+      "precision": 0.6449125243160236,
+      "recall": 0.6865670761446895,
+      "seed": 48,
+      "run_name": "ssl_only_ext_n10_seed48",
+      "config_path": "methods/m6_stc_yolo/configs/default.yaml",
+      "data_yaml": "C:\\twb\\oil_leak\\Paper3\\paper4\\results_v2\\orchestrator\\runs\\_data_yaml\\data.yaml",
+      "infer_imgsz": 1056,
+      "infer_augment": true,
+      "overrides_applied": [
+        "stc.ssl_pretrained_backbone=results_v2/methods/stc_yolo/_ms2/pretrained_backbone_stc.pt",
+        "stc.enable_colormap_inversion=false"
+      ],
+      "stc_config": {
+        "enable_colormap_inversion": false,
+        "colormap_inverter_ckpt": null,
+        "ssl_pretrained_backbone": "results_v2/methods/stc_yolo/_ms2/pretrained_backbone_stc.pt",
+        "enable_session_film": false,
+        "film_metadata_keys": [
+          "temperature",
+          "location",
+          "condition"
+        ],
+        "film_inject_levels": [
+          "P3",
+          "P4",
+          "P5"
+        ],
+        "enable_mean_teacher": false,
+        "mt_ema_momentum": 0.999,
+        "mt_pseudo_conf_threshold": 0.5,
+        "mt_consistency_weight_max": 1.0,
+        "mt_consistency_rampup_epochs": 10,
+        "mt_neighbor_gap_max": 3,
+        "enable_temporal_voting": false,
+        "voting_buffer_size": 2,
+        "voting_conf_low": 0.25,
+        "voting_conf_high": 0.6,
+        "voting_iou_threshold": 0.5
+      }
+    },
+    {
+      "mAP50": 0.6425475908317891,
+      "mAP50_95": 0.2154303176876617,
+      "Water_AP50": 0.7008421668762241,
+      "Oil_AP50": 0.5842530147873541,
+      "precision": 0.6758156669478512,
+      "recall": 0.6648163733495505,
+      "seed": 49,
+      "run_name": "ssl_only_ext_n10_seed49",
+      "config_path": "methods/m6_stc_yolo/configs/default.yaml",
+      "data_yaml": "C:\\twb\\oil_leak\\Paper3\\paper4\\results_v2\\orchestrator\\runs\\_data_yaml\\data.yaml",
+      "infer_imgsz": 1056,
+      "infer_augment": true,
+      "overrides_applied": [
+        "stc.ssl_pretrained_backbone=results_v2/methods/stc_yolo/_ms2/pretrained_backbone_stc.pt",
+        "stc.enable_colormap_inversion=false"
+      ],
+      "stc_config": {
+        "enable_colormap_inversion": false,
+        "colormap_inverter_ckpt": null,
+        "ssl_pretrained_backbone": "results_v2/methods/stc_yolo/_ms2/pretrained_backbone_stc.pt",
+        "enable_session_film": false,
+        "film_metadata_keys": [
+          "temperature",
+          "location",
+          "condition"
+        ],
+        "film_inject_levels": [
+          "P3",
+          "P4",
+          "P5"
+        ],
+        "enable_mean_teacher": false,
+        "mt_ema_momentum": 0.999,
+        "mt_pseudo_conf_threshold": 0.5,
+        "mt_consistency_weight_max": 1.0,
+        "mt_consistency_rampup_epochs": 10,
+        "mt_neighbor_gap_max": 3,
+        "enable_temporal_voting": false,
+        "voting_buffer_size": 2,
+        "voting_conf_low": 0.25,
+        "voting_conf_high": 0.6,
+        "voting_iou_threshold": 0.5
+      }
+    },
+    {
+      "mAP50": 0.6511775455809827,
+      "mAP50_95": 0.21749149959701067,
+      "Water_AP50": 0.6899636944895104,
+      "Oil_AP50": 0.6123913966724551,
+      "precision": 0.6719937267133279,
+      "recall": 0.7007031907897192,
+      "seed": 50,
+      "run_name": "ssl_only_ext_n10_seed50",
+      "config_path": "methods/m6_stc_yolo/configs/default.yaml",
+      "data_yaml": "C:\\twb\\oil_leak\\Paper3\\paper4\\results_v2\\orchestrator\\runs\\_data_yaml\\data.yaml",
+      "infer_imgsz": 1056,
+      "infer_augment": true,
+      "overrides_applied": [
+        "stc.ssl_pretrained_backbone=results_v2/methods/stc_yolo/_ms2/pretrained_backbone_stc.pt",
+        "stc.enable_colormap_inversion=false"
+      ],
+      "stc_config": {
+        "enable_colormap_inversion": false,
+        "colormap_inverter_ckpt": null,
+        "ssl_pretrained_backbone": "results_v2/methods/stc_yolo/_ms2/pretrained_backbone_stc.pt",
+        "enable_session_film": false,
+        "film_metadata_keys": [
+          "temperature",
+          "location",
+          "condition"
+        ],
+        "film_inject_levels": [
+          "P3",
+          "P4",
+          "P5"
+        ],
+        "enable_mean_teacher": false,
+        "mt_ema_momentum": 0.999,
+        "mt_pseudo_conf_threshold": 0.5,
+        "mt_consistency_weight_max": 1.0,
+        "mt_consistency_rampup_epochs": 10,
+        "mt_neighbor_gap_max": 3,
+        "enable_temporal_voting": false,
+        "voting_buffer_size": 2,
+        "voting_conf_low": 0.25,
+        "voting_conf_high": 0.6,
+        "voting_iou_threshold": 0.5
+      }
+    },
+    {
+      "mAP50": 0.6178297731435959,
+      "mAP50_95": 0.19771292580915403,
+      "Water_AP50": 0.6731983542056568,
+      "Oil_AP50": 0.562461192081535,
+      "precision": 0.6376580727472153,
+      "recall": 0.6171476374749034,
+      "seed": 51,
+      "run_name": "ssl_only_ext_n10_seed51",
+      "config_path": "methods/m6_stc_yolo/configs/default.yaml",
+      "data_yaml": "C:\\twb\\oil_leak\\Paper3\\paper4\\results_v2\\orchestrator\\runs\\_data_yaml\\data.yaml",
+      "infer_imgsz": 1056,
+      "infer_augment": true,
+      "overrides_applied": [
+        "stc.ssl_pretrained_backbone=results_v2/methods/stc_yolo/_ms2/pretrained_backbone_stc.pt",
+        "stc.enable_colormap_inversion=false"
+      ],
+      "stc_config": {
+        "enable_colormap_inversion": false,
+        "colormap_inverter_ckpt": null,
+        "ssl_pretrained_backbone": "results_v2/methods/stc_yolo/_ms2/pretrained_backbone_stc.pt",
+        "enable_session_film": false,
+        "film_metadata_keys": [
+          "temperature",
+          "location",
+          "condition"
+        ],
+        "film_inject_levels": [
+          "P3",
+          "P4",
+          "P5"
+        ],
+        "enable_mean_teacher": false,
+        "mt_ema_momentum": 0.999,
+        "mt_pseudo_conf_threshold": 0.5,
+        "mt_consistency_weight_max": 1.0,
+        "mt_consistency_rampup_epochs": 10,
+        "mt_neighbor_gap_max": 3,
+        "enable_temporal_voting": false,
+        "voting_buffer_size": 2,
+        "voting_conf_low": 0.25,
+        "voting_conf_high": 0.6,
+        "voting_iou_threshold": 0.5
+      }
+    }
+  ],
+  "Baseline+C4": [
+    {
+      "mAP50": 0.6382800834680911,
+      "mAP50_95": 0.21041520694156018,
+      "Water_AP50": 0.710235989645335,
+      "Oil_AP50": 0.5663241772908472,
+      "precision": 0.6659654097309966,
+      "recall": 0.6826223465628474,
+      "seed": 42,
+      "run_name": "ms1_d4b_c4_enabled_seed42",
+      "config_path": "methods/m6_stc_yolo/configs/default.yaml",
+      "data_yaml": "C:\\twb\\oil_leak\\Paper3\\paper4\\results_v2\\orchestrator\\runs\\_data_yaml\\data.yaml",
+      "infer_imgsz": 1056,
+      "infer_augment": true,
+      "overrides_applied": [
+        "stc.enable_colormap_inversion=true"
+      ],
+      "stc_config": {
+        "enable_colormap_inversion": true,
+        "colormap_inverter_ckpt": null,
+        "ssl_pretrained_backbone": null,
+        "enable_session_film": false,
+        "film_metadata_keys": [
+          "temperature",
+          "location",
+          "condition"
+        ],
+        "film_inject_levels": [
+          "P3",
+          "P4",
+          "P5"
+        ],
+        "enable_mean_teacher": false,
+        "mt_ema_momentum": 0.999,
+        "mt_pseudo_conf_threshold": 0.5,
+        "mt_consistency_weight_max": 1.0,
+        "mt_consistency_rampup_epochs": 10,
+        "mt_neighbor_gap_max": 3,
+        "enable_temporal_voting": false,
+        "voting_buffer_size": 2,
+        "voting_conf_low": 0.25,
+        "voting_conf_high": 0.6,
+        "voting_iou_threshold": 0.5
+      }
+    },
+    {
+      "mAP50": 0.670074865660023,
+      "mAP50_95": 0.23365584539230516,
+      "Water_AP50": 0.744589774991095,
+      "Oil_AP50": 0.5955599563289509,
+      "precision": 0.6879195588849167,
+      "recall": 0.7118573400024624,
+      "seed": 43,
+      "run_name": "ms1_d4b_c4_enabled_seed43",
+      "config_path": "methods/m6_stc_yolo/configs/default.yaml",
+      "data_yaml": "C:\\twb\\oil_leak\\Paper3\\paper4\\results_v2\\orchestrator\\runs\\_data_yaml\\data.yaml",
+      "infer_imgsz": 1056,
+      "infer_augment": true,
+      "overrides_applied": [
+        "stc.enable_colormap_inversion=true"
+      ],
+      "stc_config": {
+        "enable_colormap_inversion": true,
+        "colormap_inverter_ckpt": null,
+        "ssl_pretrained_backbone": null,
+        "enable_session_film": false,
+        "film_metadata_keys": [
+          "temperature",
+          "location",
+          "condition"
+        ],
+        "film_inject_levels": [
+          "P3",
+          "P4",
+          "P5"
+        ],
+        "enable_mean_teacher": false,
+        "mt_ema_momentum": 0.999,
+        "mt_pseudo_conf_threshold": 0.5,
+        "mt_consistency_weight_max": 1.0,
+        "mt_consistency_rampup_epochs": 10,
+        "mt_neighbor_gap_max": 3,
+        "enable_temporal_voting": false,
+        "voting_buffer_size": 2,
+        "voting_conf_low": 0.25,
+        "voting_conf_high": 0.6,
+        "voting_iou_threshold": 0.5
+      }
+    },
+    {
+      "mAP50": 0.5323470192936748,
+      "mAP50_95": 0.17246081258324797,
+      "Water_AP50": 0.6521798014056538,
+      "Oil_AP50": 0.41251423718169566,
+      "precision": 0.5142168070855209,
+      "recall": 0.6037009636530273,
+      "seed": 44,
+      "run_name": "ms1_d4b_c4_enabled_seed44",
+      "config_path": "methods/m6_stc_yolo/configs/default.yaml",
+      "data_yaml": "C:\\twb\\oil_leak\\Paper3\\paper4\\results_v2\\orchestrator\\runs\\_data_yaml\\data.yaml",
+      "infer_imgsz": 1056,
+      "infer_augment": true,
+      "overrides_applied": [
+        "stc.enable_colormap_inversion=true"
+      ],
+      "stc_config": {
+        "enable_colormap_inversion": true,
+        "colormap_inverter_ckpt": null,
+        "ssl_pretrained_backbone": null,
+        "enable_session_film": false,
+        "film_metadata_keys": [
+          "temperature",
+          "location",
+          "condition"
+        ],
+        "film_inject_levels": [
+          "P3",
+          "P4",
+          "P5"
+        ],
+        "enable_mean_teacher": false,
+        "mt_ema_momentum": 0.999,
+        "mt_pseudo_conf_threshold": 0.5,
+        "mt_consistency_weight_max": 1.0,
+        "mt_consistency_rampup_epochs": 10,
+        "mt_neighbor_gap_max": 3,
+        "enable_temporal_voting": false,
+        "voting_buffer_size": 2,
+        "voting_conf_low": 0.25,
+        "voting_conf_high": 0.6,
+        "voting_iou_threshold": 0.5
+      }
+    },
+    {
+      "mAP50": 0.6419531432323713,
+      "mAP50_95": 0.22127290575173503,
+      "Water_AP50": 0.7273739936709827,
+      "Oil_AP50": 0.5565322927937598,
+      "precision": 0.6589858497492113,
+      "recall": 0.676024848899565,
+      "seed": 45,
+      "run_name": "ms1_d4b_c4_enabled_seed45",
+      "config_path": "methods/m6_stc_yolo/configs/default.yaml",
+      "data_yaml": "C:\\twb\\oil_leak\\Paper3\\paper4\\results_v2\\orchestrator\\runs\\_data_yaml\\data.yaml",
+      "infer_imgsz": 1056,
+      "infer_augment": true,
+      "overrides_applied": [
+        "stc.enable_colormap_inversion=true"
+      ],
+      "stc_config": {
+        "enable_colormap_inversion": true,
+        "colormap_inverter_ckpt": null,
+        "ssl_pretrained_backbone": null,
+        "enable_session_film": false,
+        "film_metadata_keys": [
+          "temperature",
+          "location",
+          "condition"
+        ],
+        "film_inject_levels": [
+          "P3",
+          "P4",
+          "P5"
+        ],
+        "enable_mean_teacher": false,
+        "mt_ema_momentum": 0.999,
+        "mt_pseudo_conf_threshold": 0.5,
+        "mt_consistency_weight_max": 1.0,
+        "mt_consistency_rampup_epochs": 10,
+        "mt_neighbor_gap_max": 3,
+        "enable_temporal_voting": false,
+        "voting_buffer_size": 2,
+        "voting_conf_low": 0.25,
+        "voting_conf_high": 0.6,
+        "voting_iou_threshold": 0.5
+      }
+    },
+    {
+      "mAP50": 0.6117284894940174,
+      "mAP50_95": 0.20602764514768745,
+      "Water_AP50": 0.6826680606168809,
+      "Oil_AP50": 0.540788918371154,
+      "precision": 0.6728150379031774,
+      "recall": 0.6289860404480571,
+      "seed": 46,
+      "run_name": "ms1_d4b_c4_enabled_seed46",
+      "config_path": "methods/m6_stc_yolo/configs/default.yaml",
+      "data_yaml": "C:\\twb\\oil_leak\\Paper3\\paper4\\results_v2\\orchestrator\\runs\\_data_yaml\\data.yaml",
+      "infer_imgsz": 1056,
+      "infer_augment": true,
+      "overrides_applied": [
+        "stc.enable_colormap_inversion=true"
+      ],
+      "stc_config": {
+        "enable_colormap_inversion": true,
+        "colormap_inverter_ckpt": null,
+        "ssl_pretrained_backbone": null,
+        "enable_session_film": false,
+        "film_metadata_keys": [
+          "temperature",
+          "location",
+          "condition"
+        ],
+        "film_inject_levels": [
+          "P3",
+          "P4",
+          "P5"
+        ],
+        "enable_mean_teacher": false,
+        "mt_ema_momentum": 0.999,
+        "mt_pseudo_conf_threshold": 0.5,
+        "mt_consistency_weight_max": 1.0,
+        "mt_consistency_rampup_epochs": 10,
+        "mt_neighbor_gap_max": 3,
+        "enable_temporal_voting": false,
+        "voting_buffer_size": 2,
+        "voting_conf_low": 0.25,
+        "voting_conf_high": 0.6,
+        "voting_iou_threshold": 0.5
+      }
+    },
+    {
+      "mAP50": 0.5679222692334762,
+      "mAP50_95": 0.18065316740925394,
+      "per_class_ap50": {
+        "Water": 0.5757044551660988,
+        "Oil": 0.5601400833008535
+      },
+      "Water_AP50": 0.5757044551660988,
+      "Oil_AP50": 0.5601400833008535,
+      "precision": 0.62435214320426,
+      "recall": 0.6136701850338037,
+      "seed": 47,
+      "run_name": "vanilla_c4_ext_n10_seed47",
+      "config_path": "methods/m6_stc_yolo/configs/default.yaml",
+      "data_yaml": "C:\\twb\\oil_leak\\Paper3\\paper4\\results_v2\\orchestrator\\runs\\_data_yaml\\data.yaml",
+      "infer_imgsz": 1056,
+      "infer_augment": true,
+      "overrides_applied": [
+        "stc.enable_colormap_inversion=true"
+      ],
+      "stc_config": {
+        "enable_colormap_inversion": true,
+        "colormap_inverter_ckpt": null,
+        "ssl_pretrained_backbone": null,
+        "enable_session_film": false,
+        "film_metadata_keys": [
+          "temperature",
+          "location",
+          "condition"
+        ],
+        "film_inject_levels": [
+          "P3",
+          "P4",
+          "P5"
+        ],
+        "enable_mean_teacher": false,
+        "mt_ema_momentum": 0.999,
+        "mt_pseudo_conf_threshold": 0.5,
+        "mt_consistency_weight_max": 1.0,
+        "mt_consistency_rampup_epochs": 10,
+        "mt_neighbor_gap_max": 3,
+        "enable_temporal_voting": false,
+        "voting_buffer_size": 2,
+        "voting_conf_low": 0.25,
+        "voting_conf_high": 0.6,
+        "voting_iou_threshold": 0.5
+      }
+    },
+    {
+      "mAP50": 0.5556375414635526,
+      "mAP50_95": 0.18168611413357988,
+      "per_class_ap50": {
+        "Water": 0.6021379549173131,
+        "Oil": 0.509137128009792
+      },
+      "Water_AP50": 0.6021379549173131,
+      "Oil_AP50": 0.509137128009792,
+      "precision": 0.5969749011673047,
+      "recall": 0.6460890154035044,
+      "seed": 48,
+      "run_name": "vanilla_c4_ext_n10_seed48",
+      "config_path": "methods/m6_stc_yolo/configs/default.yaml",
+      "data_yaml": "C:\\twb\\oil_leak\\Paper3\\paper4\\results_v2\\orchestrator\\runs\\_data_yaml\\data.yaml",
+      "infer_imgsz": 1056,
+      "infer_augment": true,
+      "overrides_applied": [
+        "stc.enable_colormap_inversion=true"
+      ],
+      "stc_config": {
+        "enable_colormap_inversion": true,
+        "colormap_inverter_ckpt": null,
+        "ssl_pretrained_backbone": null,
+        "enable_session_film": false,
+        "film_metadata_keys": [
+          "temperature",
+          "location",
+          "condition"
+        ],
+        "film_inject_levels": [
+          "P3",
+          "P4",
+          "P5"
+        ],
+        "enable_mean_teacher": false,
+        "mt_ema_momentum": 0.999,
+        "mt_pseudo_conf_threshold": 0.5,
+        "mt_consistency_weight_max": 1.0,
+        "mt_consistency_rampup_epochs": 10,
+        "mt_neighbor_gap_max": 3,
+        "enable_temporal_voting": false,
+        "voting_buffer_size": 2,
+        "voting_conf_low": 0.25,
+        "voting_conf_high": 0.6,
+        "voting_iou_threshold": 0.5
+      }
+    },
+    {
+      "mAP50": 0.6031487537194832,
+      "mAP50_95": 0.20184339063171697,
+      "per_class_ap50": {
+        "Water": 0.6778376683455797,
+        "Oil": 0.5284598390933867
+      },
+      "Water_AP50": 0.6778376683455797,
+      "Oil_AP50": 0.5284598390933867,
+      "precision": 0.6514126870503316,
+      "recall": 0.6408314269817229,
+      "seed": 49,
+      "run_name": "vanilla_c4_ext_n10_seed49",
+      "config_path": "methods/m6_stc_yolo/configs/default.yaml",
+      "data_yaml": "C:\\twb\\oil_leak\\Paper3\\paper4\\results_v2\\orchestrator\\runs\\_data_yaml\\data.yaml",
+      "infer_imgsz": 1056,
+      "infer_augment": true,
+      "overrides_applied": [
+        "stc.enable_colormap_inversion=true"
+      ],
+      "stc_config": {
+        "enable_colormap_inversion": true,
+        "colormap_inverter_ckpt": null,
+        "ssl_pretrained_backbone": null,
+        "enable_session_film": false,
+        "film_metadata_keys": [
+          "temperature",
+          "location",
+          "condition"
+        ],
+        "film_inject_levels": [
+          "P3",
+          "P4",
+          "P5"
+        ],
+        "enable_mean_teacher": false,
+        "mt_ema_momentum": 0.999,
+        "mt_pseudo_conf_threshold": 0.5,
+        "mt_consistency_weight_max": 1.0,
+        "mt_consistency_rampup_epochs": 10,
+        "mt_neighbor_gap_max": 3,
+        "enable_temporal_voting": false,
+        "voting_buffer_size": 2,
+        "voting_conf_low": 0.25,
+        "voting_conf_high": 0.6,
+        "voting_iou_threshold": 0.5
+      }
+    },
+    {
+      "mAP50": 0.5890915964194858,
+      "mAP50_95": 0.18650645344761668,
+      "per_class_ap50": {
+        "Water": 0.6922430790111754,
+        "Oil": 0.48594011382779634
+      },
+      "Water_AP50": 0.6922430790111754,
+      "Oil_AP50": 0.48594011382779634,
+      "precision": 0.6342360752816241,
+      "recall": 0.6217546690105964,
+      "seed": 50,
+      "run_name": "vanilla_c4_ext_n10_seed50",
+      "config_path": "methods/m6_stc_yolo/configs/default.yaml",
+      "data_yaml": "C:\\twb\\oil_leak\\Paper3\\paper4\\results_v2\\orchestrator\\runs\\_data_yaml\\data.yaml",
+      "infer_imgsz": 1056,
+      "infer_augment": true,
+      "overrides_applied": [
+        "stc.enable_colormap_inversion=true"
+      ],
+      "stc_config": {
+        "enable_colormap_inversion": true,
+        "colormap_inverter_ckpt": null,
+        "ssl_pretrained_backbone": null,
+        "enable_session_film": false,
+        "film_metadata_keys": [
+          "temperature",
+          "location",
+          "condition"
+        ],
+        "film_inject_levels": [
+          "P3",
+          "P4",
+          "P5"
+        ],
+        "enable_mean_teacher": false,
+        "mt_ema_momentum": 0.999,
+        "mt_pseudo_conf_threshold": 0.5,
+        "mt_consistency_weight_max": 1.0,
+        "mt_consistency_rampup_epochs": 10,
+        "mt_neighbor_gap_max": 3,
+        "enable_temporal_voting": false,
+        "voting_buffer_size": 2,
+        "voting_conf_low": 0.25,
+        "voting_conf_high": 0.6,
+        "voting_iou_threshold": 0.5
+      }
+    },
+    {
+      "mAP50": 0.6419957564118514,
+      "mAP50_95": 0.2152812772006909,
+      "per_class_ap50": {
+        "Water": 0.7240335103818214,
+        "Oil": 0.5599580024418813
+      },
+      "Water_AP50": 0.7240335103818214,
+      "Oil_AP50": 0.5599580024418813,
+      "precision": 0.6774071925069121,
+      "recall": 0.6717709082943835,
+      "seed": 51,
+      "run_name": "vanilla_c4_ext_n10_seed51",
+      "config_path": "methods/m6_stc_yolo/configs/default.yaml",
+      "data_yaml": "C:\\twb\\oil_leak\\Paper3\\paper4\\results_v2\\orchestrator\\runs\\_data_yaml\\data.yaml",
+      "infer_imgsz": 1056,
+      "infer_augment": true,
+      "overrides_applied": [
+        "stc.enable_colormap_inversion=true"
+      ],
+      "stc_config": {
+        "enable_colormap_inversion": true,
+        "colormap_inverter_ckpt": null,
+        "ssl_pretrained_backbone": null,
+        "enable_session_film": false,
+        "film_metadata_keys": [
+          "temperature",
+          "location",
+          "condition"
+        ],
+        "film_inject_levels": [
+          "P3",
+          "P4",
+          "P5"
+        ],
+        "enable_mean_teacher": false,
+        "mt_ema_momentum": 0.999,
+        "mt_pseudo_conf_threshold": 0.5,
+        "mt_consistency_weight_max": 1.0,
+        "mt_consistency_rampup_epochs": 10,
+        "mt_neighbor_gap_max": 3,
+        "enable_temporal_voting": false,
+        "voting_buffer_size": 2,
+        "voting_conf_low": 0.25,
+        "voting_conf_high": 0.6,
+        "voting_iou_threshold": 0.5
+      }
+    }
+  ],
+  "SSL+C4": [
+    {
+      "mAP50": 0.6291285795853531,
+      "mAP50_95": 0.21673731809731409,
+      "Water_AP50": 0.7251753652690254,
+      "Oil_AP50": 0.5330817939016808,
+      "precision": 0.6744798441809958,
+      "recall": 0.6306042328508461,
+      "seed": 42,
+      "run_name": "ms2_d8_supervised_ft_5seed_seed42",
+      "config_path": "methods/m6_stc_yolo/configs/default.yaml",
+      "data_yaml": "C:\\twb\\oil_leak\\Paper3\\paper4\\results_v2\\orchestrator\\runs\\_data_yaml\\data.yaml",
+      "infer_imgsz": 1056,
+      "infer_augment": true,
+      "overrides_applied": [
+        "stc.enable_colormap_inversion=True",
+        "stc.ssl_pretrained_backbone=C:\\twb\\oil_leak\\Paper3\\paper4\\results_v2\\methods\\stc_yolo\\_ms2\\pretrained_backbone_stc.pt"
+      ],
+      "stc_config": {
+        "enable_colormap_inversion": true,
+        "colormap_inverter_ckpt": null,
+        "ssl_pretrained_backbone": "C:\\twb\\oil_leak\\Paper3\\paper4\\results_v2\\methods\\stc_yolo\\_ms2\\pretrained_backbone_stc.pt",
+        "enable_session_film": false,
+        "film_metadata_keys": [
+          "temperature",
+          "location",
+          "condition"
+        ],
+        "film_inject_levels": [
+          "P3",
+          "P4",
+          "P5"
+        ],
+        "enable_mean_teacher": false,
+        "mt_ema_momentum": 0.999,
+        "mt_pseudo_conf_threshold": 0.5,
+        "mt_consistency_weight_max": 1.0,
+        "mt_consistency_rampup_epochs": 10,
+        "mt_neighbor_gap_max": 3,
+        "enable_temporal_voting": false,
+        "voting_buffer_size": 2,
+        "voting_conf_low": 0.25,
+        "voting_conf_high": 0.6,
+        "voting_iou_threshold": 0.5
+      }
+    },
+    {
+      "mAP50": 0.5880168000681112,
+      "mAP50_95": 0.18935727817851877,
+      "Water_AP50": 0.6256475073510355,
+      "Oil_AP50": 0.550386092785187,
+      "precision": 0.6418533022865586,
+      "recall": 0.6483807225144181,
+      "seed": 43,
+      "run_name": "ms2_d8_supervised_ft_5seed_seed43",
+      "config_path": "methods/m6_stc_yolo/configs/default.yaml",
+      "data_yaml": "C:\\twb\\oil_leak\\Paper3\\paper4\\results_v2\\orchestrator\\runs\\_data_yaml\\data.yaml",
+      "infer_imgsz": 1056,
+      "infer_augment": true,
+      "overrides_applied": [
+        "stc.enable_colormap_inversion=True",
+        "stc.ssl_pretrained_backbone=C:\\twb\\oil_leak\\Paper3\\paper4\\results_v2\\methods\\stc_yolo\\_ms2\\pretrained_backbone_stc.pt"
+      ],
+      "stc_config": {
+        "enable_colormap_inversion": true,
+        "colormap_inverter_ckpt": null,
+        "ssl_pretrained_backbone": "C:\\twb\\oil_leak\\Paper3\\paper4\\results_v2\\methods\\stc_yolo\\_ms2\\pretrained_backbone_stc.pt",
+        "enable_session_film": false,
+        "film_metadata_keys": [
+          "temperature",
+          "location",
+          "condition"
+        ],
+        "film_inject_levels": [
+          "P3",
+          "P4",
+          "P5"
+        ],
+        "enable_mean_teacher": false,
+        "mt_ema_momentum": 0.999,
+        "mt_pseudo_conf_threshold": 0.5,
+        "mt_consistency_weight_max": 1.0,
+        "mt_consistency_rampup_epochs": 10,
+        "mt_neighbor_gap_max": 3,
+        "enable_temporal_voting": false,
+        "voting_buffer_size": 2,
+        "voting_conf_low": 0.25,
+        "voting_conf_high": 0.6,
+        "voting_iou_threshold": 0.5
+      }
+    },
+    {
+      "mAP50": 0.545673286022924,
+      "mAP50_95": 0.17916731748788375,
+      "Water_AP50": 0.5834716822812339,
+      "Oil_AP50": 0.507874889764614,
+      "precision": 0.5904411096324294,
+      "recall": 0.6402387639779235,
+      "seed": 44,
+      "run_name": "ms2_d8_supervised_ft_5seed_seed44",
+      "config_path": "methods/m6_stc_yolo/configs/default.yaml",
+      "data_yaml": "C:\\twb\\oil_leak\\Paper3\\paper4\\results_v2\\orchestrator\\runs\\_data_yaml\\data.yaml",
+      "infer_imgsz": 1056,
+      "infer_augment": true,
+      "overrides_applied": [
+        "stc.enable_colormap_inversion=True",
+        "stc.ssl_pretrained_backbone=C:\\twb\\oil_leak\\Paper3\\paper4\\results_v2\\methods\\stc_yolo\\_ms2\\pretrained_backbone_stc.pt"
+      ],
+      "stc_config": {
+        "enable_colormap_inversion": true,
+        "colormap_inverter_ckpt": null,
+        "ssl_pretrained_backbone": "C:\\twb\\oil_leak\\Paper3\\paper4\\results_v2\\methods\\stc_yolo\\_ms2\\pretrained_backbone_stc.pt",
+        "enable_session_film": false,
+        "film_metadata_keys": [
+          "temperature",
+          "location",
+          "condition"
+        ],
+        "film_inject_levels": [
+          "P3",
+          "P4",
+          "P5"
+        ],
+        "enable_mean_teacher": false,
+        "mt_ema_momentum": 0.999,
+        "mt_pseudo_conf_threshold": 0.5,
+        "mt_consistency_weight_max": 1.0,
+        "mt_consistency_rampup_epochs": 10,
+        "mt_neighbor_gap_max": 3,
+        "enable_temporal_voting": false,
+        "voting_buffer_size": 2,
+        "voting_conf_low": 0.25,
+        "voting_conf_high": 0.6,
+        "voting_iou_threshold": 0.5
+      }
+    },
+    {
+      "mAP50": 0.5741945873988619,
+      "mAP50_95": 0.19696111984891554,
+      "Water_AP50": 0.6673617891262088,
+      "Oil_AP50": 0.48102738567151493,
+      "precision": 0.6550721553654103,
+      "recall": 0.573093784789977,
+      "seed": 45,
+      "run_name": "ms2_d8_supervised_ft_5seed_seed45",
+      "config_path": "methods/m6_stc_yolo/configs/default.yaml",
+      "data_yaml": "C:\\twb\\oil_leak\\Paper3\\paper4\\results_v2\\orchestrator\\runs\\_data_yaml\\data.yaml",
+      "infer_imgsz": 1056,
+      "infer_augment": true,
+      "overrides_applied": [
+        "stc.enable_colormap_inversion=True",
+        "stc.ssl_pretrained_backbone=C:\\twb\\oil_leak\\Paper3\\paper4\\results_v2\\methods\\stc_yolo\\_ms2\\pretrained_backbone_stc.pt"
+      ],
+      "stc_config": {
+        "enable_colormap_inversion": true,
+        "colormap_inverter_ckpt": null,
+        "ssl_pretrained_backbone": "C:\\twb\\oil_leak\\Paper3\\paper4\\results_v2\\methods\\stc_yolo\\_ms2\\pretrained_backbone_stc.pt",
+        "enable_session_film": false,
+        "film_metadata_keys": [
+          "temperature",
+          "location",
+          "condition"
+        ],
+        "film_inject_levels": [
+          "P3",
+          "P4",
+          "P5"
+        ],
+        "enable_mean_teacher": false,
+        "mt_ema_momentum": 0.999,
+        "mt_pseudo_conf_threshold": 0.5,
+        "mt_consistency_weight_max": 1.0,
+        "mt_consistency_rampup_epochs": 10,
+        "mt_neighbor_gap_max": 3,
+        "enable_temporal_voting": false,
+        "voting_buffer_size": 2,
+        "voting_conf_low": 0.25,
+        "voting_conf_high": 0.6,
+        "voting_iou_threshold": 0.5
+      }
+    },
+    {
+      "mAP50": 0.5330346721146362,
+      "mAP50_95": 0.17566787285711707,
+      "Water_AP50": 0.5931316248324735,
+      "Oil_AP50": 0.47293771939679896,
+      "precision": 0.568661672164436,
+      "recall": 0.5755990174424811,
+      "seed": 46,
+      "run_name": "ms2_d8_supervised_ft_5seed_seed46",
+      "config_path": "methods/m6_stc_yolo/configs/default.yaml",
+      "data_yaml": "C:\\twb\\oil_leak\\Paper3\\paper4\\results_v2\\orchestrator\\runs\\_data_yaml\\data.yaml",
+      "infer_imgsz": 1056,
+      "infer_augment": true,
+      "overrides_applied": [
+        "stc.enable_colormap_inversion=True",
+        "stc.ssl_pretrained_backbone=C:\\twb\\oil_leak\\Paper3\\paper4\\results_v2\\methods\\stc_yolo\\_ms2\\pretrained_backbone_stc.pt"
+      ],
+      "stc_config": {
+        "enable_colormap_inversion": true,
+        "colormap_inverter_ckpt": null,
+        "ssl_pretrained_backbone": "C:\\twb\\oil_leak\\Paper3\\paper4\\results_v2\\methods\\stc_yolo\\_ms2\\pretrained_backbone_stc.pt",
+        "enable_session_film": false,
+        "film_metadata_keys": [
+          "temperature",
+          "location",
+          "condition"
+        ],
+        "film_inject_levels": [
+          "P3",
+          "P4",
+          "P5"
+        ],
+        "enable_mean_teacher": false,
+        "mt_ema_momentum": 0.999,
+        "mt_pseudo_conf_threshold": 0.5,
+        "mt_consistency_weight_max": 1.0,
+        "mt_consistency_rampup_epochs": 10,
+        "mt_neighbor_gap_max": 3,
+        "enable_temporal_voting": false,
+        "voting_buffer_size": 2,
+        "voting_conf_low": 0.25,
+        "voting_conf_high": 0.6,
+        "voting_iou_threshold": 0.5
+      }
+    },
+    {
+      "mAP50": 0.5621472329281677,
+      "mAP50_95": 0.18401424807189995,
+      "Water_AP50": 0.5888605084578777,
+      "Oil_AP50": 0.5354339573984577,
+      "precision": 0.6311973963426967,
+      "recall": 0.6260387062959394,
+      "seed": 47,
+      "run_name": "ssl_c4_ext_n10_seed47",
+      "config_path": "methods/m6_stc_yolo/configs/default.yaml",
+      "data_yaml": "C:\\twb\\oil_leak\\Paper3\\paper4\\results_v2\\orchestrator\\runs\\_data_yaml\\data.yaml",
+      "infer_imgsz": 1056,
+      "infer_augment": true,
+      "overrides_applied": [
+        "stc.ssl_pretrained_backbone=results_v2/methods/stc_yolo/_ms2/pretrained_backbone_stc.pt",
+        "stc.enable_colormap_inversion=true"
+      ],
+      "stc_config": {
+        "enable_colormap_inversion": true,
+        "colormap_inverter_ckpt": null,
+        "ssl_pretrained_backbone": "results_v2/methods/stc_yolo/_ms2/pretrained_backbone_stc.pt",
+        "enable_session_film": false,
+        "film_metadata_keys": [
+          "temperature",
+          "location",
+          "condition"
+        ],
+        "film_inject_levels": [
+          "P3",
+          "P4",
+          "P5"
+        ],
+        "enable_mean_teacher": false,
+        "mt_ema_momentum": 0.999,
+        "mt_pseudo_conf_threshold": 0.5,
+        "mt_consistency_weight_max": 1.0,
+        "mt_consistency_rampup_epochs": 10,
+        "mt_neighbor_gap_max": 3,
+        "enable_temporal_voting": false,
+        "voting_buffer_size": 2,
+        "voting_conf_low": 0.25,
+        "voting_conf_high": 0.6,
+        "voting_iou_threshold": 0.5
+      }
+    },
+    {
+      "mAP50": 0.5585626172674797,
+      "mAP50_95": 0.18444755785921646,
+      "Water_AP50": 0.6069346160606477,
+      "Oil_AP50": 0.5101906184743117,
+      "precision": 0.6348295764560227,
+      "recall": 0.6360414501442528,
+      "seed": 48,
+      "run_name": "ssl_c4_ext_n10_seed48",
+      "config_path": "methods/m6_stc_yolo/configs/default.yaml",
+      "data_yaml": "C:\\twb\\oil_leak\\Paper3\\paper4\\results_v2\\orchestrator\\runs\\_data_yaml\\data.yaml",
+      "infer_imgsz": 1056,
+      "infer_augment": true,
+      "overrides_applied": [
+        "stc.ssl_pretrained_backbone=results_v2/methods/stc_yolo/_ms2/pretrained_backbone_stc.pt",
+        "stc.enable_colormap_inversion=true"
+      ],
+      "stc_config": {
+        "enable_colormap_inversion": true,
+        "colormap_inverter_ckpt": null,
+        "ssl_pretrained_backbone": "results_v2/methods/stc_yolo/_ms2/pretrained_backbone_stc.pt",
+        "enable_session_film": false,
+        "film_metadata_keys": [
+          "temperature",
+          "location",
+          "condition"
+        ],
+        "film_inject_levels": [
+          "P3",
+          "P4",
+          "P5"
+        ],
+        "enable_mean_teacher": false,
+        "mt_ema_momentum": 0.999,
+        "mt_pseudo_conf_threshold": 0.5,
+        "mt_consistency_weight_max": 1.0,
+        "mt_consistency_rampup_epochs": 10,
+        "mt_neighbor_gap_max": 3,
+        "enable_temporal_voting": false,
+        "voting_buffer_size": 2,
+        "voting_conf_low": 0.25,
+        "voting_conf_high": 0.6,
+        "voting_iou_threshold": 0.5
+      }
+    },
+    {
+      "mAP50": 0.6271823875261823,
+      "mAP50_95": 0.21344575699601015,
+      "Water_AP50": 0.7014191065204425,
+      "Oil_AP50": 0.5529456685319221,
+      "precision": 0.6653002380021027,
+      "recall": 0.6585887002094368,
+      "seed": 49,
+      "run_name": "ssl_c4_ext_n10_seed49",
+      "config_path": "methods/m6_stc_yolo/configs/default.yaml",
+      "data_yaml": "C:\\twb\\oil_leak\\Paper3\\paper4\\results_v2\\orchestrator\\runs\\_data_yaml\\data.yaml",
+      "infer_imgsz": 1056,
+      "infer_augment": true,
+      "overrides_applied": [
+        "stc.ssl_pretrained_backbone=results_v2/methods/stc_yolo/_ms2/pretrained_backbone_stc.pt",
+        "stc.enable_colormap_inversion=true"
+      ],
+      "stc_config": {
+        "enable_colormap_inversion": true,
+        "colormap_inverter_ckpt": null,
+        "ssl_pretrained_backbone": "results_v2/methods/stc_yolo/_ms2/pretrained_backbone_stc.pt",
+        "enable_session_film": false,
+        "film_metadata_keys": [
+          "temperature",
+          "location",
+          "condition"
+        ],
+        "film_inject_levels": [
+          "P3",
+          "P4",
+          "P5"
+        ],
+        "enable_mean_teacher": false,
+        "mt_ema_momentum": 0.999,
+        "mt_pseudo_conf_threshold": 0.5,
+        "mt_consistency_weight_max": 1.0,
+        "mt_consistency_rampup_epochs": 10,
+        "mt_neighbor_gap_max": 3,
+        "enable_temporal_voting": false,
+        "voting_buffer_size": 2,
+        "voting_conf_low": 0.25,
+        "voting_conf_high": 0.6,
+        "voting_iou_threshold": 0.5
+      }
+    },
+    {
+      "mAP50": 0.5602186322175692,
+      "mAP50_95": 0.18124961181279292,
+      "Water_AP50": 0.5524598539965615,
+      "Oil_AP50": 0.5679774104385769,
+      "precision": 0.6174553557356358,
+      "recall": 0.6274120477604306,
+      "seed": 50,
+      "run_name": "ssl_c4_ext_n10_seed50",
+      "config_path": "methods/m6_stc_yolo/configs/default.yaml",
+      "data_yaml": "C:\\twb\\oil_leak\\Paper3\\paper4\\results_v2\\orchestrator\\runs\\_data_yaml\\data.yaml",
+      "infer_imgsz": 1056,
+      "infer_augment": true,
+      "overrides_applied": [
+        "stc.ssl_pretrained_backbone=results_v2/methods/stc_yolo/_ms2/pretrained_backbone_stc.pt",
+        "stc.enable_colormap_inversion=true"
+      ],
+      "stc_config": {
+        "enable_colormap_inversion": true,
+        "colormap_inverter_ckpt": null,
+        "ssl_pretrained_backbone": "results_v2/methods/stc_yolo/_ms2/pretrained_backbone_stc.pt",
+        "enable_session_film": false,
+        "film_metadata_keys": [
+          "temperature",
+          "location",
+          "condition"
+        ],
+        "film_inject_levels": [
+          "P3",
+          "P4",
+          "P5"
+        ],
+        "enable_mean_teacher": false,
+        "mt_ema_momentum": 0.999,
+        "mt_pseudo_conf_threshold": 0.5,
+        "mt_consistency_weight_max": 1.0,
+        "mt_consistency_rampup_epochs": 10,
+        "mt_neighbor_gap_max": 3,
+        "enable_temporal_voting": false,
+        "voting_buffer_size": 2,
+        "voting_conf_low": 0.25,
+        "voting_conf_high": 0.6,
+        "voting_iou_threshold": 0.5
+      }
+    },
+    {
+      "mAP50": 0.668936422614435,
+      "mAP50_95": 0.23172089538210483,
+      "Water_AP50": 0.7413563718613914,
+      "Oil_AP50": 0.5965164733674787,
+      "precision": 0.7014242958504757,
+      "recall": 0.7091544954758903,
+      "seed": 51,
+      "run_name": "ssl_c4_ext_n10_seed51",
+      "config_path": "methods/m6_stc_yolo/configs/default.yaml",
+      "data_yaml": "C:\\twb\\oil_leak\\Paper3\\paper4\\results_v2\\orchestrator\\runs\\_data_yaml\\data.yaml",
+      "infer_imgsz": 1056,
+      "infer_augment": true,
+      "overrides_applied": [
+        "stc.ssl_pretrained_backbone=results_v2/methods/stc_yolo/_ms2/pretrained_backbone_stc.pt",
+        "stc.enable_colormap_inversion=true"
+      ],
+      "stc_config": {
+        "enable_colormap_inversion": true,
+        "colormap_inverter_ckpt": null,
+        "ssl_pretrained_backbone": "results_v2/methods/stc_yolo/_ms2/pretrained_backbone_stc.pt",
+        "enable_session_film": false,
+        "film_metadata_keys": [
+          "temperature",
+          "location",
+          "condition"
+        ],
+        "film_inject_levels": [
+          "P3",
+          "P4",
+          "P5"
+        ],
+        "enable_mean_teacher": false,
+        "mt_ema_momentum": 0.999,
+        "mt_pseudo_conf_threshold": 0.5,
+        "mt_consistency_weight_max": 1.0,
+        "mt_consistency_rampup_epochs": 10,
+        "mt_neighbor_gap_max": 3,
+        "enable_temporal_voting": false,
+        "voting_buffer_size": 2,
+        "voting_conf_low": 0.25,
+        "voting_conf_high": 0.6,
+        "voting_iou_threshold": 0.5
+      }
+    }
+  ],
+  "Baseline+C3": [
+    {
+      "mAP50": 0.6129746548738646,
+      "mAP50_95": 0.19955060026202898,
+      "Water_AP50": 0.7329625372625896,
+      "Oil_AP50": 0.4929867724851395,
+      "precision": 0.668070641980197,
+      "recall": 0.5906195809748496,
+      "seed": 42,
+      "run_name": "vanilla_c3_5seed_seed42",
+      "config_path": "methods/m6_stc_yolo/configs/default.yaml",
+      "data_yaml": "C:\\twb\\oil_leak\\Paper3\\paper4\\results_v2\\orchestrator\\runs\\_data_yaml\\data.yaml",
+      "infer_imgsz": 1056,
+      "infer_augment": true,
+      "overrides_applied": [
+        "stc.enable_session_film=true",
+        "stc.enable_colormap_inversion=false"
+      ],
+      "stc_config": {
+        "enable_colormap_inversion": false,
+        "colormap_inverter_ckpt": null,
+        "ssl_pretrained_backbone": null,
+        "enable_session_film": true,
+        "film_metadata_keys": [
+          "temperature",
+          "location",
+          "condition"
+        ],
+        "film_inject_levels": [
+          "P3",
+          "P4",
+          "P5"
+        ],
+        "enable_mean_teacher": false,
+        "mt_ema_momentum": 0.999,
+        "mt_pseudo_conf_threshold": 0.5,
+        "mt_consistency_weight_max": 1.0,
+        "mt_consistency_rampup_epochs": 10,
+        "mt_neighbor_gap_max": 3,
+        "enable_temporal_voting": false,
+        "voting_buffer_size": 2,
+        "voting_conf_low": 0.25,
+        "voting_conf_high": 0.6,
+        "voting_iou_threshold": 0.5
+      }
+    },
+    {
+      "mAP50": 0.6241621392483296,
+      "mAP50_95": 0.2028607660920637,
+      "Water_AP50": 0.694988132741043,
+      "Oil_AP50": 0.5533361457556164,
+      "precision": 0.6453652985171401,
+      "recall": 0.6303443045353231,
+      "seed": 43,
+      "run_name": "vanilla_c3_5seed_seed43",
+      "config_path": "methods/m6_stc_yolo/configs/default.yaml",
+      "data_yaml": "C:\\twb\\oil_leak\\Paper3\\paper4\\results_v2\\orchestrator\\runs\\_data_yaml\\data.yaml",
+      "infer_imgsz": 1056,
+      "infer_augment": true,
+      "overrides_applied": [
+        "stc.enable_session_film=true",
+        "stc.enable_colormap_inversion=false"
+      ],
+      "stc_config": {
+        "enable_colormap_inversion": false,
+        "colormap_inverter_ckpt": null,
+        "ssl_pretrained_backbone": null,
+        "enable_session_film": true,
+        "film_metadata_keys": [
+          "temperature",
+          "location",
+          "condition"
+        ],
+        "film_inject_levels": [
+          "P3",
+          "P4",
+          "P5"
+        ],
+        "enable_mean_teacher": false,
+        "mt_ema_momentum": 0.999,
+        "mt_pseudo_conf_threshold": 0.5,
+        "mt_consistency_weight_max": 1.0,
+        "mt_consistency_rampup_epochs": 10,
+        "mt_neighbor_gap_max": 3,
+        "enable_temporal_voting": false,
+        "voting_buffer_size": 2,
+        "voting_conf_low": 0.25,
+        "voting_conf_high": 0.6,
+        "voting_iou_threshold": 0.5
+      }
+    },
+    {
+      "mAP50": 0.49307269958854094,
+      "mAP50_95": 0.15589755187757176,
+      "Water_AP50": 0.5752730195306236,
+      "Oil_AP50": 0.4108723796464583,
+      "precision": 0.5361747655113512,
+      "recall": 0.5938737398753403,
+      "seed": 44,
+      "run_name": "vanilla_c3_5seed_seed44",
+      "config_path": "methods/m6_stc_yolo/configs/default.yaml",
+      "data_yaml": "C:\\twb\\oil_leak\\Paper3\\paper4\\results_v2\\orchestrator\\runs\\_data_yaml\\data.yaml",
+      "infer_imgsz": 1056,
+      "infer_augment": true,
+      "overrides_applied": [
+        "stc.enable_session_film=true",
+        "stc.enable_colormap_inversion=false"
+      ],
+      "stc_config": {
+        "enable_colormap_inversion": false,
+        "colormap_inverter_ckpt": null,
+        "ssl_pretrained_backbone": null,
+        "enable_session_film": true,
+        "film_metadata_keys": [
+          "temperature",
+          "location",
+          "condition"
+        ],
+        "film_inject_levels": [
+          "P3",
+          "P4",
+          "P5"
+        ],
+        "enable_mean_teacher": false,
+        "mt_ema_momentum": 0.999,
+        "mt_pseudo_conf_threshold": 0.5,
+        "mt_consistency_weight_max": 1.0,
+        "mt_consistency_rampup_epochs": 10,
+        "mt_neighbor_gap_max": 3,
+        "enable_temporal_voting": false,
+        "voting_buffer_size": 2,
+        "voting_conf_low": 0.25,
+        "voting_conf_high": 0.6,
+        "voting_iou_threshold": 0.5
+      }
+    },
+    {
+      "mAP50": 0.5717273502752751,
+      "mAP50_95": 0.19194997238104466,
+      "Water_AP50": 0.6927238580686639,
+      "Oil_AP50": 0.4507308424818862,
+      "precision": 0.6303875589624611,
+      "recall": 0.5604734628991273,
+      "seed": 45,
+      "run_name": "vanilla_c3_5seed_seed45",
+      "config_path": "methods/m6_stc_yolo/configs/default.yaml",
+      "data_yaml": "C:\\twb\\oil_leak\\Paper3\\paper4\\results_v2\\orchestrator\\runs\\_data_yaml\\data.yaml",
+      "infer_imgsz": 1056,
+      "infer_augment": true,
+      "overrides_applied": [
+        "stc.enable_session_film=true",
+        "stc.enable_colormap_inversion=false"
+      ],
+      "stc_config": {
+        "enable_colormap_inversion": false,
+        "colormap_inverter_ckpt": null,
+        "ssl_pretrained_backbone": null,
+        "enable_session_film": true,
+        "film_metadata_keys": [
+          "temperature",
+          "location",
+          "condition"
+        ],
+        "film_inject_levels": [
+          "P3",
+          "P4",
+          "P5"
+        ],
+        "enable_mean_teacher": false,
+        "mt_ema_momentum": 0.999,
+        "mt_pseudo_conf_threshold": 0.5,
+        "mt_consistency_weight_max": 1.0,
+        "mt_consistency_rampup_epochs": 10,
+        "mt_neighbor_gap_max": 3,
+        "enable_temporal_voting": false,
+        "voting_buffer_size": 2,
+        "voting_conf_low": 0.25,
+        "voting_conf_high": 0.6,
+        "voting_iou_threshold": 0.5
+      }
+    },
+    {
+      "mAP50": 0.5323329086114992,
+      "mAP50_95": 0.16987865935909016,
+      "Water_AP50": 0.655451680115767,
+      "Oil_AP50": 0.4092141371072314,
+      "precision": 0.5109135559427328,
+      "recall": 0.41448759702971766,
+      "seed": 46,
+      "run_name": "vanilla_c3_5seed_seed46",
+      "config_path": "methods/m6_stc_yolo/configs/default.yaml",
+      "data_yaml": "C:\\twb\\oil_leak\\Paper3\\paper4\\results_v2\\orchestrator\\runs\\_data_yaml\\data.yaml",
+      "infer_imgsz": 1056,
+      "infer_augment": true,
+      "overrides_applied": [
+        "stc.enable_session_film=true",
+        "stc.enable_colormap_inversion=false"
+      ],
+      "stc_config": {
+        "enable_colormap_inversion": false,
+        "colormap_inverter_ckpt": null,
+        "ssl_pretrained_backbone": null,
+        "enable_session_film": true,
+        "film_metadata_keys": [
+          "temperature",
+          "location",
+          "condition"
+        ],
+        "film_inject_levels": [
+          "P3",
+          "P4",
+          "P5"
+        ],
+        "enable_mean_teacher": false,
+        "mt_ema_momentum": 0.999,
+        "mt_pseudo_conf_threshold": 0.5,
+        "mt_consistency_weight_max": 1.0,
+        "mt_consistency_rampup_epochs": 10,
+        "mt_neighbor_gap_max": 3,
+        "enable_temporal_voting": false,
+        "voting_buffer_size": 2,
+        "voting_conf_low": 0.25,
+        "voting_conf_high": 0.6,
+        "voting_iou_threshold": 0.5
+      }
+    },
+    {
+      "mAP50": 0.6126044536844848,
+      "mAP50_95": 0.20582405084467187,
+      "per_class_ap50": {
+        "Water": 0.7022701689142982,
+        "Oil": 0.5229387384546713
+      },
+      "Water_AP50": 0.7022701689142982,
+      "Oil_AP50": 0.5229387384546713,
+      "precision": 0.6425663160190553,
+      "recall": 0.6242330454002766,
+      "seed": 47,
+      "run_name": "vanilla_c3_ext_n10_seed47",
+      "config_path": "methods/m6_stc_yolo/configs/default.yaml",
+      "data_yaml": "C:\\twb\\oil_leak\\Paper3\\paper4\\results_v2\\orchestrator\\runs\\_data_yaml\\data.yaml",
+      "infer_imgsz": 1056,
+      "infer_augment": true,
+      "overrides_applied": [
+        "stc.enable_session_film=true"
+      ],
+      "stc_config": {
+        "enable_colormap_inversion": false,
+        "colormap_inverter_ckpt": null,
+        "ssl_pretrained_backbone": null,
+        "enable_session_film": true,
+        "film_metadata_keys": [
+          "temperature",
+          "location",
+          "condition"
+        ],
+        "film_inject_levels": [
+          "P3",
+          "P4",
+          "P5"
+        ],
+        "enable_mean_teacher": false,
+        "mt_ema_momentum": 0.999,
+        "mt_pseudo_conf_threshold": 0.5,
+        "mt_consistency_weight_max": 1.0,
+        "mt_consistency_rampup_epochs": 10,
+        "mt_neighbor_gap_max": 3,
+        "enable_temporal_voting": false,
+        "voting_buffer_size": 2,
+        "voting_conf_low": 0.25,
+        "voting_conf_high": 0.6,
+        "voting_iou_threshold": 0.5
+      }
+    },
+    {
+      "mAP50": 0.6415819406385488,
+      "mAP50_95": 0.22331637856781356,
+      "per_class_ap50": {
+        "Water": 0.7659805975564092,
+        "Oil": 0.5171832837206883
+      },
+      "Water_AP50": 0.7659805975564092,
+      "Oil_AP50": 0.5171832837206883,
+      "precision": 0.6227201149785024,
+      "recall": 0.6187975573885798,
+      "seed": 48,
+      "run_name": "vanilla_c3_ext_n10_seed48",
+      "config_path": "methods/m6_stc_yolo/configs/default.yaml",
+      "data_yaml": "C:\\twb\\oil_leak\\Paper3\\paper4\\results_v2\\orchestrator\\runs\\_data_yaml\\data.yaml",
+      "infer_imgsz": 1056,
+      "infer_augment": true,
+      "overrides_applied": [
+        "stc.enable_session_film=true"
+      ],
+      "stc_config": {
+        "enable_colormap_inversion": false,
+        "colormap_inverter_ckpt": null,
+        "ssl_pretrained_backbone": null,
+        "enable_session_film": true,
+        "film_metadata_keys": [
+          "temperature",
+          "location",
+          "condition"
+        ],
+        "film_inject_levels": [
+          "P3",
+          "P4",
+          "P5"
+        ],
+        "enable_mean_teacher": false,
+        "mt_ema_momentum": 0.999,
+        "mt_pseudo_conf_threshold": 0.5,
+        "mt_consistency_weight_max": 1.0,
+        "mt_consistency_rampup_epochs": 10,
+        "mt_neighbor_gap_max": 3,
+        "enable_temporal_voting": false,
+        "voting_buffer_size": 2,
+        "voting_conf_low": 0.25,
+        "voting_conf_high": 0.6,
+        "voting_iou_threshold": 0.5
+      }
+    },
+    {
+      "mAP50": 0.5175605504795381,
+      "mAP50_95": 0.1669279144504487,
+      "per_class_ap50": {
+        "Water": 0.6137564031894936,
+        "Oil": 0.4213646977695825
+      },
+      "Water_AP50": 0.6137564031894936,
+      "Oil_AP50": 0.4213646977695825,
+      "precision": 0.5707930587537,
+      "recall": 0.6080884255923763,
+      "seed": 49,
+      "run_name": "vanilla_c3_ext_n10_seed49",
+      "config_path": "methods/m6_stc_yolo/configs/default.yaml",
+      "data_yaml": "C:\\twb\\oil_leak\\Paper3\\paper4\\results_v2\\orchestrator\\runs\\_data_yaml\\data.yaml",
+      "infer_imgsz": 1056,
+      "infer_augment": true,
+      "overrides_applied": [
+        "stc.enable_session_film=true"
+      ],
+      "stc_config": {
+        "enable_colormap_inversion": false,
+        "colormap_inverter_ckpt": null,
+        "ssl_pretrained_backbone": null,
+        "enable_session_film": true,
+        "film_metadata_keys": [
+          "temperature",
+          "location",
+          "condition"
+        ],
+        "film_inject_levels": [
+          "P3",
+          "P4",
+          "P5"
+        ],
+        "enable_mean_teacher": false,
+        "mt_ema_momentum": 0.999,
+        "mt_pseudo_conf_threshold": 0.5,
+        "mt_consistency_weight_max": 1.0,
+        "mt_consistency_rampup_epochs": 10,
+        "mt_neighbor_gap_max": 3,
+        "enable_temporal_voting": false,
+        "voting_buffer_size": 2,
+        "voting_conf_low": 0.25,
+        "voting_conf_high": 0.6,
+        "voting_iou_threshold": 0.5
+      }
+    },
+    {
+      "mAP50": 0.6535747861727398,
+      "mAP50_95": 0.21212454035749767,
+      "per_class_ap50": {
+        "Water": 0.7144558532187729,
+        "Oil": 0.5926937191267067
+      },
+      "Water_AP50": 0.7144558532187729,
+      "Oil_AP50": 0.5926937191267067,
+      "precision": 0.7093095936866533,
+      "recall": 0.6455025495874271,
+      "seed": 50,
+      "run_name": "vanilla_c3_ext_n10_seed50",
+      "config_path": "methods/m6_stc_yolo/configs/default.yaml",
+      "data_yaml": "C:\\twb\\oil_leak\\Paper3\\paper4\\results_v2\\orchestrator\\runs\\_data_yaml\\data.yaml",
+      "infer_imgsz": 1056,
+      "infer_augment": true,
+      "overrides_applied": [
+        "stc.enable_session_film=true"
+      ],
+      "stc_config": {
+        "enable_colormap_inversion": false,
+        "colormap_inverter_ckpt": null,
+        "ssl_pretrained_backbone": null,
+        "enable_session_film": true,
+        "film_metadata_keys": [
+          "temperature",
+          "location",
+          "condition"
+        ],
+        "film_inject_levels": [
+          "P3",
+          "P4",
+          "P5"
+        ],
+        "enable_mean_teacher": false,
+        "mt_ema_momentum": 0.999,
+        "mt_pseudo_conf_threshold": 0.5,
+        "mt_consistency_weight_max": 1.0,
+        "mt_consistency_rampup_epochs": 10,
+        "mt_neighbor_gap_max": 3,
+        "enable_temporal_voting": false,
+        "voting_buffer_size": 2,
+        "voting_conf_low": 0.25,
+        "voting_conf_high": 0.6,
+        "voting_iou_threshold": 0.5
+      }
+    },
+    {
+      "mAP50": 0.47926730039891957,
+      "mAP50_95": 0.15101476404966335,
+      "per_class_ap50": {
+        "Water": 0.5983852543980248,
+        "Oil": 0.36014934639981433
+      },
+      "Water_AP50": 0.5983852543980248,
+      "Oil_AP50": 0.36014934639981433,
+      "precision": 0.5362052079121946,
+      "recall": 0.5585925880257416,
+      "seed": 51,
+      "run_name": "vanilla_c3_ext_n10_seed51",
+      "config_path": "methods/m6_stc_yolo/configs/default.yaml",
+      "data_yaml": "C:\\twb\\oil_leak\\Paper3\\paper4\\results_v2\\orchestrator\\runs\\_data_yaml\\data.yaml",
+      "infer_imgsz": 1056,
+      "infer_augment": true,
+      "overrides_applied": [
+        "stc.enable_session_film=true"
+      ],
+      "stc_config": {
+        "enable_colormap_inversion": false,
+        "colormap_inverter_ckpt": null,
+        "ssl_pretrained_backbone": null,
+        "enable_session_film": true,
+        "film_metadata_keys": [
+          "temperature",
+          "location",
+          "condition"
+        ],
+        "film_inject_levels": [
+          "P3",
+          "P4",
+          "P5"
+        ],
+        "enable_mean_teacher": false,
+        "mt_ema_momentum": 0.999,
+        "mt_pseudo_conf_threshold": 0.5,
+        "mt_consistency_weight_max": 1.0,
+        "mt_consistency_rampup_epochs": 10,
+        "mt_neighbor_gap_max": 3,
+        "enable_temporal_voting": false,
+        "voting_buffer_size": 2,
+        "voting_conf_low": 0.25,
+        "voting_conf_high": 0.6,
+        "voting_iou_threshold": 0.5
+      }
+    }
+  ],
+  "SSL+C3": [
+    {
+      "mAP50": 0.47127556889676836,
+      "mAP50_95": 0.15563255232333265,
+      "Water_AP50": 0.6517027846519555,
+      "Oil_AP50": 0.2908483531415812,
+      "precision": 0.6124291561782811,
+      "recall": 0.3751326017795459,
+      "seed": 42,
+      "run_name": "ssl_c3_5seed_seed42",
+      "config_path": "methods/m6_stc_yolo/configs/default.yaml",
+      "data_yaml": "C:\\twb\\oil_leak\\Paper3\\paper4\\results_v2\\orchestrator\\runs\\_data_yaml\\data.yaml",
+      "infer_imgsz": 1056,
+      "infer_augment": true,
+      "overrides_applied": [
+        "stc.ssl_pretrained_backbone=results_v2/methods/stc_yolo/_ms2/pretrained_backbone_stc.pt",
+        "stc.enable_session_film=true",
+        "stc.enable_colormap_inversion=false"
+      ],
+      "stc_config": {
+        "enable_colormap_inversion": false,
+        "colormap_inverter_ckpt": null,
+        "ssl_pretrained_backbone": "results_v2/methods/stc_yolo/_ms2/pretrained_backbone_stc.pt",
+        "enable_session_film": true,
+        "film_metadata_keys": [
+          "temperature",
+          "location",
+          "condition"
+        ],
+        "film_inject_levels": [
+          "P3",
+          "P4",
+          "P5"
+        ],
+        "enable_mean_teacher": false,
+        "mt_ema_momentum": 0.999,
+        "mt_pseudo_conf_threshold": 0.5,
+        "mt_consistency_weight_max": 1.0,
+        "mt_consistency_rampup_epochs": 10,
+        "mt_neighbor_gap_max": 3,
+        "enable_temporal_voting": false,
+        "voting_buffer_size": 2,
+        "voting_conf_low": 0.25,
+        "voting_conf_high": 0.6,
+        "voting_iou_threshold": 0.5
+      }
+    },
+    {
+      "mAP50": 0.5221697255494293,
+      "mAP50_95": 0.1738613944575665,
+      "Water_AP50": 0.6443451110561778,
+      "Oil_AP50": 0.399994340042681,
+      "precision": 0.6395479219923543,
+      "recall": 0.49257349225893454,
+      "seed": 43,
+      "run_name": "ssl_c3_5seed_seed43",
+      "config_path": "methods/m6_stc_yolo/configs/default.yaml",
+      "data_yaml": "C:\\twb\\oil_leak\\Paper3\\paper4\\results_v2\\orchestrator\\runs\\_data_yaml\\data.yaml",
+      "infer_imgsz": 1056,
+      "infer_augment": true,
+      "overrides_applied": [
+        "stc.ssl_pretrained_backbone=results_v2/methods/stc_yolo/_ms2/pretrained_backbone_stc.pt",
+        "stc.enable_session_film=true",
+        "stc.enable_colormap_inversion=false"
+      ],
+      "stc_config": {
+        "enable_colormap_inversion": false,
+        "colormap_inverter_ckpt": null,
+        "ssl_pretrained_backbone": "results_v2/methods/stc_yolo/_ms2/pretrained_backbone_stc.pt",
+        "enable_session_film": true,
+        "film_metadata_keys": [
+          "temperature",
+          "location",
+          "condition"
+        ],
+        "film_inject_levels": [
+          "P3",
+          "P4",
+          "P5"
+        ],
+        "enable_mean_teacher": false,
+        "mt_ema_momentum": 0.999,
+        "mt_pseudo_conf_threshold": 0.5,
+        "mt_consistency_weight_max": 1.0,
+        "mt_consistency_rampup_epochs": 10,
+        "mt_neighbor_gap_max": 3,
+        "enable_temporal_voting": false,
+        "voting_buffer_size": 2,
+        "voting_conf_low": 0.25,
+        "voting_conf_high": 0.6,
+        "voting_iou_threshold": 0.5
+      }
+    },
+    {
+      "mAP50": 0.6309600339973438,
+      "mAP50_95": 0.22604399215889112,
+      "Water_AP50": 0.7211712147716111,
+      "Oil_AP50": 0.5407488532230764,
+      "precision": 0.6562088192899627,
+      "recall": 0.6138164682056817,
+      "seed": 44,
+      "run_name": "ssl_c3_5seed_seed44",
+      "config_path": "methods/m6_stc_yolo/configs/default.yaml",
+      "data_yaml": "C:\\twb\\oil_leak\\Paper3\\paper4\\results_v2\\orchestrator\\runs\\_data_yaml\\data.yaml",
+      "infer_imgsz": 1056,
+      "infer_augment": true,
+      "overrides_applied": [
+        "stc.ssl_pretrained_backbone=results_v2/methods/stc_yolo/_ms2/pretrained_backbone_stc.pt",
+        "stc.enable_session_film=true",
+        "stc.enable_colormap_inversion=false"
+      ],
+      "stc_config": {
+        "enable_colormap_inversion": false,
+        "colormap_inverter_ckpt": null,
+        "ssl_pretrained_backbone": "results_v2/methods/stc_yolo/_ms2/pretrained_backbone_stc.pt",
+        "enable_session_film": true,
+        "film_metadata_keys": [
+          "temperature",
+          "location",
+          "condition"
+        ],
+        "film_inject_levels": [
+          "P3",
+          "P4",
+          "P5"
+        ],
+        "enable_mean_teacher": false,
+        "mt_ema_momentum": 0.999,
+        "mt_pseudo_conf_threshold": 0.5,
+        "mt_consistency_weight_max": 1.0,
+        "mt_consistency_rampup_epochs": 10,
+        "mt_neighbor_gap_max": 3,
+        "enable_temporal_voting": false,
+        "voting_buffer_size": 2,
+        "voting_conf_low": 0.25,
+        "voting_conf_high": 0.6,
+        "voting_iou_threshold": 0.5
+      }
+    },
+    {
+      "mAP50": 0.5080362527137824,
+      "mAP50_95": 0.17441181737982356,
+      "Water_AP50": 0.6740572241709122,
+      "Oil_AP50": 0.3420152812566526,
+      "precision": 0.6515731723591938,
+      "recall": 0.4333315683612514,
+      "seed": 45,
+      "run_name": "ssl_c3_5seed_seed45",
+      "config_path": "methods/m6_stc_yolo/configs/default.yaml",
+      "data_yaml": "C:\\twb\\oil_leak\\Paper3\\paper4\\results_v2\\orchestrator\\runs\\_data_yaml\\data.yaml",
+      "infer_imgsz": 1056,
+      "infer_augment": true,
+      "overrides_applied": [
+        "stc.ssl_pretrained_backbone=results_v2/methods/stc_yolo/_ms2/pretrained_backbone_stc.pt",
+        "stc.enable_session_film=true",
+        "stc.enable_colormap_inversion=false"
+      ],
+      "stc_config": {
+        "enable_colormap_inversion": false,
+        "colormap_inverter_ckpt": null,
+        "ssl_pretrained_backbone": "results_v2/methods/stc_yolo/_ms2/pretrained_backbone_stc.pt",
+        "enable_session_film": true,
+        "film_metadata_keys": [
+          "temperature",
+          "location",
+          "condition"
+        ],
+        "film_inject_levels": [
+          "P3",
+          "P4",
+          "P5"
+        ],
+        "enable_mean_teacher": false,
+        "mt_ema_momentum": 0.999,
+        "mt_pseudo_conf_threshold": 0.5,
+        "mt_consistency_weight_max": 1.0,
+        "mt_consistency_rampup_epochs": 10,
+        "mt_neighbor_gap_max": 3,
+        "enable_temporal_voting": false,
+        "voting_buffer_size": 2,
+        "voting_conf_low": 0.25,
+        "voting_conf_high": 0.6,
+        "voting_iou_threshold": 0.5
+      }
+    },
+    {
+      "mAP50": 0.5880535234299344,
+      "mAP50_95": 0.19822614557699542,
+      "Water_AP50": 0.7135149811511903,
+      "Oil_AP50": 0.4625920657086786,
+      "precision": 0.6712921527937887,
+      "recall": 0.5536994673667917,
+      "seed": 46,
+      "run_name": "ssl_c3_5seed_seed46",
+      "config_path": "methods/m6_stc_yolo/configs/default.yaml",
+      "data_yaml": "C:\\twb\\oil_leak\\Paper3\\paper4\\results_v2\\orchestrator\\runs\\_data_yaml\\data.yaml",
+      "infer_imgsz": 1056,
+      "infer_augment": true,
+      "overrides_applied": [
+        "stc.ssl_pretrained_backbone=results_v2/methods/stc_yolo/_ms2/pretrained_backbone_stc.pt",
+        "stc.enable_session_film=true",
+        "stc.enable_colormap_inversion=false"
+      ],
+      "stc_config": {
+        "enable_colormap_inversion": false,
+        "colormap_inverter_ckpt": null,
+        "ssl_pretrained_backbone": "results_v2/methods/stc_yolo/_ms2/pretrained_backbone_stc.pt",
+        "enable_session_film": true,
+        "film_metadata_keys": [
+          "temperature",
+          "location",
+          "condition"
+        ],
+        "film_inject_levels": [
+          "P3",
+          "P4",
+          "P5"
+        ],
+        "enable_mean_teacher": false,
+        "mt_ema_momentum": 0.999,
+        "mt_pseudo_conf_threshold": 0.5,
+        "mt_consistency_weight_max": 1.0,
+        "mt_consistency_rampup_epochs": 10,
+        "mt_neighbor_gap_max": 3,
+        "enable_temporal_voting": false,
+        "voting_buffer_size": 2,
+        "voting_conf_low": 0.25,
+        "voting_conf_high": 0.6,
+        "voting_iou_threshold": 0.5
+      }
+    },
+    {
+      "mAP50": 0.6034258618864163,
+      "mAP50_95": 0.20542500001046396,
+      "Water_AP50": 0.6718331338030605,
+      "Oil_AP50": 0.535018589969772,
+      "precision": 0.6372592583828058,
+      "recall": 0.651921072748668,
+      "seed": 47,
+      "run_name": "ssl_c3_ext_n10_seed47",
+      "config_path": "methods/m6_stc_yolo/configs/default.yaml",
+      "data_yaml": "C:\\twb\\oil_leak\\Paper3\\paper4\\results_v2\\orchestrator\\runs\\_data_yaml\\data.yaml",
+      "infer_imgsz": 1056,
+      "infer_augment": true,
+      "overrides_applied": [
+        "stc.ssl_pretrained_backbone=results_v2/methods/stc_yolo/_ms2/pretrained_backbone_stc.pt",
+        "stc.enable_session_film=true",
+        "stc.enable_colormap_inversion=false"
+      ],
+      "stc_config": {
+        "enable_colormap_inversion": false,
+        "colormap_inverter_ckpt": null,
+        "ssl_pretrained_backbone": "results_v2/methods/stc_yolo/_ms2/pretrained_backbone_stc.pt",
+        "enable_session_film": true,
+        "film_metadata_keys": [
+          "temperature",
+          "location",
+          "condition"
+        ],
+        "film_inject_levels": [
+          "P3",
+          "P4",
+          "P5"
+        ],
+        "enable_mean_teacher": false,
+        "mt_ema_momentum": 0.999,
+        "mt_pseudo_conf_threshold": 0.5,
+        "mt_consistency_weight_max": 1.0,
+        "mt_consistency_rampup_epochs": 10,
+        "mt_neighbor_gap_max": 3,
+        "enable_temporal_voting": false,
+        "voting_buffer_size": 2,
+        "voting_conf_low": 0.25,
+        "voting_conf_high": 0.6,
+        "voting_iou_threshold": 0.5
+      }
+    },
+    {
+      "mAP50": 0.6001861065193119,
+      "mAP50_95": 0.18759181398494268,
+      "Water_AP50": 0.6413557312527125,
+      "Oil_AP50": 0.5590164817859113,
+      "precision": 0.6826919603645636,
+      "recall": 0.5718166561853255,
+      "seed": 48,
+      "run_name": "ssl_c3_ext_n10_seed48",
+      "config_path": "methods/m6_stc_yolo/configs/default.yaml",
+      "data_yaml": "C:\\twb\\oil_leak\\Paper3\\paper4\\results_v2\\orchestrator\\runs\\_data_yaml\\data.yaml",
+      "infer_imgsz": 1056,
+      "infer_augment": true,
+      "overrides_applied": [
+        "stc.ssl_pretrained_backbone=results_v2/methods/stc_yolo/_ms2/pretrained_backbone_stc.pt",
+        "stc.enable_session_film=true",
+        "stc.enable_colormap_inversion=false"
+      ],
+      "stc_config": {
+        "enable_colormap_inversion": false,
+        "colormap_inverter_ckpt": null,
+        "ssl_pretrained_backbone": "results_v2/methods/stc_yolo/_ms2/pretrained_backbone_stc.pt",
+        "enable_session_film": true,
+        "film_metadata_keys": [
+          "temperature",
+          "location",
+          "condition"
+        ],
+        "film_inject_levels": [
+          "P3",
+          "P4",
+          "P5"
+        ],
+        "enable_mean_teacher": false,
+        "mt_ema_momentum": 0.999,
+        "mt_pseudo_conf_threshold": 0.5,
+        "mt_consistency_weight_max": 1.0,
+        "mt_consistency_rampup_epochs": 10,
+        "mt_neighbor_gap_max": 3,
+        "enable_temporal_voting": false,
+        "voting_buffer_size": 2,
+        "voting_conf_low": 0.25,
+        "voting_conf_high": 0.6,
+        "voting_iou_threshold": 0.5
+      }
+    },
+    {
+      "mAP50": 0.5229866091769212,
+      "mAP50_95": 0.16673086005297766,
+      "Water_AP50": 0.5480930399769649,
+      "Oil_AP50": 0.4978801783768774,
+      "precision": 0.42088734750351847,
+      "recall": 0.5332047980000555,
+      "seed": 49,
+      "run_name": "ssl_c3_ext_n10_seed49",
+      "config_path": "methods/m6_stc_yolo/configs/default.yaml",
+      "data_yaml": "C:\\twb\\oil_leak\\Paper3\\paper4\\results_v2\\orchestrator\\runs\\_data_yaml\\data.yaml",
+      "infer_imgsz": 1056,
+      "infer_augment": true,
+      "overrides_applied": [
+        "stc.ssl_pretrained_backbone=results_v2/methods/stc_yolo/_ms2/pretrained_backbone_stc.pt",
+        "stc.enable_session_film=true",
+        "stc.enable_colormap_inversion=false"
+      ],
+      "stc_config": {
+        "enable_colormap_inversion": false,
+        "colormap_inverter_ckpt": null,
+        "ssl_pretrained_backbone": "results_v2/methods/stc_yolo/_ms2/pretrained_backbone_stc.pt",
+        "enable_session_film": true,
+        "film_metadata_keys": [
+          "temperature",
+          "location",
+          "condition"
+        ],
+        "film_inject_levels": [
+          "P3",
+          "P4",
+          "P5"
+        ],
+        "enable_mean_teacher": false,
+        "mt_ema_momentum": 0.999,
+        "mt_pseudo_conf_threshold": 0.5,
+        "mt_consistency_weight_max": 1.0,
+        "mt_consistency_rampup_epochs": 10,
+        "mt_neighbor_gap_max": 3,
+        "enable_temporal_voting": false,
+        "voting_buffer_size": 2,
+        "voting_conf_low": 0.25,
+        "voting_conf_high": 0.6,
+        "voting_iou_threshold": 0.5
+      }
+    },
+    {
+      "mAP50": 0.6190208487938875,
+      "mAP50_95": 0.22033589318635313,
+      "Water_AP50": 0.7471977421609697,
+      "Oil_AP50": 0.4908439554268055,
+      "precision": 0.6830080275825923,
+      "recall": 0.6259953360158619,
+      "seed": 50,
+      "run_name": "ssl_c3_ext_n10_seed50",
+      "config_path": "methods/m6_stc_yolo/configs/default.yaml",
+      "data_yaml": "C:\\twb\\oil_leak\\Paper3\\paper4\\results_v2\\orchestrator\\runs\\_data_yaml\\data.yaml",
+      "infer_imgsz": 1056,
+      "infer_augment": true,
+      "overrides_applied": [
+        "stc.ssl_pretrained_backbone=results_v2/methods/stc_yolo/_ms2/pretrained_backbone_stc.pt",
+        "stc.enable_session_film=true",
+        "stc.enable_colormap_inversion=false"
+      ],
+      "stc_config": {
+        "enable_colormap_inversion": false,
+        "colormap_inverter_ckpt": null,
+        "ssl_pretrained_backbone": "results_v2/methods/stc_yolo/_ms2/pretrained_backbone_stc.pt",
+        "enable_session_film": true,
+        "film_metadata_keys": [
+          "temperature",
+          "location",
+          "condition"
+        ],
+        "film_inject_levels": [
+          "P3",
+          "P4",
+          "P5"
+        ],
+        "enable_mean_teacher": false,
+        "mt_ema_momentum": 0.999,
+        "mt_pseudo_conf_threshold": 0.5,
+        "mt_consistency_weight_max": 1.0,
+        "mt_consistency_rampup_epochs": 10,
+        "mt_neighbor_gap_max": 3,
+        "enable_temporal_voting": false,
+        "voting_buffer_size": 2,
+        "voting_conf_low": 0.25,
+        "voting_conf_high": 0.6,
+        "voting_iou_threshold": 0.5
+      }
+    },
+    {
+      "mAP50": 0.4028143586805511,
+      "mAP50_95": 0.12159743873885746,
+      "Water_AP50": 0.48127998297397784,
+      "Oil_AP50": 0.32434873438712436,
+      "precision": 0.42769293026788135,
+      "recall": 0.34585500943393527,
+      "seed": 51,
+      "run_name": "ssl_c3_ext_n10_seed51",
+      "config_path": "methods/m6_stc_yolo/configs/default.yaml",
+      "data_yaml": "C:\\twb\\oil_leak\\Paper3\\paper4\\results_v2\\orchestrator\\runs\\_data_yaml\\data.yaml",
+      "infer_imgsz": 1056,
+      "infer_augment": true,
+      "overrides_applied": [
+        "stc.ssl_pretrained_backbone=results_v2/methods/stc_yolo/_ms2/pretrained_backbone_stc.pt",
+        "stc.enable_session_film=true",
+        "stc.enable_colormap_inversion=false"
+      ],
+      "stc_config": {
+        "enable_colormap_inversion": false,
+        "colormap_inverter_ckpt": null,
+        "ssl_pretrained_backbone": "results_v2/methods/stc_yolo/_ms2/pretrained_backbone_stc.pt",
+        "enable_session_film": true,
+        "film_metadata_keys": [
+          "temperature",
+          "location",
+          "condition"
+        ],
+        "film_inject_levels": [
+          "P3",
+          "P4",
+          "P5"
+        ],
+        "enable_mean_teacher": false,
+        "mt_ema_momentum": 0.999,
+        "mt_pseudo_conf_threshold": 0.5,
+        "mt_consistency_weight_max": 1.0,
+        "mt_consistency_rampup_epochs": 10,
+        "mt_neighbor_gap_max": 3,
+        "enable_temporal_voting": false,
+        "voting_buffer_size": 2,
+        "voting_conf_low": 0.25,
+        "voting_conf_high": 0.6,
+        "voting_iou_threshold": 0.5
+      }
+    }
+  ],
+  "Baseline+C2": [
+    {
+      "mAP50": 0.5902791119154334,
+      "mAP50_95": 0.19552593039478944,
+      "Water_AP50": 0.6730038983632123,
+      "Oil_AP50": 0.5075543254676544,
+      "precision": 0.6496283989898521,
+      "recall": 0.5992244083629426,
+      "seed": 42,
+      "run_name": "vanilla_c2_5seed_seed42",
+      "config_path": "methods/m6_stc_yolo/configs/default.yaml",
+      "data_yaml": "C:\\twb\\oil_leak\\Paper3\\paper4\\results_v2\\orchestrator\\runs\\_data_yaml\\data.yaml",
+      "infer_imgsz": 1056,
+      "infer_augment": true,
+      "overrides_applied": [
+        "stc.enable_mean_teacher=true",
+        "stc.enable_colormap_inversion=false",
+        "stc.enable_session_film=false"
+      ],
+      "stc_config": {
+        "enable_colormap_inversion": false,
+        "colormap_inverter_ckpt": null,
+        "ssl_pretrained_backbone": null,
+        "enable_session_film": false,
+        "film_metadata_keys": [
+          "temperature",
+          "location",
+          "condition"
+        ],
+        "film_inject_levels": [
+          "P3",
+          "P4",
+          "P5"
+        ],
+        "enable_mean_teacher": true,
+        "mt_ema_momentum": 0.999,
+        "mt_pseudo_conf_threshold": 0.5,
+        "mt_consistency_weight_max": 1.0,
+        "mt_consistency_rampup_epochs": 10,
+        "mt_neighbor_gap_max": 3,
+        "enable_temporal_voting": false,
+        "voting_buffer_size": 2,
+        "voting_conf_low": 0.25,
+        "voting_conf_high": 0.6,
+        "voting_iou_threshold": 0.5
+      }
+    },
+    {
+      "mAP50": 0.48696890483868777,
+      "mAP50_95": 0.16180403812350616,
+      "Water_AP50": 0.724114883713287,
+      "Oil_AP50": 0.2498229259640885,
+      "precision": 0.566565600689744,
+      "recall": 0.5315581692325626,
+      "seed": 43,
+      "run_name": "vanilla_c2_5seed_seed43",
+      "config_path": "methods/m6_stc_yolo/configs/default.yaml",
+      "data_yaml": "C:\\twb\\oil_leak\\Paper3\\paper4\\results_v2\\orchestrator\\runs\\_data_yaml\\data.yaml",
+      "infer_imgsz": 1056,
+      "infer_augment": true,
+      "overrides_applied": [
+        "stc.enable_mean_teacher=true",
+        "stc.enable_colormap_inversion=false",
+        "stc.enable_session_film=false"
+      ],
+      "stc_config": {
+        "enable_colormap_inversion": false,
+        "colormap_inverter_ckpt": null,
+        "ssl_pretrained_backbone": null,
+        "enable_session_film": false,
+        "film_metadata_keys": [
+          "temperature",
+          "location",
+          "condition"
+        ],
+        "film_inject_levels": [
+          "P3",
+          "P4",
+          "P5"
+        ],
+        "enable_mean_teacher": true,
+        "mt_ema_momentum": 0.999,
+        "mt_pseudo_conf_threshold": 0.5,
+        "mt_consistency_weight_max": 1.0,
+        "mt_consistency_rampup_epochs": 10,
+        "mt_neighbor_gap_max": 3,
+        "enable_temporal_voting": false,
+        "voting_buffer_size": 2,
+        "voting_conf_low": 0.25,
+        "voting_conf_high": 0.6,
+        "voting_iou_threshold": 0.5
+      }
+    },
+    {
+      "mAP50": 0.6264170987556557,
+      "mAP50_95": 0.20617049803509677,
+      "Water_AP50": 0.7169987150476645,
+      "Oil_AP50": 0.5358354824636469,
+      "precision": 0.6783492484926782,
+      "recall": 0.658873604153008,
+      "seed": 44,
+      "run_name": "vanilla_c2_5seed_seed44",
+      "config_path": "methods/m6_stc_yolo/configs/default.yaml",
+      "data_yaml": "C:\\twb\\oil_leak\\Paper3\\paper4\\results_v2\\orchestrator\\runs\\_data_yaml\\data.yaml",
+      "infer_imgsz": 1056,
+      "infer_augment": true,
+      "overrides_applied": [
+        "stc.enable_mean_teacher=true",
+        "stc.enable_colormap_inversion=false",
+        "stc.enable_session_film=false"
+      ],
+      "stc_config": {
+        "enable_colormap_inversion": false,
+        "colormap_inverter_ckpt": null,
+        "ssl_pretrained_backbone": null,
+        "enable_session_film": false,
+        "film_metadata_keys": [
+          "temperature",
+          "location",
+          "condition"
+        ],
+        "film_inject_levels": [
+          "P3",
+          "P4",
+          "P5"
+        ],
+        "enable_mean_teacher": true,
+        "mt_ema_momentum": 0.999,
+        "mt_pseudo_conf_threshold": 0.5,
+        "mt_consistency_weight_max": 1.0,
+        "mt_consistency_rampup_epochs": 10,
+        "mt_neighbor_gap_max": 3,
+        "enable_temporal_voting": false,
+        "voting_buffer_size": 2,
+        "voting_conf_low": 0.25,
+        "voting_conf_high": 0.6,
+        "voting_iou_threshold": 0.5
+      }
+    },
+    {
+      "mAP50": 0.6338629677197662,
+      "mAP50_95": 0.20978821459580663,
+      "Water_AP50": 0.7287044385125935,
+      "Oil_AP50": 0.5390214969269389,
+      "precision": 0.6993612070141391,
+      "recall": 0.6352764474882521,
+      "seed": 45,
+      "run_name": "vanilla_c2_5seed_seed45",
+      "config_path": "methods/m6_stc_yolo/configs/default.yaml",
+      "data_yaml": "C:\\twb\\oil_leak\\Paper3\\paper4\\results_v2\\orchestrator\\runs\\_data_yaml\\data.yaml",
+      "infer_imgsz": 1056,
+      "infer_augment": true,
+      "overrides_applied": [
+        "stc.enable_mean_teacher=true",
+        "stc.enable_colormap_inversion=false",
+        "stc.enable_session_film=false"
+      ],
+      "stc_config": {
+        "enable_colormap_inversion": false,
+        "colormap_inverter_ckpt": null,
+        "ssl_pretrained_backbone": null,
+        "enable_session_film": false,
+        "film_metadata_keys": [
+          "temperature",
+          "location",
+          "condition"
+        ],
+        "film_inject_levels": [
+          "P3",
+          "P4",
+          "P5"
+        ],
+        "enable_mean_teacher": true,
+        "mt_ema_momentum": 0.999,
+        "mt_pseudo_conf_threshold": 0.5,
+        "mt_consistency_weight_max": 1.0,
+        "mt_consistency_rampup_epochs": 10,
+        "mt_neighbor_gap_max": 3,
+        "enable_temporal_voting": false,
+        "voting_buffer_size": 2,
+        "voting_conf_low": 0.25,
+        "voting_conf_high": 0.6,
+        "voting_iou_threshold": 0.5
+      }
+    },
+    {
+      "mAP50": 0.572723905794284,
+      "mAP50_95": 0.1888495421620719,
+      "Water_AP50": 0.6902041235881895,
+      "Oil_AP50": 0.45524368800037857,
+      "precision": 0.6008265806878756,
+      "recall": 0.6167887304318613,
+      "seed": 46,
+      "run_name": "vanilla_c2_5seed_seed46",
+      "config_path": "methods/m6_stc_yolo/configs/default.yaml",
+      "data_yaml": "C:\\twb\\oil_leak\\Paper3\\paper4\\results_v2\\orchestrator\\runs\\_data_yaml\\data.yaml",
+      "infer_imgsz": 1056,
+      "infer_augment": true,
+      "overrides_applied": [
+        "stc.enable_mean_teacher=true",
+        "stc.enable_colormap_inversion=false",
+        "stc.enable_session_film=false"
+      ],
+      "stc_config": {
+        "enable_colormap_inversion": false,
+        "colormap_inverter_ckpt": null,
+        "ssl_pretrained_backbone": null,
+        "enable_session_film": false,
+        "film_metadata_keys": [
+          "temperature",
+          "location",
+          "condition"
+        ],
+        "film_inject_levels": [
+          "P3",
+          "P4",
+          "P5"
+        ],
+        "enable_mean_teacher": true,
+        "mt_ema_momentum": 0.999,
+        "mt_pseudo_conf_threshold": 0.5,
+        "mt_consistency_weight_max": 1.0,
+        "mt_consistency_rampup_epochs": 10,
+        "mt_neighbor_gap_max": 3,
+        "enable_temporal_voting": false,
+        "voting_buffer_size": 2,
+        "voting_conf_low": 0.25,
+        "voting_conf_high": 0.6,
+        "voting_iou_threshold": 0.5
+      }
+    },
+    {
+      "mAP50": 0.6300521182475061,
+      "mAP50_95": 0.20795145240711635,
+      "per_class_ap50": {
+        "Water": 0.7271054242160974,
+        "Oil": 0.5329988122789147
+      },
+      "Water_AP50": 0.7271054242160974,
+      "Oil_AP50": 0.5329988122789147,
+      "precision": 0.6633944366649762,
+      "recall": 0.6236897709801271,
+      "seed": 47,
+      "run_name": "vanilla_c2_ext_n10_seed47",
+      "config_path": "methods/m6_stc_yolo/configs/default.yaml",
+      "data_yaml": "C:\\twb\\oil_leak\\Paper3\\paper4\\results_v2\\orchestrator\\runs\\_data_yaml\\data.yaml",
+      "infer_imgsz": 1056,
+      "infer_augment": true,
+      "overrides_applied": [
+        "stc.enable_mean_teacher=true"
+      ],
+      "stc_config": {
+        "enable_colormap_inversion": false,
+        "colormap_inverter_ckpt": null,
+        "ssl_pretrained_backbone": null,
+        "enable_session_film": false,
+        "film_metadata_keys": [
+          "temperature",
+          "location",
+          "condition"
+        ],
+        "film_inject_levels": [
+          "P3",
+          "P4",
+          "P5"
+        ],
+        "enable_mean_teacher": true,
+        "mt_ema_momentum": 0.999,
+        "mt_pseudo_conf_threshold": 0.5,
+        "mt_consistency_weight_max": 1.0,
+        "mt_consistency_rampup_epochs": 10,
+        "mt_neighbor_gap_max": 3,
+        "enable_temporal_voting": false,
+        "voting_buffer_size": 2,
+        "voting_conf_low": 0.25,
+        "voting_conf_high": 0.6,
+        "voting_iou_threshold": 0.5
+      }
+    },
+    {
+      "mAP50": 0.6639877618513238,
+      "mAP50_95": 0.2255660953352642,
+      "per_class_ap50": {
+        "Water": 0.7364991722195215,
+        "Oil": 0.591476351483126
+      },
+      "Water_AP50": 0.7364991722195215,
+      "Oil_AP50": 0.591476351483126,
+      "precision": 0.6897704243654627,
+      "recall": 0.6777762524388597,
+      "seed": 48,
+      "run_name": "vanilla_c2_ext_n10_seed48",
+      "config_path": "methods/m6_stc_yolo/configs/default.yaml",
+      "data_yaml": "C:\\twb\\oil_leak\\Paper3\\paper4\\results_v2\\orchestrator\\runs\\_data_yaml\\data.yaml",
+      "infer_imgsz": 1056,
+      "infer_augment": true,
+      "overrides_applied": [
+        "stc.enable_mean_teacher=true"
+      ],
+      "stc_config": {
+        "enable_colormap_inversion": false,
+        "colormap_inverter_ckpt": null,
+        "ssl_pretrained_backbone": null,
+        "enable_session_film": false,
+        "film_metadata_keys": [
+          "temperature",
+          "location",
+          "condition"
+        ],
+        "film_inject_levels": [
+          "P3",
+          "P4",
+          "P5"
+        ],
+        "enable_mean_teacher": true,
+        "mt_ema_momentum": 0.999,
+        "mt_pseudo_conf_threshold": 0.5,
+        "mt_consistency_weight_max": 1.0,
+        "mt_consistency_rampup_epochs": 10,
+        "mt_neighbor_gap_max": 3,
+        "enable_temporal_voting": false,
+        "voting_buffer_size": 2,
+        "voting_conf_low": 0.25,
+        "voting_conf_high": 0.6,
+        "voting_iou_threshold": 0.5
+      }
+    },
+    {
+      "mAP50": 0.5852594262465413,
+      "mAP50_95": 0.19237762551796414,
+      "per_class_ap50": {
+        "Water": 0.6827575736894176,
+        "Oil": 0.4877612788036649
+      },
+      "Water_AP50": 0.6827575736894176,
+      "Oil_AP50": 0.4877612788036649,
+      "precision": 0.6167025365071772,
+      "recall": 0.6407174992102599,
+      "seed": 49,
+      "run_name": "vanilla_c2_ext_n10_seed49",
+      "config_path": "methods/m6_stc_yolo/configs/default.yaml",
+      "data_yaml": "C:\\twb\\oil_leak\\Paper3\\paper4\\results_v2\\orchestrator\\runs\\_data_yaml\\data.yaml",
+      "infer_imgsz": 1056,
+      "infer_augment": true,
+      "overrides_applied": [
+        "stc.enable_mean_teacher=true"
+      ],
+      "stc_config": {
+        "enable_colormap_inversion": false,
+        "colormap_inverter_ckpt": null,
+        "ssl_pretrained_backbone": null,
+        "enable_session_film": false,
+        "film_metadata_keys": [
+          "temperature",
+          "location",
+          "condition"
+        ],
+        "film_inject_levels": [
+          "P3",
+          "P4",
+          "P5"
+        ],
+        "enable_mean_teacher": true,
+        "mt_ema_momentum": 0.999,
+        "mt_pseudo_conf_threshold": 0.5,
+        "mt_consistency_weight_max": 1.0,
+        "mt_consistency_rampup_epochs": 10,
+        "mt_neighbor_gap_max": 3,
+        "enable_temporal_voting": false,
+        "voting_buffer_size": 2,
+        "voting_conf_low": 0.25,
+        "voting_conf_high": 0.6,
+        "voting_iou_threshold": 0.5
+      }
+    },
+    {
+      "mAP50": 0.5752277242001104,
+      "mAP50_95": 0.19329784278691609,
+      "per_class_ap50": {
+        "Water": 0.7121788597425505,
+        "Oil": 0.4382765886576703
+      },
+      "Water_AP50": 0.7121788597425505,
+      "Oil_AP50": 0.4382765886576703,
+      "precision": 0.6489033608397394,
+      "recall": 0.5821229551456224,
+      "seed": 50,
+      "run_name": "vanilla_c2_ext_n10_seed50",
+      "config_path": "methods/m6_stc_yolo/configs/default.yaml",
+      "data_yaml": "C:\\twb\\oil_leak\\Paper3\\paper4\\results_v2\\orchestrator\\runs\\_data_yaml\\data.yaml",
+      "infer_imgsz": 1056,
+      "infer_augment": true,
+      "overrides_applied": [
+        "stc.enable_mean_teacher=true"
+      ],
+      "stc_config": {
+        "enable_colormap_inversion": false,
+        "colormap_inverter_ckpt": null,
+        "ssl_pretrained_backbone": null,
+        "enable_session_film": false,
+        "film_metadata_keys": [
+          "temperature",
+          "location",
+          "condition"
+        ],
+        "film_inject_levels": [
+          "P3",
+          "P4",
+          "P5"
+        ],
+        "enable_mean_teacher": true,
+        "mt_ema_momentum": 0.999,
+        "mt_pseudo_conf_threshold": 0.5,
+        "mt_consistency_weight_max": 1.0,
+        "mt_consistency_rampup_epochs": 10,
+        "mt_neighbor_gap_max": 3,
+        "enable_temporal_voting": false,
+        "voting_buffer_size": 2,
+        "voting_conf_low": 0.25,
+        "voting_conf_high": 0.6,
+        "voting_iou_threshold": 0.5
+      }
+    },
+    {
+      "mAP50": 0.5235384709898776,
+      "mAP50_95": 0.17984210700806252,
+      "per_class_ap50": {
+        "Water": 0.6768163558405671,
+        "Oil": 0.370260586139188
+      },
+      "Water_AP50": 0.6768163558405671,
+      "Oil_AP50": 0.370260586139188,
+      "precision": 0.542478823698155,
+      "recall": 0.561092723606216,
+      "seed": 51,
+      "run_name": "vanilla_c2_ext_n10_seed51",
+      "config_path": "methods/m6_stc_yolo/configs/default.yaml",
+      "data_yaml": "C:\\twb\\oil_leak\\Paper3\\paper4\\results_v2\\orchestrator\\runs\\_data_yaml\\data.yaml",
+      "infer_imgsz": 1056,
+      "infer_augment": true,
+      "overrides_applied": [
+        "stc.enable_mean_teacher=true"
+      ],
+      "stc_config": {
+        "enable_colormap_inversion": false,
+        "colormap_inverter_ckpt": null,
+        "ssl_pretrained_backbone": null,
+        "enable_session_film": false,
+        "film_metadata_keys": [
+          "temperature",
+          "location",
+          "condition"
+        ],
+        "film_inject_levels": [
+          "P3",
+          "P4",
+          "P5"
+        ],
+        "enable_mean_teacher": true,
+        "mt_ema_momentum": 0.999,
+        "mt_pseudo_conf_threshold": 0.5,
+        "mt_consistency_weight_max": 1.0,
+        "mt_consistency_rampup_epochs": 10,
+        "mt_neighbor_gap_max": 3,
+        "enable_temporal_voting": false,
+        "voting_buffer_size": 2,
+        "voting_conf_low": 0.25,
+        "voting_conf_high": 0.6,
+        "voting_iou_threshold": 0.5
+      }
+    }
+  ],
+  "SSL+C2": [
+    {
+      "mAP50": 0.5745922835196937,
+      "mAP50_95": 0.18844088564937098,
+      "Water_AP50": 0.6603383498973333,
+      "Oil_AP50": 0.48884621714205406,
+      "precision": 0.64383524545365,
+      "recall": 0.5785375903670011,
+      "seed": 42,
+      "run_name": "ssl_c2_5seed_seed42",
+      "config_path": "methods/m6_stc_yolo/configs/default.yaml",
+      "data_yaml": "C:\\twb\\oil_leak\\Paper3\\paper4\\results_v2\\orchestrator\\runs\\_data_yaml\\data.yaml",
+      "infer_imgsz": 1056,
+      "infer_augment": true,
+      "overrides_applied": [
+        "stc.ssl_pretrained_backbone=results_v2/methods/stc_yolo/_ms2/pretrained_backbone_stc.pt",
+        "stc.enable_mean_teacher=true",
+        "stc.enable_colormap_inversion=false",
+        "stc.enable_session_film=false"
+      ],
+      "stc_config": {
+        "enable_colormap_inversion": false,
+        "colormap_inverter_ckpt": null,
+        "ssl_pretrained_backbone": "results_v2/methods/stc_yolo/_ms2/pretrained_backbone_stc.pt",
+        "enable_session_film": false,
+        "film_metadata_keys": [
+          "temperature",
+          "location",
+          "condition"
+        ],
+        "film_inject_levels": [
+          "P3",
+          "P4",
+          "P5"
+        ],
+        "enable_mean_teacher": true,
+        "mt_ema_momentum": 0.999,
+        "mt_pseudo_conf_threshold": 0.5,
+        "mt_consistency_weight_max": 1.0,
+        "mt_consistency_rampup_epochs": 10,
+        "mt_neighbor_gap_max": 3,
+        "enable_temporal_voting": false,
+        "voting_buffer_size": 2,
+        "voting_conf_low": 0.25,
+        "voting_conf_high": 0.6,
+        "voting_iou_threshold": 0.5
+      }
+    },
+    {
+      "mAP50": 0.47693137234452043,
+      "mAP50_95": 0.1551893891632446,
+      "Water_AP50": 0.5503545156636631,
+      "Oil_AP50": 0.40350822902537775,
+      "precision": 0.5445844141263028,
+      "recall": 0.5221507162590681,
+      "seed": 43,
+      "run_name": "ssl_c2_5seed_seed43",
+      "config_path": "methods/m6_stc_yolo/configs/default.yaml",
+      "data_yaml": "C:\\twb\\oil_leak\\Paper3\\paper4\\results_v2\\orchestrator\\runs\\_data_yaml\\data.yaml",
+      "infer_imgsz": 1056,
+      "infer_augment": true,
+      "overrides_applied": [
+        "stc.ssl_pretrained_backbone=results_v2/methods/stc_yolo/_ms2/pretrained_backbone_stc.pt",
+        "stc.enable_mean_teacher=true",
+        "stc.enable_colormap_inversion=false",
+        "stc.enable_session_film=false"
+      ],
+      "stc_config": {
+        "enable_colormap_inversion": false,
+        "colormap_inverter_ckpt": null,
+        "ssl_pretrained_backbone": "results_v2/methods/stc_yolo/_ms2/pretrained_backbone_stc.pt",
+        "enable_session_film": false,
+        "film_metadata_keys": [
+          "temperature",
+          "location",
+          "condition"
+        ],
+        "film_inject_levels": [
+          "P3",
+          "P4",
+          "P5"
+        ],
+        "enable_mean_teacher": true,
+        "mt_ema_momentum": 0.999,
+        "mt_pseudo_conf_threshold": 0.5,
+        "mt_consistency_weight_max": 1.0,
+        "mt_consistency_rampup_epochs": 10,
+        "mt_neighbor_gap_max": 3,
+        "enable_temporal_voting": false,
+        "voting_buffer_size": 2,
+        "voting_conf_low": 0.25,
+        "voting_conf_high": 0.6,
+        "voting_iou_threshold": 0.5
+      }
+    },
+    {
+      "mAP50": 0.5834718988181254,
+      "mAP50_95": 0.19569255125821491,
+      "Water_AP50": 0.64730997094624,
+      "Oil_AP50": 0.5196338266900109,
+      "precision": 0.6497420636745859,
+      "recall": 0.603366353706667,
+      "seed": 44,
+      "run_name": "ssl_c2_5seed_seed44",
+      "config_path": "methods/m6_stc_yolo/configs/default.yaml",
+      "data_yaml": "C:\\twb\\oil_leak\\Paper3\\paper4\\results_v2\\orchestrator\\runs\\_data_yaml\\data.yaml",
+      "infer_imgsz": 1056,
+      "infer_augment": true,
+      "overrides_applied": [
+        "stc.ssl_pretrained_backbone=results_v2/methods/stc_yolo/_ms2/pretrained_backbone_stc.pt",
+        "stc.enable_mean_teacher=true",
+        "stc.enable_colormap_inversion=false",
+        "stc.enable_session_film=false"
+      ],
+      "stc_config": {
+        "enable_colormap_inversion": false,
+        "colormap_inverter_ckpt": null,
+        "ssl_pretrained_backbone": "results_v2/methods/stc_yolo/_ms2/pretrained_backbone_stc.pt",
+        "enable_session_film": false,
+        "film_metadata_keys": [
+          "temperature",
+          "location",
+          "condition"
+        ],
+        "film_inject_levels": [
+          "P3",
+          "P4",
+          "P5"
+        ],
+        "enable_mean_teacher": true,
+        "mt_ema_momentum": 0.999,
+        "mt_pseudo_conf_threshold": 0.5,
+        "mt_consistency_weight_max": 1.0,
+        "mt_consistency_rampup_epochs": 10,
+        "mt_neighbor_gap_max": 3,
+        "enable_temporal_voting": false,
+        "voting_buffer_size": 2,
+        "voting_conf_low": 0.25,
+        "voting_conf_high": 0.6,
+        "voting_iou_threshold": 0.5
+      }
+    },
+    {
+      "mAP50": 0.5346112578800027,
+      "mAP50_95": 0.16965540403936527,
+      "Water_AP50": 0.6315571615537996,
+      "Oil_AP50": 0.43766535420620584,
+      "precision": 0.611917486589264,
+      "recall": 0.576749739695919,
+      "seed": 45,
+      "run_name": "ssl_c2_5seed_seed45",
+      "config_path": "methods/m6_stc_yolo/configs/default.yaml",
+      "data_yaml": "C:\\twb\\oil_leak\\Paper3\\paper4\\results_v2\\orchestrator\\runs\\_data_yaml\\data.yaml",
+      "infer_imgsz": 1056,
+      "infer_augment": true,
+      "overrides_applied": [
+        "stc.ssl_pretrained_backbone=results_v2/methods/stc_yolo/_ms2/pretrained_backbone_stc.pt",
+        "stc.enable_mean_teacher=true",
+        "stc.enable_colormap_inversion=false",
+        "stc.enable_session_film=false"
+      ],
+      "stc_config": {
+        "enable_colormap_inversion": false,
+        "colormap_inverter_ckpt": null,
+        "ssl_pretrained_backbone": "results_v2/methods/stc_yolo/_ms2/pretrained_backbone_stc.pt",
+        "enable_session_film": false,
+        "film_metadata_keys": [
+          "temperature",
+          "location",
+          "condition"
+        ],
+        "film_inject_levels": [
+          "P3",
+          "P4",
+          "P5"
+        ],
+        "enable_mean_teacher": true,
+        "mt_ema_momentum": 0.999,
+        "mt_pseudo_conf_threshold": 0.5,
+        "mt_consistency_weight_max": 1.0,
+        "mt_consistency_rampup_epochs": 10,
+        "mt_neighbor_gap_max": 3,
+        "enable_temporal_voting": false,
+        "voting_buffer_size": 2,
+        "voting_conf_low": 0.25,
+        "voting_conf_high": 0.6,
+        "voting_iou_threshold": 0.5
+      }
+    },
+    {
+      "mAP50": 0.5895904392309855,
+      "mAP50_95": 0.19877602756155072,
+      "Water_AP50": 0.6868873029976634,
+      "Oil_AP50": 0.49229357546430763,
+      "precision": 0.6574867460057794,
+      "recall": 0.609529790832829,
+      "seed": 46,
+      "run_name": "ssl_c2_5seed_seed46",
+      "config_path": "methods/m6_stc_yolo/configs/default.yaml",
+      "data_yaml": "C:\\twb\\oil_leak\\Paper3\\paper4\\results_v2\\orchestrator\\runs\\_data_yaml\\data.yaml",
+      "infer_imgsz": 1056,
+      "infer_augment": true,
+      "overrides_applied": [
+        "stc.ssl_pretrained_backbone=results_v2/methods/stc_yolo/_ms2/pretrained_backbone_stc.pt",
+        "stc.enable_mean_teacher=true",
+        "stc.enable_colormap_inversion=false",
+        "stc.enable_session_film=false"
+      ],
+      "stc_config": {
+        "enable_colormap_inversion": false,
+        "colormap_inverter_ckpt": null,
+        "ssl_pretrained_backbone": "results_v2/methods/stc_yolo/_ms2/pretrained_backbone_stc.pt",
+        "enable_session_film": false,
+        "film_metadata_keys": [
+          "temperature",
+          "location",
+          "condition"
+        ],
+        "film_inject_levels": [
+          "P3",
+          "P4",
+          "P5"
+        ],
+        "enable_mean_teacher": true,
+        "mt_ema_momentum": 0.999,
+        "mt_pseudo_conf_threshold": 0.5,
+        "mt_consistency_weight_max": 1.0,
+        "mt_consistency_rampup_epochs": 10,
+        "mt_neighbor_gap_max": 3,
+        "enable_temporal_voting": false,
+        "voting_buffer_size": 2,
+        "voting_conf_low": 0.25,
+        "voting_conf_high": 0.6,
+        "voting_iou_threshold": 0.5
+      }
+    },
+    {
+      "mAP50": 0.5700297769133489,
+      "mAP50_95": 0.18655228125296733,
+      "Water_AP50": 0.5980783260669083,
+      "Oil_AP50": 0.5419812277597894,
+      "precision": 0.6097127955264373,
+      "recall": 0.60339189817267,
+      "seed": 47,
+      "run_name": "ssl_c2_ext_n10_seed47",
+      "config_path": "methods/m6_stc_yolo/configs/default.yaml",
+      "data_yaml": "C:\\twb\\oil_leak\\Paper3\\paper4\\results_v2\\orchestrator\\runs\\_data_yaml\\data.yaml",
+      "infer_imgsz": 1056,
+      "infer_augment": true,
+      "overrides_applied": [
+        "stc.ssl_pretrained_backbone=results_v2/methods/stc_yolo/_ms2/pretrained_backbone_stc.pt",
+        "stc.enable_mean_teacher=true",
+        "stc.enable_colormap_inversion=false",
+        "stc.enable_session_film=false"
+      ],
+      "stc_config": {
+        "enable_colormap_inversion": false,
+        "colormap_inverter_ckpt": null,
+        "ssl_pretrained_backbone": "results_v2/methods/stc_yolo/_ms2/pretrained_backbone_stc.pt",
+        "enable_session_film": false,
+        "film_metadata_keys": [
+          "temperature",
+          "location",
+          "condition"
+        ],
+        "film_inject_levels": [
+          "P3",
+          "P4",
+          "P5"
+        ],
+        "enable_mean_teacher": true,
+        "mt_ema_momentum": 0.999,
+        "mt_pseudo_conf_threshold": 0.5,
+        "mt_consistency_weight_max": 1.0,
+        "mt_consistency_rampup_epochs": 10,
+        "mt_neighbor_gap_max": 3,
+        "enable_temporal_voting": false,
+        "voting_buffer_size": 2,
+        "voting_conf_low": 0.25,
+        "voting_conf_high": 0.6,
+        "voting_iou_threshold": 0.5
+      }
+    },
+    {
+      "mAP50": 0.6091363107334091,
+      "mAP50_95": 0.2071401680024048,
+      "Water_AP50": 0.675324440293567,
+      "Oil_AP50": 0.5429481811732513,
+      "precision": 0.6453933459949708,
+      "recall": 0.6043846802816915,
+      "seed": 48,
+      "run_name": "ssl_c2_ext_n10_seed48",
+      "config_path": "methods/m6_stc_yolo/configs/default.yaml",
+      "data_yaml": "C:\\twb\\oil_leak\\Paper3\\paper4\\results_v2\\orchestrator\\runs\\_data_yaml\\data.yaml",
+      "infer_imgsz": 1056,
+      "infer_augment": true,
+      "overrides_applied": [
+        "stc.ssl_pretrained_backbone=results_v2/methods/stc_yolo/_ms2/pretrained_backbone_stc.pt",
+        "stc.enable_mean_teacher=true",
+        "stc.enable_colormap_inversion=false",
+        "stc.enable_session_film=false"
+      ],
+      "stc_config": {
+        "enable_colormap_inversion": false,
+        "colormap_inverter_ckpt": null,
+        "ssl_pretrained_backbone": "results_v2/methods/stc_yolo/_ms2/pretrained_backbone_stc.pt",
+        "enable_session_film": false,
+        "film_metadata_keys": [
+          "temperature",
+          "location",
+          "condition"
+        ],
+        "film_inject_levels": [
+          "P3",
+          "P4",
+          "P5"
+        ],
+        "enable_mean_teacher": true,
+        "mt_ema_momentum": 0.999,
+        "mt_pseudo_conf_threshold": 0.5,
+        "mt_consistency_weight_max": 1.0,
+        "mt_consistency_rampup_epochs": 10,
+        "mt_neighbor_gap_max": 3,
+        "enable_temporal_voting": false,
+        "voting_buffer_size": 2,
+        "voting_conf_low": 0.25,
+        "voting_conf_high": 0.6,
+        "voting_iou_threshold": 0.5
+      }
+    },
+    {
+      "mAP50": 0.4598562426839913,
+      "mAP50_95": 0.15849154886702785,
+      "Water_AP50": 0.6629834601289779,
+      "Oil_AP50": 0.25672902523900465,
+      "precision": 0.5626205225664807,
+      "recall": 0.439001439252503,
+      "seed": 49,
+      "run_name": "ssl_c2_ext_n10_seed49",
+      "config_path": "methods/m6_stc_yolo/configs/default.yaml",
+      "data_yaml": "C:\\twb\\oil_leak\\Paper3\\paper4\\results_v2\\orchestrator\\runs\\_data_yaml\\data.yaml",
+      "infer_imgsz": 1056,
+      "infer_augment": true,
+      "overrides_applied": [
+        "stc.ssl_pretrained_backbone=results_v2/methods/stc_yolo/_ms2/pretrained_backbone_stc.pt",
+        "stc.enable_mean_teacher=true",
+        "stc.enable_colormap_inversion=false",
+        "stc.enable_session_film=false"
+      ],
+      "stc_config": {
+        "enable_colormap_inversion": false,
+        "colormap_inverter_ckpt": null,
+        "ssl_pretrained_backbone": "results_v2/methods/stc_yolo/_ms2/pretrained_backbone_stc.pt",
+        "enable_session_film": false,
+        "film_metadata_keys": [
+          "temperature",
+          "location",
+          "condition"
+        ],
+        "film_inject_levels": [
+          "P3",
+          "P4",
+          "P5"
+        ],
+        "enable_mean_teacher": true,
+        "mt_ema_momentum": 0.999,
+        "mt_pseudo_conf_threshold": 0.5,
+        "mt_consistency_weight_max": 1.0,
+        "mt_consistency_rampup_epochs": 10,
+        "mt_neighbor_gap_max": 3,
+        "enable_temporal_voting": false,
+        "voting_buffer_size": 2,
+        "voting_conf_low": 0.25,
+        "voting_conf_high": 0.6,
+        "voting_iou_threshold": 0.5
+      }
+    },
+    {
+      "mAP50": 0.5844613054014295,
+      "mAP50_95": 0.18799163811617497,
+      "Water_AP50": 0.6778759798030487,
+      "Oil_AP50": 0.49104663099981033,
+      "precision": 0.6455887276372092,
+      "recall": 0.5943756185502566,
+      "seed": 50,
+      "run_name": "ssl_c2_ext_n10_seed50",
+      "config_path": "methods/m6_stc_yolo/configs/default.yaml",
+      "data_yaml": "C:\\twb\\oil_leak\\Paper3\\paper4\\results_v2\\orchestrator\\runs\\_data_yaml\\data.yaml",
+      "infer_imgsz": 1056,
+      "infer_augment": true,
+      "overrides_applied": [
+        "stc.ssl_pretrained_backbone=results_v2/methods/stc_yolo/_ms2/pretrained_backbone_stc.pt",
+        "stc.enable_mean_teacher=true",
+        "stc.enable_colormap_inversion=false",
+        "stc.enable_session_film=false"
+      ],
+      "stc_config": {
+        "enable_colormap_inversion": false,
+        "colormap_inverter_ckpt": null,
+        "ssl_pretrained_backbone": "results_v2/methods/stc_yolo/_ms2/pretrained_backbone_stc.pt",
+        "enable_session_film": false,
+        "film_metadata_keys": [
+          "temperature",
+          "location",
+          "condition"
+        ],
+        "film_inject_levels": [
+          "P3",
+          "P4",
+          "P5"
+        ],
+        "enable_mean_teacher": true,
+        "mt_ema_momentum": 0.999,
+        "mt_pseudo_conf_threshold": 0.5,
+        "mt_consistency_weight_max": 1.0,
+        "mt_consistency_rampup_epochs": 10,
+        "mt_neighbor_gap_max": 3,
+        "enable_temporal_voting": false,
+        "voting_buffer_size": 2,
+        "voting_conf_low": 0.25,
+        "voting_conf_high": 0.6,
+        "voting_iou_threshold": 0.5
+      }
+    },
+    {
+      "mAP50": 0.5769181756777663,
+      "mAP50_95": 0.17813969076983321,
+      "Water_AP50": 0.6254934968885495,
+      "Oil_AP50": 0.528342854466983,
+      "precision": 0.6119332519528569,
+      "recall": 0.6017635396079146,
+      "seed": 51,
+      "run_name": "ssl_c2_ext_n10_seed51",
+      "config_path": "methods/m6_stc_yolo/configs/default.yaml",
+      "data_yaml": "C:\\twb\\oil_leak\\Paper3\\paper4\\results_v2\\orchestrator\\runs\\_data_yaml\\data.yaml",
+      "infer_imgsz": 1056,
+      "infer_augment": true,
+      "overrides_applied": [
+        "stc.ssl_pretrained_backbone=results_v2/methods/stc_yolo/_ms2/pretrained_backbone_stc.pt",
+        "stc.enable_mean_teacher=true",
+        "stc.enable_colormap_inversion=false",
+        "stc.enable_session_film=false"
+      ],
+      "stc_config": {
+        "enable_colormap_inversion": false,
+        "colormap_inverter_ckpt": null,
+        "ssl_pretrained_backbone": "results_v2/methods/stc_yolo/_ms2/pretrained_backbone_stc.pt",
+        "enable_session_film": false,
+        "film_metadata_keys": [
+          "temperature",
+          "location",
+          "condition"
+        ],
+        "film_inject_levels": [
+          "P3",
+          "P4",
+          "P5"
+        ],
+        "enable_mean_teacher": true,
+        "mt_ema_momentum": 0.999,
+        "mt_pseudo_conf_threshold": 0.5,
+        "mt_consistency_weight_max": 1.0,
+        "mt_consistency_rampup_epochs": 10,
+        "mt_neighbor_gap_max": 3,
+        "enable_temporal_voting": false,
+        "voting_buffer_size": 2,
+        "voting_conf_low": 0.25,
+        "voting_conf_high": 0.6,
+        "voting_iou_threshold": 0.5
+      }
+    }
+  ],
+  "SSL gap6": [
+    {
+      "mAP50": 0.5844068853240905,
+      "mAP50_95": 0.19278478725627765,
+      "Water_AP50": 0.6426009860721955,
+      "Oil_AP50": 0.5262127845759855,
+      "precision": 0.6355428188300062,
+      "recall": 0.6002502650118061,
+      "seed": 42,
+      "run_name": "ssl_gap6_5seed_seed42",
+      "config_path": "methods/m6_stc_yolo/configs/default.yaml",
+      "data_yaml": "C:\\twb\\oil_leak\\Paper3\\paper4\\results_v2\\orchestrator\\runs\\_data_yaml\\data.yaml",
+      "infer_imgsz": 1056,
+      "infer_augment": true,
+      "overrides_applied": [
+        "stc.ssl_pretrained_backbone=results_v2/methods/stc_yolo/_ms2/pretrained_backbone_stc.pt",
+        "stc.enable_colormap_inversion=false"
+      ],
+      "stc_config": {
+        "enable_colormap_inversion": false,
+        "colormap_inverter_ckpt": null,
+        "ssl_pretrained_backbone": "results_v2/methods/stc_yolo/_ms2/pretrained_backbone_stc.pt",
+        "enable_session_film": false,
+        "film_metadata_keys": [
+          "temperature",
+          "location",
+          "condition"
+        ],
+        "film_inject_levels": [
+          "P3",
+          "P4",
+          "P5"
+        ],
+        "enable_mean_teacher": false,
+        "mt_ema_momentum": 0.999,
+        "mt_pseudo_conf_threshold": 0.5,
+        "mt_consistency_weight_max": 1.0,
+        "mt_consistency_rampup_epochs": 10,
+        "mt_neighbor_gap_max": 3,
+        "enable_temporal_voting": false,
+        "voting_buffer_size": 2,
+        "voting_conf_low": 0.25,
+        "voting_conf_high": 0.6,
+        "voting_iou_threshold": 0.5
+      }
+    },
+    {
+      "mAP50": 0.6354978978870479,
+      "mAP50_95": 0.21727734633545398,
+      "Water_AP50": 0.7104161142125536,
+      "Oil_AP50": 0.5605796815615423,
+      "precision": 0.6823145838150798,
+      "recall": 0.6770096381701697,
+      "seed": 43,
+      "run_name": "ssl_gap6_5seed_seed43",
+      "config_path": "methods/m6_stc_yolo/configs/default.yaml",
+      "data_yaml": "C:\\twb\\oil_leak\\Paper3\\paper4\\results_v2\\orchestrator\\runs\\_data_yaml\\data.yaml",
+      "infer_imgsz": 1056,
+      "infer_augment": true,
+      "overrides_applied": [
+        "stc.ssl_pretrained_backbone=results_v2/methods/stc_yolo/_ms2/pretrained_backbone_stc.pt",
+        "stc.enable_colormap_inversion=false"
+      ],
+      "stc_config": {
+        "enable_colormap_inversion": false,
+        "colormap_inverter_ckpt": null,
+        "ssl_pretrained_backbone": "results_v2/methods/stc_yolo/_ms2/pretrained_backbone_stc.pt",
+        "enable_session_film": false,
+        "film_metadata_keys": [
+          "temperature",
+          "location",
+          "condition"
+        ],
+        "film_inject_levels": [
+          "P3",
+          "P4",
+          "P5"
+        ],
+        "enable_mean_teacher": false,
+        "mt_ema_momentum": 0.999,
+        "mt_pseudo_conf_threshold": 0.5,
+        "mt_consistency_weight_max": 1.0,
+        "mt_consistency_rampup_epochs": 10,
+        "mt_neighbor_gap_max": 3,
+        "enable_temporal_voting": false,
+        "voting_buffer_size": 2,
+        "voting_conf_low": 0.25,
+        "voting_conf_high": 0.6,
+        "voting_iou_threshold": 0.5
+      }
+    },
+    {
+      "mAP50": 0.661422288492573,
+      "mAP50_95": 0.2344343944438164,
+      "Water_AP50": 0.7453198858344146,
+      "Oil_AP50": 0.5775246911507315,
+      "precision": 0.6758444600177465,
+      "recall": 0.6618494903193604,
+      "seed": 44,
+      "run_name": "ssl_gap6_5seed_seed44",
+      "config_path": "methods/m6_stc_yolo/configs/default.yaml",
+      "data_yaml": "C:\\twb\\oil_leak\\Paper3\\paper4\\results_v2\\orchestrator\\runs\\_data_yaml\\data.yaml",
+      "infer_imgsz": 1056,
+      "infer_augment": true,
+      "overrides_applied": [
+        "stc.ssl_pretrained_backbone=results_v2/methods/stc_yolo/_ms2/pretrained_backbone_stc.pt",
+        "stc.enable_colormap_inversion=false"
+      ],
+      "stc_config": {
+        "enable_colormap_inversion": false,
+        "colormap_inverter_ckpt": null,
+        "ssl_pretrained_backbone": "results_v2/methods/stc_yolo/_ms2/pretrained_backbone_stc.pt",
+        "enable_session_film": false,
+        "film_metadata_keys": [
+          "temperature",
+          "location",
+          "condition"
+        ],
+        "film_inject_levels": [
+          "P3",
+          "P4",
+          "P5"
+        ],
+        "enable_mean_teacher": false,
+        "mt_ema_momentum": 0.999,
+        "mt_pseudo_conf_threshold": 0.5,
+        "mt_consistency_weight_max": 1.0,
+        "mt_consistency_rampup_epochs": 10,
+        "mt_neighbor_gap_max": 3,
+        "enable_temporal_voting": false,
+        "voting_buffer_size": 2,
+        "voting_conf_low": 0.25,
+        "voting_conf_high": 0.6,
+        "voting_iou_threshold": 0.5
+      }
+    },
+    {
+      "mAP50": 0.45210926322164446,
+      "mAP50_95": 0.14878432904867467,
+      "Water_AP50": 0.5372939193599102,
+      "Oil_AP50": 0.36692460708337865,
+      "precision": 0.5551941385461365,
+      "recall": 0.5621347538724224,
+      "seed": 45,
+      "run_name": "ssl_gap6_5seed_seed45",
+      "config_path": "methods/m6_stc_yolo/configs/default.yaml",
+      "data_yaml": "C:\\twb\\oil_leak\\Paper3\\paper4\\results_v2\\orchestrator\\runs\\_data_yaml\\data.yaml",
+      "infer_imgsz": 1056,
+      "infer_augment": true,
+      "overrides_applied": [
+        "stc.ssl_pretrained_backbone=results_v2/methods/stc_yolo/_ms2/pretrained_backbone_stc.pt",
+        "stc.enable_colormap_inversion=false"
+      ],
+      "stc_config": {
+        "enable_colormap_inversion": false,
+        "colormap_inverter_ckpt": null,
+        "ssl_pretrained_backbone": "results_v2/methods/stc_yolo/_ms2/pretrained_backbone_stc.pt",
+        "enable_session_film": false,
+        "film_metadata_keys": [
+          "temperature",
+          "location",
+          "condition"
+        ],
+        "film_inject_levels": [
+          "P3",
+          "P4",
+          "P5"
+        ],
+        "enable_mean_teacher": false,
+        "mt_ema_momentum": 0.999,
+        "mt_pseudo_conf_threshold": 0.5,
+        "mt_consistency_weight_max": 1.0,
+        "mt_consistency_rampup_epochs": 10,
+        "mt_neighbor_gap_max": 3,
+        "enable_temporal_voting": false,
+        "voting_buffer_size": 2,
+        "voting_conf_low": 0.25,
+        "voting_conf_high": 0.6,
+        "voting_iou_threshold": 0.5
+      }
+    },
+    {
+      "mAP50": 0.6153246194763149,
+      "mAP50_95": 0.20840999876298216,
+      "Water_AP50": 0.6697355964531002,
+      "Oil_AP50": 0.5609136424995296,
+      "precision": 0.6638873249647703,
+      "recall": 0.6453868676949035,
+      "seed": 46,
+      "run_name": "ssl_gap6_5seed_seed46",
+      "config_path": "methods/m6_stc_yolo/configs/default.yaml",
+      "data_yaml": "C:\\twb\\oil_leak\\Paper3\\paper4\\results_v2\\orchestrator\\runs\\_data_yaml\\data.yaml",
+      "infer_imgsz": 1056,
+      "infer_augment": true,
+      "overrides_applied": [
+        "stc.ssl_pretrained_backbone=results_v2/methods/stc_yolo/_ms2/pretrained_backbone_stc.pt",
+        "stc.enable_colormap_inversion=false"
+      ],
+      "stc_config": {
+        "enable_colormap_inversion": false,
+        "colormap_inverter_ckpt": null,
+        "ssl_pretrained_backbone": "results_v2/methods/stc_yolo/_ms2/pretrained_backbone_stc.pt",
+        "enable_session_film": false,
+        "film_metadata_keys": [
+          "temperature",
+          "location",
+          "condition"
+        ],
+        "film_inject_levels": [
+          "P3",
+          "P4",
+          "P5"
+        ],
+        "enable_mean_teacher": false,
+        "mt_ema_momentum": 0.999,
+        "mt_pseudo_conf_threshold": 0.5,
+        "mt_consistency_weight_max": 1.0,
+        "mt_consistency_rampup_epochs": 10,
+        "mt_neighbor_gap_max": 3,
+        "enable_temporal_voting": false,
+        "voting_buffer_size": 2,
+        "voting_conf_low": 0.25,
+        "voting_conf_high": 0.6,
+        "voting_iou_threshold": 0.5
+      }
+    }
+  ],
+  "HIT-UAV": [
+    {
+      "mAP50": 0.7990430998546579,
+      "mAP50_95": 0.47082119232261527,
+      "per_class_ap50": {
+        "Bicycle": 0.9352714792725115,
+        "Car": 0.9750940598333864,
+        "DontCare": 0.5198155613783113,
+        "OtherVehicle": 0.6614500046838433,
+        "Person": 0.9035843941052373
+      },
+      "Water_AP50": 0.9352714792725115,
+      "Oil_AP50": 0.9750940598333864,
+      "precision": 0.8727663542730287,
+      "recall": 0.7307954534877605,
+      "seed": 42,
+      "run_name": "hituav_baseline_n10_seed42",
+      "config_path": "methods/m6_stc_yolo/configs/default.yaml",
+      "data_yaml": "data\\HIT_UAV\\data_fixed.yaml",
+      "infer_imgsz": 640,
+      "infer_augment": false,
+      "overrides_applied": [
+        "imgsz=640",
+        "infer.imgsz=640",
+        "infer.augment=false"
+      ],
+      "stc_config": {
+        "enable_colormap_inversion": false,
+        "colormap_inverter_ckpt": null,
+        "ssl_pretrained_backbone": null,
+        "enable_session_film": false,
+        "film_metadata_keys": [
+          "temperature",
+          "location",
+          "condition"
+        ],
+        "film_inject_levels": [
+          "P3",
+          "P4",
+          "P5"
+        ],
+        "enable_mean_teacher": false,
+        "mt_ema_momentum": 0.999,
+        "mt_pseudo_conf_threshold": 0.5,
+        "mt_consistency_weight_max": 1.0,
+        "mt_consistency_rampup_epochs": 10,
+        "mt_neighbor_gap_max": 3,
+        "enable_temporal_voting": false,
+        "voting_buffer_size": 2,
+        "voting_conf_low": 0.25,
+        "voting_conf_high": 0.6,
+        "voting_iou_threshold": 0.5
+      }
+    },
+    {
+      "mAP50": 0.7723451807017421,
+      "mAP50_95": 0.4565587925894928,
+      "per_class_ap50": {
+        "Bicycle": 0.9337212519824272,
+        "Car": 0.9670377663609424,
+        "DontCare": 0.43849033816425115,
+        "OtherVehicle": 0.6253642543254051,
+        "Person": 0.8971122926756846
+      },
+      "Water_AP50": 0.9337212519824272,
+      "Oil_AP50": 0.9670377663609424,
+      "precision": 0.8307488397554519,
+      "recall": 0.731768460500151,
+      "seed": 43,
+      "run_name": "hituav_baseline_n10_seed43",
+      "config_path": "methods/m6_stc_yolo/configs/default.yaml",
+      "data_yaml": "data\\HIT_UAV\\data_fixed.yaml",
+      "infer_imgsz": 640,
+      "infer_augment": false,
+      "overrides_applied": [
+        "imgsz=640",
+        "infer.imgsz=640",
+        "infer.augment=false"
+      ],
+      "stc_config": {
+        "enable_colormap_inversion": false,
+        "colormap_inverter_ckpt": null,
+        "ssl_pretrained_backbone": null,
+        "enable_session_film": false,
+        "film_metadata_keys": [
+          "temperature",
+          "location",
+          "condition"
+        ],
+        "film_inject_levels": [
+          "P3",
+          "P4",
+          "P5"
+        ],
+        "enable_mean_teacher": false,
+        "mt_ema_momentum": 0.999,
+        "mt_pseudo_conf_threshold": 0.5,
+        "mt_consistency_weight_max": 1.0,
+        "mt_consistency_rampup_epochs": 10,
+        "mt_neighbor_gap_max": 3,
+        "enable_temporal_voting": false,
+        "voting_buffer_size": 2,
+        "voting_conf_low": 0.25,
+        "voting_conf_high": 0.6,
+        "voting_iou_threshold": 0.5
+      }
+    },
+    {
+      "mAP50": 0.7971067213662656,
+      "mAP50_95": 0.48060449496614965,
+      "per_class_ap50": {
+        "Bicycle": 0.9277420257402718,
+        "Car": 0.9762442775596515,
+        "DontCare": 0.49156271873377133,
+        "OtherVehicle": 0.6964327985391925,
+        "Person": 0.8935517862584414
+      },
+      "Water_AP50": 0.9277420257402718,
+      "Oil_AP50": 0.9762442775596515,
+      "precision": 0.8390766016798071,
+      "recall": 0.7354125771406939,
+      "seed": 44,
+      "run_name": "hituav_baseline_n10_seed44",
+      "config_path": "methods/m6_stc_yolo/configs/default.yaml",
+      "data_yaml": "data\\HIT_UAV\\data_fixed.yaml",
+      "infer_imgsz": 640,
+      "infer_augment": false,
+      "overrides_applied": [
+        "imgsz=640",
+        "infer.imgsz=640",
+        "infer.augment=false"
+      ],
+      "stc_config": {
+        "enable_colormap_inversion": false,
+        "colormap_inverter_ckpt": null,
+        "ssl_pretrained_backbone": null,
+        "enable_session_film": false,
+        "film_metadata_keys": [
+          "temperature",
+          "location",
+          "condition"
+        ],
+        "film_inject_levels": [
+          "P3",
+          "P4",
+          "P5"
+        ],
+        "enable_mean_teacher": false,
+        "mt_ema_momentum": 0.999,
+        "mt_pseudo_conf_threshold": 0.5,
+        "mt_consistency_weight_max": 1.0,
+        "mt_consistency_rampup_epochs": 10,
+        "mt_neighbor_gap_max": 3,
+        "enable_temporal_voting": false,
+        "voting_buffer_size": 2,
+        "voting_conf_low": 0.25,
+        "voting_conf_high": 0.6,
+        "voting_iou_threshold": 0.5
+      }
+    },
+    {
+      "mAP50": 0.8260960516939004,
+      "mAP50_95": 0.4824205576861866,
+      "per_class_ap50": {
+        "Bicycle": 0.9379353211418401,
+        "Car": 0.976292390158612,
+        "DontCare": 0.5221454155355373,
+        "OtherVehicle": 0.7961358164914973,
+        "Person": 0.8979713151420159
+      },
+      "Water_AP50": 0.9379353211418401,
+      "Oil_AP50": 0.976292390158612,
+      "precision": 0.8484112643139845,
+      "recall": 0.7734934896794741,
+      "seed": 45,
+      "run_name": "hituav_baseline_n10_seed45",
+      "config_path": "methods/m6_stc_yolo/configs/default.yaml",
+      "data_yaml": "data\\HIT_UAV\\data_fixed.yaml",
+      "infer_imgsz": 640,
+      "infer_augment": false,
+      "overrides_applied": [
+        "imgsz=640",
+        "infer.imgsz=640",
+        "infer.augment=false"
+      ],
+      "stc_config": {
+        "enable_colormap_inversion": false,
+        "colormap_inverter_ckpt": null,
+        "ssl_pretrained_backbone": null,
+        "enable_session_film": false,
+        "film_metadata_keys": [
+          "temperature",
+          "location",
+          "condition"
+        ],
+        "film_inject_levels": [
+          "P3",
+          "P4",
+          "P5"
+        ],
+        "enable_mean_teacher": false,
+        "mt_ema_momentum": 0.999,
+        "mt_pseudo_conf_threshold": 0.5,
+        "mt_consistency_weight_max": 1.0,
+        "mt_consistency_rampup_epochs": 10,
+        "mt_neighbor_gap_max": 3,
+        "enable_temporal_voting": false,
+        "voting_buffer_size": 2,
+        "voting_conf_low": 0.25,
+        "voting_conf_high": 0.6,
+        "voting_iou_threshold": 0.5
+      }
+    },
+    {
+      "mAP50": 0.8071880789632585,
+      "mAP50_95": 0.4745292202347312,
+      "per_class_ap50": {
+        "Bicycle": 0.9311986066580695,
+        "Car": 0.9679929650350036,
+        "DontCare": 0.5327937714163555,
+        "OtherVehicle": 0.7148317355964954,
+        "Person": 0.889123316110368
+      },
+      "Water_AP50": 0.9311986066580695,
+      "Oil_AP50": 0.9679929650350036,
+      "precision": 0.8383978528466306,
+      "recall": 0.7727639525225241,
+      "seed": 46,
+      "run_name": "hituav_baseline_n10_seed46",
+      "config_path": "methods/m6_stc_yolo/configs/default.yaml",
+      "data_yaml": "data\\HIT_UAV\\data_fixed.yaml",
+      "infer_imgsz": 640,
+      "infer_augment": false,
+      "overrides_applied": [
+        "imgsz=640",
+        "infer.imgsz=640",
+        "infer.augment=false"
+      ],
+      "stc_config": {
+        "enable_colormap_inversion": false,
+        "colormap_inverter_ckpt": null,
+        "ssl_pretrained_backbone": null,
+        "enable_session_film": false,
+        "film_metadata_keys": [
+          "temperature",
+          "location",
+          "condition"
+        ],
+        "film_inject_levels": [
+          "P3",
+          "P4",
+          "P5"
+        ],
+        "enable_mean_teacher": false,
+        "mt_ema_momentum": 0.999,
+        "mt_pseudo_conf_threshold": 0.5,
+        "mt_consistency_weight_max": 1.0,
+        "mt_consistency_rampup_epochs": 10,
+        "mt_neighbor_gap_max": 3,
+        "enable_temporal_voting": false,
+        "voting_buffer_size": 2,
+        "voting_conf_low": 0.25,
+        "voting_conf_high": 0.6,
+        "voting_iou_threshold": 0.5
+      }
+    },
+    {
+      "mAP50": 0.7903386504308232,
+      "mAP50_95": 0.4735757936164957,
+      "per_class_ap50": {
+        "Bicycle": 0.9338920106215077,
+        "Car": 0.9657736221174459,
+        "DontCare": 0.46134268036482884,
+        "OtherVehicle": 0.702622677572312,
+        "Person": 0.8880622614780218
+      },
+      "Water_AP50": 0.9338920106215077,
+      "Oil_AP50": 0.9657736221174459,
+      "precision": 0.8332585139752089,
+      "recall": 0.713857629879467,
+      "seed": 47,
+      "run_name": "hituav_baseline_n10_seed47",
+      "config_path": "methods/m6_stc_yolo/configs/default.yaml",
+      "data_yaml": "data\\HIT_UAV\\data_fixed.yaml",
+      "infer_imgsz": 640,
+      "infer_augment": false,
+      "overrides_applied": [
+        "imgsz=640",
+        "infer.imgsz=640",
+        "infer.augment=false"
+      ],
+      "stc_config": {
+        "enable_colormap_inversion": false,
+        "colormap_inverter_ckpt": null,
+        "ssl_pretrained_backbone": null,
+        "enable_session_film": false,
+        "film_metadata_keys": [
+          "temperature",
+          "location",
+          "condition"
+        ],
+        "film_inject_levels": [
+          "P3",
+          "P4",
+          "P5"
+        ],
+        "enable_mean_teacher": false,
+        "mt_ema_momentum": 0.999,
+        "mt_pseudo_conf_threshold": 0.5,
+        "mt_consistency_weight_max": 1.0,
+        "mt_consistency_rampup_epochs": 10,
+        "mt_neighbor_gap_max": 3,
+        "enable_temporal_voting": false,
+        "voting_buffer_size": 2,
+        "voting_conf_low": 0.25,
+        "voting_conf_high": 0.6,
+        "voting_iou_threshold": 0.5
+      }
+    },
+    {
+      "mAP50": 0.7953147840442345,
+      "mAP50_95": 0.47505511151034463,
+      "per_class_ap50": {
+        "Bicycle": 0.9361742943495459,
+        "Car": 0.9710680859885428,
+        "DontCare": 0.5001341991341992,
+        "OtherVehicle": 0.6700737065668665,
+        "Person": 0.8991236341820174
+      },
+      "Water_AP50": 0.9361742943495459,
+      "Oil_AP50": 0.9710680859885428,
+      "precision": 0.8418199291035269,
+      "recall": 0.7363987131343066,
+      "seed": 48,
+      "run_name": "hituav_baseline_n10_seed48",
+      "config_path": "methods/m6_stc_yolo/configs/default.yaml",
+      "data_yaml": "data\\HIT_UAV\\data_fixed.yaml",
+      "infer_imgsz": 640,
+      "infer_augment": false,
+      "overrides_applied": [
+        "imgsz=640",
+        "infer.imgsz=640",
+        "infer.augment=false"
+      ],
+      "stc_config": {
+        "enable_colormap_inversion": false,
+        "colormap_inverter_ckpt": null,
+        "ssl_pretrained_backbone": null,
+        "enable_session_film": false,
+        "film_metadata_keys": [
+          "temperature",
+          "location",
+          "condition"
+        ],
+        "film_inject_levels": [
+          "P3",
+          "P4",
+          "P5"
+        ],
+        "enable_mean_teacher": false,
+        "mt_ema_momentum": 0.999,
+        "mt_pseudo_conf_threshold": 0.5,
+        "mt_consistency_weight_max": 1.0,
+        "mt_consistency_rampup_epochs": 10,
+        "mt_neighbor_gap_max": 3,
+        "enable_temporal_voting": false,
+        "voting_buffer_size": 2,
+        "voting_conf_low": 0.25,
+        "voting_conf_high": 0.6,
+        "voting_iou_threshold": 0.5
+      }
+    },
+    {
+      "mAP50": 0.7683910043809171,
+      "mAP50_95": 0.46058503623700503,
+      "per_class_ap50": {
+        "Bicycle": 0.9246418533924582,
+        "Car": 0.9746900097966753,
+        "DontCare": 0.5039952516090604,
+        "OtherVehicle": 0.5507512741445363,
+        "Person": 0.8878766329618552
+      },
+      "Water_AP50": 0.9246418533924582,
+      "Oil_AP50": 0.9746900097966753,
+      "precision": 0.8101257664504276,
+      "recall": 0.7126107036566991,
+      "seed": 49,
+      "run_name": "hituav_baseline_n10_seed49",
+      "config_path": "methods/m6_stc_yolo/configs/default.yaml",
+      "data_yaml": "data\\HIT_UAV\\data_fixed.yaml",
+      "infer_imgsz": 640,
+      "infer_augment": false,
+      "overrides_applied": [
+        "imgsz=640",
+        "infer.imgsz=640",
+        "infer.augment=false"
+      ],
+      "stc_config": {
+        "enable_colormap_inversion": false,
+        "colormap_inverter_ckpt": null,
+        "ssl_pretrained_backbone": null,
+        "enable_session_film": false,
+        "film_metadata_keys": [
+          "temperature",
+          "location",
+          "condition"
+        ],
+        "film_inject_levels": [
+          "P3",
+          "P4",
+          "P5"
+        ],
+        "enable_mean_teacher": false,
+        "mt_ema_momentum": 0.999,
+        "mt_pseudo_conf_threshold": 0.5,
+        "mt_consistency_weight_max": 1.0,
+        "mt_consistency_rampup_epochs": 10,
+        "mt_neighbor_gap_max": 3,
+        "enable_temporal_voting": false,
+        "voting_buffer_size": 2,
+        "voting_conf_low": 0.25,
+        "voting_conf_high": 0.6,
+        "voting_iou_threshold": 0.5
+      }
+    },
+    {
+      "mAP50": 0.7773013218106015,
+      "mAP50_95": 0.45883860189026604,
+      "per_class_ap50": {
+        "Bicycle": 0.9374760567502272,
+        "Car": 0.9677080282422698,
+        "DontCare": 0.4683240217610505,
+        "OtherVehicle": 0.6068316005786734,
+        "Person": 0.9061669017207865
+      },
+      "Water_AP50": 0.9374760567502272,
+      "Oil_AP50": 0.9677080282422698,
+      "precision": 0.8696335745158075,
+      "recall": 0.6760185620776911,
+      "seed": 50,
+      "run_name": "hituav_baseline_n10_seed50",
+      "config_path": "methods/m6_stc_yolo/configs/default.yaml",
+      "data_yaml": "data\\HIT_UAV\\data_fixed.yaml",
+      "infer_imgsz": 640,
+      "infer_augment": false,
+      "overrides_applied": [
+        "imgsz=640",
+        "infer.imgsz=640",
+        "infer.augment=false"
+      ],
+      "stc_config": {
+        "enable_colormap_inversion": false,
+        "colormap_inverter_ckpt": null,
+        "ssl_pretrained_backbone": null,
+        "enable_session_film": false,
+        "film_metadata_keys": [
+          "temperature",
+          "location",
+          "condition"
+        ],
+        "film_inject_levels": [
+          "P3",
+          "P4",
+          "P5"
+        ],
+        "enable_mean_teacher": false,
+        "mt_ema_momentum": 0.999,
+        "mt_pseudo_conf_threshold": 0.5,
+        "mt_consistency_weight_max": 1.0,
+        "mt_consistency_rampup_epochs": 10,
+        "mt_neighbor_gap_max": 3,
+        "enable_temporal_voting": false,
+        "voting_buffer_size": 2,
+        "voting_conf_low": 0.25,
+        "voting_conf_high": 0.6,
+        "voting_iou_threshold": 0.5
+      }
+    },
+    {
+      "mAP50": 0.8117947324000447,
+      "mAP50_95": 0.4841050249018028,
+      "per_class_ap50": {
+        "Bicycle": 0.9345197168537294,
+        "Car": 0.9734026429983003,
+        "DontCare": 0.49180103026582217,
+        "OtherVehicle": 0.7689252004789158,
+        "Person": 0.890325071403456
+      },
+      "Water_AP50": 0.9345197168537294,
+      "Oil_AP50": 0.9734026429983003,
+      "precision": 0.8554117872213929,
+      "recall": 0.7423283857758503,
+      "seed": 51,
+      "run_name": "hituav_baseline_n10_seed51",
+      "config_path": "methods/m6_stc_yolo/configs/default.yaml",
+      "data_yaml": "data\\HIT_UAV\\data_fixed.yaml",
+      "infer_imgsz": 640,
+      "infer_augment": false,
+      "overrides_applied": [
+        "imgsz=640",
+        "infer.imgsz=640",
+        "infer.augment=false"
+      ],
+      "stc_config": {
+        "enable_colormap_inversion": false,
+        "colormap_inverter_ckpt": null,
+        "ssl_pretrained_backbone": null,
+        "enable_session_film": false,
+        "film_metadata_keys": [
+          "temperature",
+          "location",
+          "condition"
+        ],
+        "film_inject_levels": [
+          "P3",
+          "P4",
+          "P5"
+        ],
+        "enable_mean_teacher": false,
+        "mt_ema_momentum": 0.999,
+        "mt_pseudo_conf_threshold": 0.5,
+        "mt_consistency_weight_max": 1.0,
+        "mt_consistency_rampup_epochs": 10,
+        "mt_neighbor_gap_max": 3,
+        "enable_temporal_voting": false,
+        "voting_buffer_size": 2,
+        "voting_conf_low": 0.25,
+        "voting_conf_high": 0.6,
+        "voting_iou_threshold": 0.5
+      }
+    }
+  ]
+}

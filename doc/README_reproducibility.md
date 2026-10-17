@@ -1,24 +1,28 @@
-# Reproducibility and revised archive
+# Reproducing the October 2026 revision
 
-For the revised manuscript **Seed variability and class averaging can obscure detector improvements on small infrared datasets**, use [Zenodo version 1.0.0](https://doi.org/10.5281/zenodo.23073467).
+Current manuscript: **A case study of training and test uncertainty in infrared transformer leak detection**.
 
-The GitHub results directory and historical experiment drivers retain earlier project material. Revised figure numbering, statistical summaries and source-data files are supplied in the archive; the old claim-to-figure map is superseded.
+Use [revision_r2/README.md](../revision_r2/README.md) for the runnable commands,
+file definitions and current figure/table map. That folder contains original
+run-level measurements, per-image statistics for the 20 primary detectors,
+new uncertainty analyses and the current six main and three supplementary figures.
 
-## Inspecting the saved evidence
+The portable analysis commands require Python, NumPy and SciPy. They verify the
+point estimates and recompute the reported intervals and statistical comparisons
+without retraining. Image-bootstrap caches can be rebuilt from the supplied
+detection statistics. The original capture and plotting scripts are retained as
+provenance with their project-layout requirements stated explicitly.
 
-After extracting `measuring-ir-detectors-v1.0.0.zip`, consult:
-- `paper/source_data/per_seed_results.csv` and `data.json` for the 95 saved run records.
-- `paper/source_data/stats.json` and `diagnostics.json` for existing summaries.
-- `paper/figures/` for the revised main and supplementary figures.
-- `doc/REPRODUCIBILITY.md` for the recorded environment, detailed file map, optional execution instructions and limitations.
-- `provenance/` and `ARCHIVE_MANIFEST.csv` for source provenance and checksums.
+Historical `results/` and `doc/figures/` files retain earlier numbering and
+interpretations. Use the current map in `revision_r2/README.md` for this manuscript.
 
-Reading these files does not require running research programs. No training, inference, statistical reanalysis or plotting was performed during archive assembly or this documentation update.
+The preceding complete archive, including datasets and supporting training code,
+is [Zenodo version 1.0.0](https://doi.org/10.5281/zenodo.23073467). It uses the earlier
+title “Seed variability and class averaging can obscure detector improvements on
+small infrared datasets”. The new GitHub revision folder is awaiting a new Zenodo
+version; the old DOI continues to identify the preceding archive.
 
-## Interpretation and execution limits
-
-The main comparison uses ten matched downstream seeds on one fixed transformer-data split and one SSL checkpoint. SSL used training and validation images, not detector-test images. HIT-UAV includes baseline repetitions only.
-
-C3 clips the temperature encoding, so recorded temperatures 50 and 70 share an encoding; equipment code 5 produces an all-zero location vector. C4 calibration sampled all 22 filename-defined groups, including detector-test groups, and must be interpreted as exploratory under that protocol.
-
-The archive contains a saved SSL checkpoint, but not the upstream detector checkpoint, all trained detector checkpoints or the gap-six pretraining checkpoint. Historical scripts can reference paths from the original research computer. Dependencies are not a complete locked environment, and exact retraining is not asserted. The archive documentation explains these limits before any optional execution.
+The original training utilities and checkpoint-capture scripts have additional
+dependencies and expect the recorded project layout and model weights. The archive
+contains a saved SSL checkpoint, but does not include every detector checkpoint.
+The portable statistical reanalysis is independent of those training dependencies.

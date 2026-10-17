@@ -1,0 +1,602 @@
+[
+  {
+    "configuration": "Baseline",
+    "seed": 42,
+    "run_name": "ms1_d4a_baseline_seed42",
+    "checkpoint": "results_v2\\methods\\stc_yolo\\ms1_d4a_baseline_seed42\\train\\weights\\best.pt",
+    "checkpoint_sha256": "505d88446cdff654fb145560f4dca1122ebb30c08896f72b2c045a89a4c3c7d2",
+    "ultralytics": "8.4.53",
+    "torch": "2.11.0+cu128",
+    "actual": {
+      "mAP50": 0.601598548591038,
+      "Water_AP50": 0.6854072584314411,
+      "Oil_AP50": 0.5177898387506349
+    },
+    "submitted": {
+      "mAP50": 0.601598548591038,
+      "Water_AP50": 0.6854072584314411,
+      "Oil_AP50": 0.5177898387506349
+    },
+    "difference": {
+      "mAP50": 0.0,
+      "Water_AP50": 0.0,
+      "Oil_AP50": 0.0
+    },
+    "inference": {
+      "imgsz": 1056,
+      "augment": true,
+      "conf": 0.001,
+      "iou": 0.6
+    }
+  },
+  {
+    "configuration": "Baseline",
+    "seed": 43,
+    "run_name": "ms1_d4a_baseline_seed43",
+    "checkpoint": "results_v2\\methods\\stc_yolo\\ms1_d4a_baseline_seed43\\train\\weights\\best.pt",
+    "checkpoint_sha256": "9826c9fa0a254b70ffcdbf23f756554004a70bde870534ee5973cb80a3eb3dcc",
+    "ultralytics": "8.4.53",
+    "torch": "2.11.0+cu128",
+    "actual": {
+      "mAP50": 0.6187688502067891,
+      "Water_AP50": 0.6981671729214525,
+      "Oil_AP50": 0.5393705274921257
+    },
+    "submitted": {
+      "mAP50": 0.6187688502067891,
+      "Water_AP50": 0.6981671729214525,
+      "Oil_AP50": 0.5393705274921257
+    },
+    "difference": {
+      "mAP50": 0.0,
+      "Water_AP50": 0.0,
+      "Oil_AP50": 0.0
+    },
+    "inference": {
+      "imgsz": 1056,
+      "augment": true,
+      "conf": 0.001,
+      "iou": 0.6
+    }
+  },
+  {
+    "configuration": "Baseline",
+    "seed": 44,
+    "run_name": "ms1_d4a_baseline_seed44",
+    "checkpoint": "results_v2\\methods\\stc_yolo\\ms1_d4a_baseline_seed44\\train\\weights\\best.pt",
+    "checkpoint_sha256": "d1db29277826dd494711ae41ed4692c1bd6f3044168994c26d70dbbd683bc495",
+    "ultralytics": "8.4.53",
+    "torch": "2.11.0+cu128",
+    "actual": {
+      "mAP50": 0.6136995336502787,
+      "Water_AP50": 0.7154108653037159,
+      "Oil_AP50": 0.5119882019968416
+    },
+    "submitted": {
+      "mAP50": 0.6136995336502787,
+      "Water_AP50": 0.7154108653037159,
+      "Oil_AP50": 0.5119882019968416
+    },
+    "difference": {
+      "mAP50": 0.0,
+      "Water_AP50": 0.0,
+      "Oil_AP50": 0.0
+    },
+    "inference": {
+      "imgsz": 1056,
+      "augment": true,
+      "conf": 0.001,
+      "iou": 0.6
+    }
+  },
+  {
+    "configuration": "Baseline",
+    "seed": 45,
+    "run_name": "ms1_d4a_baseline_seed45",
+    "checkpoint": "results_v2\\methods\\stc_yolo\\ms1_d4a_baseline_seed45\\train\\weights\\best.pt",
+    "checkpoint_sha256": "1216430ffcebcd8f4905dc56ff019349d94c0f3aa0717616540898d6ac015dbf",
+    "ultralytics": "8.4.53",
+    "torch": "2.11.0+cu128",
+    "actual": {
+      "mAP50": 0.6642636002791495,
+      "Water_AP50": 0.7425458645543677,
+      "Oil_AP50": 0.5859813360039315
+    },
+    "submitted": {
+      "mAP50": 0.6642636002791495,
+      "Water_AP50": 0.7425458645543677,
+      "Oil_AP50": 0.5859813360039315
+    },
+    "difference": {
+      "mAP50": 0.0,
+      "Water_AP50": 0.0,
+      "Oil_AP50": 0.0
+    },
+    "inference": {
+      "imgsz": 1056,
+      "augment": true,
+      "conf": 0.001,
+      "iou": 0.6
+    }
+  },
+  {
+    "configuration": "Baseline",
+    "seed": 46,
+    "run_name": "ms1_d4a_baseline_seed46",
+    "checkpoint": "results_v2\\methods\\stc_yolo\\ms1_d4a_baseline_seed46\\train\\weights\\best.pt",
+    "checkpoint_sha256": "0e54c43e111b61c0560e2c66fb2517fa608f53cda0101b42f2b4bd5c040285e6",
+    "ultralytics": "8.4.53",
+    "torch": "2.11.0+cu128",
+    "actual": {
+      "mAP50": 0.5523482568595878,
+      "Water_AP50": 0.6708063640134926,
+      "Oil_AP50": 0.43389014970568296
+    },
+    "submitted": {
+      "mAP50": 0.5523482568595878,
+      "Water_AP50": 0.6708063640134926,
+      "Oil_AP50": 0.43389014970568296
+    },
+    "difference": {
+      "mAP50": 0.0,
+      "Water_AP50": 0.0,
+      "Oil_AP50": 0.0
+    },
+    "inference": {
+      "imgsz": 1056,
+      "augment": true,
+      "conf": 0.001,
+      "iou": 0.6
+    }
+  },
+  {
+    "configuration": "Baseline",
+    "seed": 47,
+    "run_name": "baseline_ext_n10_seed47",
+    "checkpoint": "results_v2\\methods\\stc_yolo\\baseline_ext_n10_seed47\\train\\weights\\best.pt",
+    "checkpoint_sha256": "c1b16042a048d4e005f613b928427251b9ea8b6311d4ddd7b957c0b6bf9500af",
+    "ultralytics": "8.4.53",
+    "torch": "2.11.0+cu128",
+    "actual": {
+      "mAP50": 0.625060728151474,
+      "Water_AP50": 0.6948374169909892,
+      "Oil_AP50": 0.5552840393119587
+    },
+    "submitted": {
+      "mAP50": 0.625060728151474,
+      "Water_AP50": 0.6948374169909892,
+      "Oil_AP50": 0.5552840393119587
+    },
+    "difference": {
+      "mAP50": 0.0,
+      "Water_AP50": 0.0,
+      "Oil_AP50": 0.0
+    },
+    "inference": {
+      "imgsz": 1056,
+      "augment": true,
+      "conf": 0.001,
+      "iou": 0.6
+    }
+  },
+  {
+    "configuration": "Baseline",
+    "seed": 48,
+    "run_name": "baseline_ext_n10_seed48",
+    "checkpoint": "results_v2\\methods\\stc_yolo\\baseline_ext_n10_seed48\\train\\weights\\best.pt",
+    "checkpoint_sha256": "311d880c21b1d669d6b5a8b70e51df6bd8d2bfc78afdb447991dd90b900f2c2c",
+    "ultralytics": "8.4.53",
+    "torch": "2.11.0+cu128",
+    "actual": {
+      "mAP50": 0.6754471093939769,
+      "Water_AP50": 0.7432533006255643,
+      "Oil_AP50": 0.6076409181623894
+    },
+    "submitted": {
+      "mAP50": 0.6754471093939769,
+      "Water_AP50": 0.7432533006255643,
+      "Oil_AP50": 0.6076409181623894
+    },
+    "difference": {
+      "mAP50": 0.0,
+      "Water_AP50": 0.0,
+      "Oil_AP50": 0.0
+    },
+    "inference": {
+      "imgsz": 1056,
+      "augment": true,
+      "conf": 0.001,
+      "iou": 0.6
+    }
+  },
+  {
+    "configuration": "Baseline",
+    "seed": 49,
+    "run_name": "baseline_ext_n10_seed49",
+    "checkpoint": "results_v2\\methods\\stc_yolo\\baseline_ext_n10_seed49\\train\\weights\\best.pt",
+    "checkpoint_sha256": "5f727e3fec538165e239522cd2b67bd879295dca6876c828ec7d6fda409b5daf",
+    "ultralytics": "8.4.53",
+    "torch": "2.11.0+cu128",
+    "actual": {
+      "mAP50": 0.6045818775327674,
+      "Water_AP50": 0.6817803351297644,
+      "Oil_AP50": 0.5273834199357704
+    },
+    "submitted": {
+      "mAP50": 0.6045818775327674,
+      "Water_AP50": 0.6817803351297644,
+      "Oil_AP50": 0.5273834199357704
+    },
+    "difference": {
+      "mAP50": 0.0,
+      "Water_AP50": 0.0,
+      "Oil_AP50": 0.0
+    },
+    "inference": {
+      "imgsz": 1056,
+      "augment": true,
+      "conf": 0.001,
+      "iou": 0.6
+    }
+  },
+  {
+    "configuration": "Baseline",
+    "seed": 50,
+    "run_name": "baseline_ext_n10_seed50",
+    "checkpoint": "results_v2\\methods\\stc_yolo\\baseline_ext_n10_seed50\\train\\weights\\best.pt",
+    "checkpoint_sha256": "7ddf2dc80b27251744a06dd6959ac720e08dc02064f873099d235c30e25aca7b",
+    "ultralytics": "8.4.53",
+    "torch": "2.11.0+cu128",
+    "actual": {
+      "mAP50": 0.6163212729506312,
+      "Water_AP50": 0.7094830304564308,
+      "Oil_AP50": 0.5231595154448316
+    },
+    "submitted": {
+      "mAP50": 0.6163212729506312,
+      "Water_AP50": 0.7094830304564308,
+      "Oil_AP50": 0.5231595154448316
+    },
+    "difference": {
+      "mAP50": 0.0,
+      "Water_AP50": 0.0,
+      "Oil_AP50": 0.0
+    },
+    "inference": {
+      "imgsz": 1056,
+      "augment": true,
+      "conf": 0.001,
+      "iou": 0.6
+    }
+  },
+  {
+    "configuration": "Baseline",
+    "seed": 51,
+    "run_name": "baseline_ext_n10_seed51",
+    "checkpoint": "results_v2\\methods\\stc_yolo\\baseline_ext_n10_seed51\\train\\weights\\best.pt",
+    "checkpoint_sha256": "86029004dbc36b0da3699b01ff07c7c3b41654573ca997e065f194aca05bca04",
+    "ultralytics": "8.4.53",
+    "torch": "2.11.0+cu128",
+    "actual": {
+      "mAP50": 0.5351603235450021,
+      "Water_AP50": 0.6792509133212368,
+      "Oil_AP50": 0.39106973376876747
+    },
+    "submitted": {
+      "mAP50": 0.5351603235450021,
+      "Water_AP50": 0.6792509133212368,
+      "Oil_AP50": 0.39106973376876747
+    },
+    "difference": {
+      "mAP50": 0.0,
+      "Water_AP50": 0.0,
+      "Oil_AP50": 0.0
+    },
+    "inference": {
+      "imgsz": 1056,
+      "augment": true,
+      "conf": 0.001,
+      "iou": 0.6
+    }
+  },
+  {
+    "configuration": "SSL",
+    "seed": 42,
+    "run_name": "ms2_d8b_ssl_only_diag_seed42",
+    "checkpoint": "results_v2\\methods\\stc_yolo\\ms2_d8b_ssl_only_diag_seed42\\train\\weights\\best.pt",
+    "checkpoint_sha256": "62115751b4fa025de66565bb6b93ac599ee26d7f98544b078731befe963da98b",
+    "ultralytics": "8.4.53",
+    "torch": "2.11.0+cu128",
+    "actual": {
+      "mAP50": 0.6151528260260333,
+      "Water_AP50": 0.659182522481094,
+      "Oil_AP50": 0.5711231295709724
+    },
+    "submitted": {
+      "mAP50": 0.6151528260260333,
+      "Water_AP50": 0.659182522481094,
+      "Oil_AP50": 0.5711231295709724
+    },
+    "difference": {
+      "mAP50": 0.0,
+      "Water_AP50": 0.0,
+      "Oil_AP50": 0.0
+    },
+    "inference": {
+      "imgsz": 1056,
+      "augment": true,
+      "conf": 0.001,
+      "iou": 0.6
+    }
+  },
+  {
+    "configuration": "SSL",
+    "seed": 43,
+    "run_name": "ms2_d8b_ssl_only_diag_seed43",
+    "checkpoint": "results_v2\\methods\\stc_yolo\\ms2_d8b_ssl_only_diag_seed43\\train\\weights\\best.pt",
+    "checkpoint_sha256": "95676ef170effd43c06aa0f1544e24e924392d52c1788606f55a882230e1ffd5",
+    "ultralytics": "8.4.53",
+    "torch": "2.11.0+cu128",
+    "actual": {
+      "mAP50": 0.6808347150253187,
+      "Water_AP50": 0.7604743507695073,
+      "Oil_AP50": 0.60119507928113
+    },
+    "submitted": {
+      "mAP50": 0.6808347150253187,
+      "Water_AP50": 0.7604743507695073,
+      "Oil_AP50": 0.60119507928113
+    },
+    "difference": {
+      "mAP50": 0.0,
+      "Water_AP50": 0.0,
+      "Oil_AP50": 0.0
+    },
+    "inference": {
+      "imgsz": 1056,
+      "augment": true,
+      "conf": 0.001,
+      "iou": 0.6
+    }
+  },
+  {
+    "configuration": "SSL",
+    "seed": 44,
+    "run_name": "ms2_d8b_ssl_only_diag_seed44",
+    "checkpoint": "results_v2\\methods\\stc_yolo\\ms2_d8b_ssl_only_diag_seed44\\train\\weights\\best.pt",
+    "checkpoint_sha256": "736fd8ae67f0684cb1766e40de5d23c0087a8e0a4b967a2ffc8b891c48eca6d1",
+    "ultralytics": "8.4.53",
+    "torch": "2.11.0+cu128",
+    "actual": {
+      "mAP50": 0.6066940190956801,
+      "Water_AP50": 0.7004275939370161,
+      "Oil_AP50": 0.5129604442543441
+    },
+    "submitted": {
+      "mAP50": 0.6066940190956801,
+      "Water_AP50": 0.7004275939370161,
+      "Oil_AP50": 0.5129604442543441
+    },
+    "difference": {
+      "mAP50": 0.0,
+      "Water_AP50": 0.0,
+      "Oil_AP50": 0.0
+    },
+    "inference": {
+      "imgsz": 1056,
+      "augment": true,
+      "conf": 0.001,
+      "iou": 0.6
+    }
+  },
+  {
+    "configuration": "SSL",
+    "seed": 45,
+    "run_name": "ms2_d8b_ssl_only_diag_seed45",
+    "checkpoint": "results_v2\\methods\\stc_yolo\\ms2_d8b_ssl_only_diag_seed45\\train\\weights\\best.pt",
+    "checkpoint_sha256": "bdc078ac83fbc987c21c9e393c322bb9f04d688fb065b2e2475900e17f927d68",
+    "ultralytics": "8.4.53",
+    "torch": "2.11.0+cu128",
+    "actual": {
+      "mAP50": 0.6414902227645809,
+      "Water_AP50": 0.7022386636591097,
+      "Oil_AP50": 0.5807417818700521
+    },
+    "submitted": {
+      "mAP50": 0.6414902227645809,
+      "Water_AP50": 0.7022386636591097,
+      "Oil_AP50": 0.5807417818700521
+    },
+    "difference": {
+      "mAP50": 0.0,
+      "Water_AP50": 0.0,
+      "Oil_AP50": 0.0
+    },
+    "inference": {
+      "imgsz": 1056,
+      "augment": true,
+      "conf": 0.001,
+      "iou": 0.6
+    }
+  },
+  {
+    "configuration": "SSL",
+    "seed": 46,
+    "run_name": "ms2_d8b_ssl_only_diag_seed46",
+    "checkpoint": "results_v2\\methods\\stc_yolo\\ms2_d8b_ssl_only_diag_seed46\\train\\weights\\best.pt",
+    "checkpoint_sha256": "f1e03002583b4ab6f8d778ce887fae26505c201152ad809679315207fb4745eb",
+    "ultralytics": "8.4.53",
+    "torch": "2.11.0+cu128",
+    "actual": {
+      "mAP50": 0.6208934449445018,
+      "Water_AP50": 0.6975357199589161,
+      "Oil_AP50": 0.5442511699300876
+    },
+    "submitted": {
+      "mAP50": 0.6208934449445018,
+      "Water_AP50": 0.6975357199589161,
+      "Oil_AP50": 0.5442511699300876
+    },
+    "difference": {
+      "mAP50": 0.0,
+      "Water_AP50": 0.0,
+      "Oil_AP50": 0.0
+    },
+    "inference": {
+      "imgsz": 1056,
+      "augment": true,
+      "conf": 0.001,
+      "iou": 0.6
+    }
+  },
+  {
+    "configuration": "SSL",
+    "seed": 47,
+    "run_name": "ssl_only_ext_n10_seed47",
+    "checkpoint": "results_v2\\methods\\stc_yolo\\ssl_only_ext_n10_seed47\\train\\weights\\best.pt",
+    "checkpoint_sha256": "8c862805b4c8d8cb57ce1f6634345c8304cc01dc4f2aadc3b57a93dc3c13b51f",
+    "ultralytics": "8.4.53",
+    "torch": "2.11.0+cu128",
+    "actual": {
+      "mAP50": 0.4931830928091752,
+      "Water_AP50": 0.5973389057678362,
+      "Oil_AP50": 0.3890272798505142
+    },
+    "submitted": {
+      "mAP50": 0.4931830928091752,
+      "Water_AP50": 0.5973389057678362,
+      "Oil_AP50": 0.3890272798505142
+    },
+    "difference": {
+      "mAP50": 0.0,
+      "Water_AP50": 0.0,
+      "Oil_AP50": 0.0
+    },
+    "inference": {
+      "imgsz": 1056,
+      "augment": true,
+      "conf": 0.001,
+      "iou": 0.6
+    }
+  },
+  {
+    "configuration": "SSL",
+    "seed": 48,
+    "run_name": "ssl_only_ext_n10_seed48",
+    "checkpoint": "results_v2\\methods\\stc_yolo\\ssl_only_ext_n10_seed48\\train\\weights\\best.pt",
+    "checkpoint_sha256": "07e60582fc628747ac2cfca2ee239965498b1061590dff9d854071385b925a62",
+    "ultralytics": "8.4.53",
+    "torch": "2.11.0+cu128",
+    "actual": {
+      "mAP50": 0.6220097538904901,
+      "Water_AP50": 0.6610624717214798,
+      "Oil_AP50": 0.5829570360595004
+    },
+    "submitted": {
+      "mAP50": 0.6220097538904901,
+      "Water_AP50": 0.6610624717214798,
+      "Oil_AP50": 0.5829570360595004
+    },
+    "difference": {
+      "mAP50": 0.0,
+      "Water_AP50": 0.0,
+      "Oil_AP50": 0.0
+    },
+    "inference": {
+      "imgsz": 1056,
+      "augment": true,
+      "conf": 0.001,
+      "iou": 0.6
+    }
+  },
+  {
+    "configuration": "SSL",
+    "seed": 49,
+    "run_name": "ssl_only_ext_n10_seed49",
+    "checkpoint": "results_v2\\methods\\stc_yolo\\ssl_only_ext_n10_seed49\\train\\weights\\best.pt",
+    "checkpoint_sha256": "a04ba36dd5740ecf3ab02b3122949a9a16932566e7dde013896154a2d75605c3",
+    "ultralytics": "8.4.53",
+    "torch": "2.11.0+cu128",
+    "actual": {
+      "mAP50": 0.6425475908317891,
+      "Water_AP50": 0.7008421668762241,
+      "Oil_AP50": 0.5842530147873541
+    },
+    "submitted": {
+      "mAP50": 0.6425475908317891,
+      "Water_AP50": 0.7008421668762241,
+      "Oil_AP50": 0.5842530147873541
+    },
+    "difference": {
+      "mAP50": 0.0,
+      "Water_AP50": 0.0,
+      "Oil_AP50": 0.0
+    },
+    "inference": {
+      "imgsz": 1056,
+      "augment": true,
+      "conf": 0.001,
+      "iou": 0.6
+    }
+  },
+  {
+    "configuration": "SSL",
+    "seed": 50,
+    "run_name": "ssl_only_ext_n10_seed50",
+    "checkpoint": "results_v2\\methods\\stc_yolo\\ssl_only_ext_n10_seed50\\train\\weights\\best.pt",
+    "checkpoint_sha256": "a0cd6057999b97ad8529363157b50dadf6034dd7a935424acae9845d5b1b6360",
+    "ultralytics": "8.4.53",
+    "torch": "2.11.0+cu128",
+    "actual": {
+      "mAP50": 0.6511775455809827,
+      "Water_AP50": 0.6899636944895104,
+      "Oil_AP50": 0.6123913966724551
+    },
+    "submitted": {
+      "mAP50": 0.6511775455809827,
+      "Water_AP50": 0.6899636944895104,
+      "Oil_AP50": 0.6123913966724551
+    },
+    "difference": {
+      "mAP50": 0.0,
+      "Water_AP50": 0.0,
+      "Oil_AP50": 0.0
+    },
+    "inference": {
+      "imgsz": 1056,
+      "augment": true,
+      "conf": 0.001,
+      "iou": 0.6
+    }
+  },
+  {
+    "configuration": "SSL",
+    "seed": 51,
+    "run_name": "ssl_only_ext_n10_seed51",
+    "checkpoint": "results_v2\\methods\\stc_yolo\\ssl_only_ext_n10_seed51\\train\\weights\\best.pt",
+    "checkpoint_sha256": "e520115f7a39124311001d4ea929f6faec1f37bbe6bf172872676d226b5e8b4e",
+    "ultralytics": "8.4.53",
+    "torch": "2.11.0+cu128",
+    "actual": {
+      "mAP50": 0.6178297731435959,
+      "Water_AP50": 0.6731983542056568,
+      "Oil_AP50": 0.562461192081535
+    },
+    "submitted": {
+      "mAP50": 0.6178297731435959,
+      "Water_AP50": 0.6731983542056568,
+      "Oil_AP50": 0.562461192081535
+    },
+    "difference": {
+      "mAP50": 0.0,
+      "Water_AP50": 0.0,
+      "Oil_AP50": 0.0
+    },
+    "inference": {
+      "imgsz": 1056,
+      "augment": true,
+      "conf": 0.001,
+      "iou": 0.6
+    }
+  }
+]
