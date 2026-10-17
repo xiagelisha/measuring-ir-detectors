@@ -7,5 +7,5 @@
 - `dataset.py` — 红外检测数据集加载 (统一 train/val/test split)
 - `transforms.py` — 训练/推理增强 (Albumentations 管线)
 - `metrics.py` — mAP@0.5 / mAP@0.5:0.95 / P / R / F1 (基于 pycocotools)
-- `visualizer.py` — 预测可视化、对比拼图、论文级配色
+- `visualizer.py` — 预测可视化、对比拼图、科研图表配色
 - `configs/` — 全局配置 (已含 `global.yaml`) + 各算法可继承的基础 YAML

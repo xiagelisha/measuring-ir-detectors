@@ -1,7 +1,7 @@
 cff-version: 1.2.0
-message: "Cite version 2.0.0 using the DOI below for the code and source data accompanying the October 2026 revision."
+message: "Cite this code and data archive using the version DOI below."
 type: software
-title: 'Code and source data for "A case study of training and test uncertainty in infrared transformer leak detection"'
+title: 'Code and source data for infrared transformer leak detection'
 authors:
   - family-names: Tan
     given-names: Wenbi

@@ -1,15 +1,15 @@
 > Historical documentation retained from the preceding GitHub version. For the current analysis and interpretation, see [revision_r2](../revision_r2/README.md).
 
-# result_data_paper4 — Experimental Data Supporting the Paper
+# result_data_paper4 — Experimental measurements and analysis outputs
 
-All numbers in the paper's tables and figures derive from the JSON files here.
+The tables and figures mapped below derive from the JSON files here.
 Each `runs/<config>/` holds the multi-seed summary (`5seed_summary.json`) and the
 per-seed test metrics (`seed<k>_test_metrics.json`, incl. `per_class_ap50`).
 Protocol: test mAP50, tuned inference (imgsz 1056 + TTA for the oil dataset),
 paired by seed. Test split excluded from all SSL pretraining.
 
 ## `runs/` — per-configuration results
-| folder | paper label | seeds (n) | role |
+| folder | configuration label | seeds (n) | role |
 |---|---|---|---|
 | `ms1_d4a_baseline` | Baseline (vanilla YOLOv12s, tuned) | 42–46 | baseline (n=5 half) |
 | `baseline_ext_n10` | Baseline (extension) | 47–51 | baseline (n=10 with above) |
@@ -30,7 +30,7 @@ paired by seed. Test split excluded from all SSL pretraining.
 Note: `ms1_d4a_baseline`, `ms1_d4b_c4_enabled`, `ms2_d8_supervised_ft_5seed` per-seed
 values are also embedded in `orchestrator_state.json`.
 
-## `analysis/` — derived results (source of the paper's stated numbers)
+## `analysis/` — derived results
 - `RESULTS_FROZEN.json` — all oil-dataset configs: n / mean / std / per-seed (single source of truth).
 - `RESULTS_FROZEN_hituav.json` — HIT-UAV aggregate + per-class + minority/majority std ratio (10.4×).
 - `significance_n5.json` / `significance_n10.json` — paired t-test / Wilcoxon / Cohen's d (SSL vs baseline; enhancements vs SSL), at 5 and 10 seeds.
@@ -40,7 +40,7 @@ values are also embedded in `orchestrator_state.json`.
 ## `ssl_pretrain/`
 - `ssl_pretrain_summary.json` — C1 SSL pretraining config + 80-epoch loss history (Fig 1).
 
-## Paper artifact → data map
+## Historical figure and table → data map
 - Table 1 (n5 vs n10) ← `analysis/RESULTS_FROZEN.json` + `significance_n5/n10.json`
 - Table 2 (per-class reallocation) ← `analysis/final_2x2_and_reallocation.json`
 - Table 3 (vanilla vs SSL backbone) ← `runs/vanilla_c*`, `runs/ssl_c*`, `RESULTS_FROZEN.json`

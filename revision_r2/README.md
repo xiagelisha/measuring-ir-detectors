@@ -1,6 +1,6 @@
-# Source data and analysis for the October 2026 revision
+# Source data and statistical analysis
 
-**A case study of training and test uncertainty in infrared transformer leak detection**
+Code, measurements and reproducible analyses for infrared detector evaluation.
 
 The main estimand is the difference of ten-run mean mAP50 (SSL minus baseline).
 Twenty existing checkpoints were re-evaluated; all 60 original aggregate and class
@@ -39,10 +39,10 @@ averaged over per-image AP. Random seed: 20261014.
 | `analysis/additional_statistics.json` | Matching correlations, Welch intervals, HIT-UAV covariance, condition counts and saved SSL-state audit |
 | `analysis/group_allocation.csv` | Complete group/class allocation checked against annotations |
 | `analysis/bootstrap_distributions.npz` | Full resampling distributions |
-| `original_source_data/` | Unchanged source measurements and statistical summaries from the preceding revision |
+| `original_source_data/` | Unchanged source measurements and statistical summaries from the preceding dataset |
 | `code/` | Portable bootstrap and run-level statistical reanalysis |
 | `provenance/` | Original checkpoint-capture, audit and figure-generation scripts |
-| `figures/` | Six submitted main figures and three supplementary figures |
+| `figures/` | Six analysis figures and three supporting figures |
 | `SHA256.json` | SHA-256 checksums of all supplied files except this manifest |
 
 In each evaluation NPZ, `names` identifies images; `pred_counts` and `target_counts`
@@ -70,19 +70,19 @@ giving nine distinct count vectors. All reported bootstrap intervals are percent
 
 C3/C4 and interaction records are historical reporting examples. Original comparison
 families and measurements are preserved. The full-precision stored values underpin
-the rounded results in the manuscript.
+the rounded values in the analysis summaries.
 
 Scripts in `provenance/` document the original project execution. They require the
 original `paper4` layout, model checkpoints and (for plotting) its dependencies and
 source files. They are not the standalone entry points above. Model checkpoints
-are not duplicated in this revision folder. The two portable commands reproduce
+are not duplicated in this analysis folder. The two portable commands reproduce
 the new statistical calculations from the supplied measurements.
 
 ## Archive and licence
 
-This revision is archived in Zenodo version 2.0.0, DOI
+This analysis package is archived in Zenodo version 2.0.0, DOI
 [10.5281/zenodo.23430799](https://doi.org/10.5281/zenodo.23430799), alongside the
-unchanged preceding research package. See README_v2.txt in the archive for package
+original datasets and supporting code. See README_v2.txt in the archive for package
 selection. The preceding version DOI 10.5281/zenodo.23073467 remains available.
 Project code is MIT-licensed; study data retain CC BY 4.0. Third-party materials
 retain the terms documented in the root repository and preceding archive.

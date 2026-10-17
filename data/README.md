@@ -1,6 +1,6 @@
 # Data
 
-The preceding version 1.0.0 research package is archived at [Zenodo](https://doi.org/10.5281/zenodo.23073467). The October 2026 revision adds [analysis code and source data](../revision_r2/README.md) to GitHub; a new DOI-backed version is pending. The raw images, annotations and split lists are unchanged.
+The datasets and supporting code are archived in [Zenodo version 2.0.0](https://doi.org/10.5281/zenodo.23430799), alongside the [statistical analysis package](../revision_r2/README.md). The original images, annotations and split lists are preserved. The preceding archive is available at https://doi.org/10.5281/zenodo.23073467.
 
 ## Transformer infrared images
 

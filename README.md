@@ -1,22 +1,12 @@
-# A case study of training and test uncertainty in infrared transformer leak detection
+# Code and source data for infrared transformer leak detection
 
-Code and source data accompanying the revised manuscript (under review).
+This repository provides datasets, detector code and statistical analysis tools
+for infrared transformer leak detection. Start with
+[revision_r2/README.md](revision_r2/README.md) for data definitions, runnable
+commands and the figure-to-data map. The package includes run-level measurements,
+per-image detection statistics, resampling outputs and plotting resources.
 
-## October 2026 revision
-
-Start with **[revision_r2/README.md](revision_r2/README.md)** for the current analyses,
-source data and six main figures. The primary comparison uses ten downstream runs
-per initialisation on a fixed split of 2,593 transformer infrared images. The revision
-re-evaluates the 20 saved primary checkpoints and separates test-sample uncertainty
-from variation across training runs. No new detector training was performed.
-
-The mean SSL–baseline mAP50 difference is +0.008456. Shared-image resampling with
-the fitted models held fixed gives a positive interval; adding training variation
-gives a 95% interval of −0.03231 to 0.04707. Class-level summaries, filename-group
-resampling and HIT-UAV baseline repetitions show how aggregation and sampling
-choices affect the interpretation of detector comparisons.
-
-## Reproduce the revision analysis
+## Reproduce the statistical analysis
 
 Requires Python 3.11 or later. From the repository root:
 
@@ -36,7 +26,7 @@ recomputes the contrasts and covariance summaries and checks the saved values.
 
 ## Repository layout
 
-- `revision_r2/`: current revision measurements, analysis code, figures and checksums.
+- `revision_r2/`: measurements, analysis code, figures and checksums.
 - `methods/m6_stc_yolo/`: original detector implementation and configurations.
 - `baselines/`, `shared/`, `tools/`: original training and evaluation utilities.
 - `data/`: transformer images, annotations, fixed splits and HIT-UAV export.
@@ -44,7 +34,7 @@ recomputes the contrasts and covariance summaries and checks the saved values.
 - [doc/README_reproducibility.md](doc/README_reproducibility.md): current file map and execution notes.
 
 The original 95 training-run measurements are preserved. C3/C4 and interaction
-summaries serve as historical reporting examples in the Supplementary Information.
+summaries serve as historical reporting examples in the supporting analyses.
 The primary uncertainty analysis holds the training data and SSL checkpoint fixed.
 The four test filename groups describe the recorded test contexts.
 
@@ -75,18 +65,16 @@ This research was funded by the Scientific Research Fund of the Education Depart
 
 ## Citation and archive versions
 
-The October 2026 revision is archived as **version 2.0.0** at
+The code and source data are archived as **version 2.0.0** at
 [10.5281/zenodo.23430799](https://doi.org/10.5281/zenodo.23430799).
-Use this version DOI when citing the code and source data for the revised study;
-machine-readable metadata are in [CITATION.cff](CITATION.cff).
+Machine-readable citation metadata are in [CITATION.cff](CITATION.cff).
 
-The archive contains the original complete research package, the current revision
-analyses and figures, and `README_v2.txt`, which explains how to use both packages.
-The revision code and scientific data correspond to commit
-`80f24e6556677a121559a388add2b3cbfc1e8dd8`; archive-status wording and checksum
-metadata were adapted for the Zenodo deposit.
+The archive contains the original datasets and supporting code, the statistical
+analysis package and figures, and `README_v2.txt` with package instructions.
+The scientific data and numerical procedures derive from commit
+`80f24e6556677a121559a388add2b3cbfc1e8dd8`. Public documentation has been clarified;
+the measurements, numerical procedures and figure files are unchanged.
 
-The **preceding version 1.0.0** remains available at
-[10.5281/zenodo.23073467](https://doi.org/10.5281/zenodo.23073467), under the earlier
-title “Seed variability and class averaging can obscure detector improvements on
-small infrared datasets”. Cite that version only for the preceding release.
+The preceding archive remains available at
+[10.5281/zenodo.23073467](https://doi.org/10.5281/zenodo.23073467).
+Use that DOI when referring specifically to the preceding release.

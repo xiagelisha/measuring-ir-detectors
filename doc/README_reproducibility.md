@@ -1,6 +1,4 @@
-# Reproducing the October 2026 revision
-
-Current manuscript: **A case study of training and test uncertainty in infrared transformer leak detection**.
+# Reproducing the detector analyses
 
 Use [revision_r2/README.md](../revision_r2/README.md) for the runnable commands,
 file definitions and current figure/table map. That folder contains original
@@ -14,13 +12,11 @@ detection statistics. The original capture and plotting scripts are retained as
 provenance with their project-layout requirements stated explicitly.
 
 Historical `results/` and `doc/figures/` files retain earlier numbering and
-interpretations. Use the current map in `revision_r2/README.md` for this manuscript.
+interpretations. Use the current map in `revision_r2/README.md` for these analyses.
 
-The preceding complete archive, including datasets and supporting training code,
-is [Zenodo version 1.0.0](https://doi.org/10.5281/zenodo.23073467). It uses the earlier
-title “Seed variability and class averaging can obscure detector improvements on
-small infrared datasets”. The new GitHub revision folder is awaiting a new Zenodo
-version; the old DOI continues to identify the preceding archive.
+The datasets, supporting training code and statistical analysis package are
+archived at https://doi.org/10.5281/zenodo.23430799 (version 2.0.0).
+The preceding archive remains at https://doi.org/10.5281/zenodo.23073467.
 
 The original training utilities and checkpoint-capture scripts have additional
 dependencies and expect the recorded project layout and model weights. The archive
